@@ -90,7 +90,7 @@
       </shadow>
     </value>
   </block>
-  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" x="487" y="212" editable="false" deletable="false">
+  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" movable="false" x="487" y="212" editable="false" deletable="false">
     <value name="TIMES">
       <shadow type="math_number" id="RnAbuDu#ER[+p)!N)Stz" deletable="false">
         <field name="NUM">10</field>

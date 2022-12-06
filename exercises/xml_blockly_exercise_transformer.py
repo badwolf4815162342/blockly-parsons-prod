@@ -67,7 +67,7 @@ for filename in dir_list:
     # print(f.read())
     transformed_xml = transformed_f.read()
     transformed_f.close()
-    final_xml = transformed_xml.replace('ns0:','').replace(':ns0','')
+    final_xml = transformed_xml.replace('ns0:','').replace(':ns0','').replace('disabled="true"','disabled="true" movable="false"')
     transformed_f = open('./xml/'+filename, "w")
     transformed_f.write(final_xml)
     transformed_f.close()
