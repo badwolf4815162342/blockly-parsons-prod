@@ -1,19 +1,22 @@
 import unittest
+from unittest.mock import patch
 from io import StringIO
 import sys
 
 def method():
 {parsons_puzzle}
 class myTests(unittest.TestCase):
-    def testOne(self):
+    @patch('builtins.input',side_effect=['4','9','2','-1'])
+    def testOne(self, input):
         capturedOutput = StringIO()          # Create StringIO object
         sys.stdout = capturedOutput                   #  and redirect stdout.
         method()                                  # Call unchanged function.
         sys.stdout = sys.__stdout__                   # Reset redirect.
         outputArray = capturedOutput.getvalue().split('\n')
-        print(outputArray)
+        if (len(outputArray)>1):
+            outputArray.pop()
         self.assertEqual(outputArray,
-           ['Number is odd.','This is the current max.','Number is even','Number is even','This is the current max.',''],)
+           ['Number is even','This is the current max.','Number is odd.','This is the current max.','Number is even','Number is odd.'],)
 
     
 _test_result = myTests().testOne()

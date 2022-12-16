@@ -1,5 +1,6 @@
 import unittest
 from io import StringIO
+from unittest.mock import patch
 import sys
 
 def method():
@@ -11,8 +12,10 @@ class myTests(unittest.TestCase):
         method()                                  # Call unchanged function.
         sys.stdout = sys.__stdout__                   # Reset redirect.
         outputArray = capturedOutput.getvalue().split('\n')
-        self.assertEqual(outputArray[:-1],
-           ['dnaletisoppo,ni,emit,a,nopu,ecnO'],)
+        if (len(outputArray)>1):
+            outputArray.pop()
+        self.assertEqual(outputArray,
+           ['ecnO nopu a emit ni dnaletisoppo '],)
 
     
 _test_result = myTests().testOne()

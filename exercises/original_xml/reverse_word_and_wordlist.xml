@@ -1,10 +1,10 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
-    <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
-    <variable id=")B5|ts8+:qg}H!QNdPS#">letter</variable>
-    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
-    <variable id="H|faJeHkeC=j(3_6^s8k">new_word</variable>
     <variable id="/H0zamS`3CFEiqhRxwqr">words</variable>
+    <variable id=")B5|ts8+:qg}H!QNdPS#">letter</variable>
+    <variable id="H|faJeHkeC=j(3_6^s8k">new_word</variable>
+    <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
+    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
   </variables>
   <block type="text_print" id="wkWP8Td7$H4Jj$,%:9;J" x="37" y="38">
     <value name="TEXT">
@@ -120,22 +120,18 @@
   <block type="variables_set" id="KbNoaA_i^1H2`riU=f^0" x="13" y="563">
     <field name="VAR" id="o*Q}|h3u5}krYFceD*S#">new_words</field>
     <value name="VALUE">
-      <block type="lists_create_with" id="i[6`^t6v:!SaaOx*Ib*L">
-        <mutation items="0"></mutation>
+      <block type="text" id="3F~o(a#,K2B6LBYwOj$g">
+        <field name="TEXT"></field>
       </block>
     </value>
   </block>
-  <block type="lists_setIndex" id="yQX*4s=E[H)kd!#.RSQz" x="138" y="587">
-    <mutation at="false"></mutation>
-    <field name="MODE">INSERT</field>
-    <field name="WHERE">FIRST</field>
-    <value name="LIST">
-      <block type="variables_get" id="A}seQ)x(``{%Ef,1fsgD">
-        <field name="VAR" id="o*Q}|h3u5}krYFceD*S#">new_words</field>
-      </block>
-    </value>
-    <value name="TO">
-      <block type="variables_get" id="dz]{KgVO!5iAB1;gR-z+">
+  <block type="text_append" id="5!DN`O#;[nnKMnLEa6R*" x="137" y="588">
+    <field name="VAR" id="o*Q}|h3u5}krYFceD*S#">new_words</field>
+    <value name="TEXT">
+      <shadow type="text" id="%X.s/ez}4ZAyKeYo5+i!">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="variables_get" id="Tr-H=W^h0Tf7%xa+:+aI">
         <field name="VAR" id="H|faJeHkeC=j(3_6^s8k">new_word</field>
       </block>
     </value>
@@ -145,22 +141,19 @@
       <shadow type="text" id="r#V(BnMQi)hCS@$;N=8w">
         <field name="TEXT">abc</field>
       </shadow>
-      <block type="lists_split" id="liuT`p.CM3-SxH}hKWY9">
-        <mutation mode="JOIN"></mutation>
-        <field name="MODE">JOIN</field>
-        <value name="INPUT">
-          <block type="variables_get" id="xrg:T-U/jrx2M!zKajML">
-            <field name="VAR" id="o*Q}|h3u5}krYFceD*S#">new_words</field>
-          </block>
-        </value>
-        <value name="DELIM">
-          <shadow type="text" id="{hhdBZ~B|]EA2fBb:t|l">
-            <field name="TEXT">,</field>
-          </shadow>
-          <block type="text" id="m`/,WSYgzJl*gE;f~NN|">
-            <field name="TEXT">,</field>
-          </block>
-        </value>
+      <block type="variables_get" id="xrg:T-U/jrx2M!zKajML">
+        <field name="VAR" id="o*Q}|h3u5}krYFceD*S#">new_words</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_append" id="F:`J!nWOcR[ga+Xq5-B[" x="87" y="637">
+    <field name="VAR" id="o*Q}|h3u5}krYFceD*S#">new_words</field>
+    <value name="TEXT">
+      <shadow type="text" id="Rkg,nbcKMJxp:|:c?@4`">
+        <field name="TEXT"></field>
+      </shadow>
+      <block type="text" id="tr^+x7KIaZ(%^uZoZw/j">
+        <field name="TEXT"> </field>
       </block>
     </value>
   </block>

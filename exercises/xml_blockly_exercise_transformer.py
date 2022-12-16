@@ -1,7 +1,7 @@
 # import OS module
-import os, sys
+import os
 import xml.etree.ElementTree as ET
-import json
+
  
 # Get the list of all files and directories
 path = "./original_xml"
@@ -32,10 +32,10 @@ for filename in dir_list:
             toplevelelement.set('editable', 'false')
             toplevelelement.set('deletable', 'false')
             for child in toplevelelement.findall('.//{https://developers.google.com/blockly/xml}field'):
-                print(child.tag)
+                #print(child.tag)
                 if child.text != None:
                     if 'Title: ' in child.text:
-                        print('Text '+child.text)
+                        ## print('Text '+child.text)
                         count += 1
                         child.text = child.text.replace('Title: ','')
                         toplevelelement.set('type','group_title')
@@ -71,3 +71,27 @@ for filename in dir_list:
     transformed_f = open('./xml/'+filename, "w")
     transformed_f.write(final_xml)
     transformed_f.close()
+    # BasetitleXML    
+
+    mytree = ET.parse('./xml/'+filename)
+    myroot = mytree.getroot()
+    def iterator(parents, nested=False):
+        for child in reversed(parents):
+            if nested:
+                if len(child) >= 1:
+                    iterator(child)
+            if child.attrib.get('type', None) != None:
+                if 'group' not in child.attrib['type']:  # Add your entire condition here
+                    parents.remove(child)
+
+    iterator(myroot, nested=True)
+    mytree.write('./xml_titles/'+filename)
+    transformed_titles_f = open('./xml_titles/'+filename, "r")
+    transformed_titles_xml = transformed_titles_f.read()
+    transformed_titles_f.close()
+    final_xml_titles = transformed_titles_xml.replace('ns0:','').replace(':ns0','')
+    # print(final_xml_titles)
+    transformed_titles_f = open('./xml_titles/'+filename, "w")
+    transformed_titles_f.write(final_xml_titles)
+    transformed_titles_f.close()
+

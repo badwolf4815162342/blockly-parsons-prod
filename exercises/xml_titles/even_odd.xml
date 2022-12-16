@@ -1,0 +1,36 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="*WRXg(7L]e[)*Um~GG2W">mod</variable>
+    <variable id="-qP@.l-6=o4ueSGWh2+h">input_num</variable>
+  </variables>
+  <block type="group_title" id="M7N/sy^Qjo#L-k)H5QNY" x="38" y="13" editable="false" deletable="false" movable="false">
+    <value name="TEXT">
+      <shadow type="text" id="-*s(?u$3XWY8!UX}62L-" deletable="false">
+        <field name="TEXT">Decide wether even/odd</field>
+      </shadow>
+      <block type="text" id="8NOQ_t!lst{3Q-.2S$%G" movable="false" editable="false" deletable="false">
+        <field name="TEXT">Decide wether even/odd</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="87" y="287" editable="false" deletable="false" movable="false">
+    <value name="TEXT">
+      <shadow type="text" id="Xj-=E?w*kV6NjL^-_pjQ" deletable="false">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="|516-HK=?R6L7mIQokGb" movable="false" editable="false" deletable="false">
+        <field name="TEXT">Set user input</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="sJu{UW6U;ZXg{q@oXwwF" x="13" y="438" editable="false" deletable="false" movable="false">
+    <value name="TEXT">
+      <shadow type="text" id="*7b)XeEG$]-P1y~^0NH)" deletable="false">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="h+*~.|SnnbCYtF-oDSMC" movable="false" editable="false" deletable="false">
+        <field name="TEXT">Calculate remainder for odd/even decision</field>
+      </block>
+    </value>
+  </block>
+  </xml>

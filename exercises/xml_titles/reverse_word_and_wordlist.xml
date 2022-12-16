@@ -1,0 +1,39 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="/H0zamS-3CFEiqhRxwqr">words</variable>
+    <variable id=")B5|ts8+:qg}H!QNdPS#">letter</variable>
+    <variable id="H|faJeHkeC=j(3_6^s8k">new_word</variable>
+    <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
+    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
+  </variables>
+  <block type="group_title" id="wkWP8Td7$H4Jj$,%:9;J" x="37" y="38" editable="false" deletable="false" movable="false">
+    <value name="TEXT">
+      <shadow type="text" id="f#}v^f(GX4xWPkx/|V;D" deletable="false">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="FSBX!iTkLMhoM3)g3-tP" movable="false" editable="false" deletable="false">
+        <field name="TEXT">The given array</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="cXHKJO-{.,mTSNtK(X$h" x="37" y="287" editable="false" deletable="false" movable="false">
+    <value name="TEXT">
+      <shadow type="text" id="{%f-5;Y:gY{v~w(5BX5:" deletable="false">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="H/{J9O%O3PagvBwQOpC|" movable="false" editable="false" deletable="false">
+        <field name="TEXT">reverse the letters in a word</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="R2S-a8|k-PGO:V%@Y=,_" x="37" y="463" editable="false" deletable="false" movable="false">
+    <value name="TEXT">
+      <shadow type="text" id="RW|+.v.2h5R#%rCMP|hp" deletable="false">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="^8vy@cP7.B.G9-uE%bLH" movable="false" editable="false" deletable="false">
+        <field name="TEXT">New list with elements in reverse</field>
+      </block>
+    </value>
+  </block>
+  </xml>

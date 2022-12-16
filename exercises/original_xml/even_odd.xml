@@ -3,7 +3,55 @@
     <variable id="*WRXg(7L]e[)*Um~GG2W">mod</variable>
     <variable id="`qP@.l`6=o4ueSGWh2+h">input_num</variable>
   </variables>
-  <block type="text_print" id="|-^i8a_PX#fT0Jw!tD:/" x="37" y="37">
+  <block type="text_print" id="M7N/sy^Qjo#L`k)H5QNY" x="38" y="13">
+    <value name="TEXT">
+      <shadow type="text" id="-*s(?u$3XWY8!UX}62L`">
+        <field name="TEXT">Title: Decide wether even/odd</field>
+      </shadow>
+      <block type="text" id="8NOQ_t!lst{3Q-.2S$%G">
+        <field name="TEXT">Title: Decide wether even/odd</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id=";KG(2@jP1m|;;po[t(X[" x="187" y="63">
+    <value name="TEXT">
+      <shadow type="text" id=".0Lch2_iG~o!IDApV0YV">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="L`aE;28RiWnbwQMT+d3T">
+        <field name="TEXT">Number is odd.</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="37" y="113">
+    <mutation else="1"></mutation>
+    <value name="IF0">
+      <block type="logic_compare" id="+(8FtaAfmQ*aQ|1*QEM`">
+        <field name="OP">EQ</field>
+        <value name="A">
+          <block type="variables_get" id="JuaGan2HpUVcCwAZi@ry">
+            <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">mod</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="math_number" id="x@A?JqVCSIqqjGLqjo^v">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="At#ZUoq2hh6,G^=3PCph" x="163" y="162">
+    <value name="TEXT">
+      <shadow type="text" id="bv?yAun%oD:@gbZif2Qh">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="J}fQvgMgEWwDUOQRP@_%">
+        <field name="TEXT">Number is even.</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="|-^i8a_PX#fT0Jw!tD:/" x="87" y="287">
     <value name="TEXT">
       <shadow type="text" id="Xj`=E?w*kV6NjL^-_pjQ">
         <field name="TEXT">abc</field>
@@ -13,15 +61,21 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="88" y="87">
+  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="-13" y="338">
     <field name="VAR" id="`qP@.l`6=o4ueSGWh2+h">input_num</field>
     <value name="VALUE">
-      <block type="math_number" id="IjnY$yxX7GXDM.Q:g30V">
-        <field name="NUM">5</field>
+      <block type="text_prompt_ext" id="o)ZF%Ox_aNX=Y;d$[PE^">
+        <mutation type="NUMBER"></mutation>
+        <field name="TYPE">NUMBER</field>
+        <value name="TEXT">
+          <shadow type="text" id="L:aOLalO[e+^Nsi*8.BK">
+            <field name="TEXT">Type in a number.</field>
+          </shadow>
+        </value>
       </block>
     </value>
   </block>
-  <block type="text_print" id="sJu{UW6U;ZXg{q@oXwwF" x="37" y="163">
+  <block type="text_print" id="sJu{UW6U;ZXg{q@oXwwF" x="13" y="438">
     <value name="TEXT">
       <shadow type="text" id="*7b)XeEG$]-P1y~^0NH)">
         <field name="TEXT">abc</field>
@@ -31,7 +85,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="b].`Ljv%,9D{wOmJUjX$" x="70" y="220">
+  <block type="variables_set" id="b].`Ljv%,9D{wOmJUjX$" x="37" y="488">
     <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">mod</field>
     <value name="VALUE">
       <block type="math_modulo" id="fyklFiFOb38UB%d=NMd}">
@@ -49,54 +103,6 @@
           </shadow>
           <block type="math_number" id="sn{TQM%X;hQ%}Rr88X4r">
             <field name="NUM">2</field>
-          </block>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id="M7N/sy^Qjo#L`k)H5QNY" x="38" y="313">
-    <value name="TEXT">
-      <shadow type="text" id="-*s(?u$3XWY8!UX}62L`">
-        <field name="TEXT">Title: Decide wether even/odd</field>
-      </shadow>
-      <block type="text" id="8NOQ_t!lst{3Q-.2S$%G">
-        <field name="TEXT">Title: Decide wether even/odd</field>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id=";KG(2@jP1m|;;po[t(X[" x="88" y="363">
-    <value name="TEXT">
-      <shadow type="text" id=".0Lch2_iG~o!IDApV0YV">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="L`aE;28RiWnbwQMT+d3T">
-        <field name="TEXT">Number is odd.</field>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id="At#ZUoq2hh6,G^=3PCph" x="38" y="413">
-    <value name="TEXT">
-      <shadow type="text" id="bv?yAun%oD:@gbZif2Qh">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="J}fQvgMgEWwDUOQRP@_%">
-        <field name="TEXT">Number is even.</field>
-      </block>
-    </value>
-  </block>
-  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="62" y="463">
-    <mutation else="1"></mutation>
-    <value name="IF0">
-      <block type="logic_compare" id="+(8FtaAfmQ*aQ|1*QEM`">
-        <field name="OP">EQ</field>
-        <value name="A">
-          <block type="variables_get" id="JuaGan2HpUVcCwAZi@ry">
-            <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">mod</field>
-          </block>
-        </value>
-        <value name="B">
-          <block type="math_number" id="x@A?JqVCSIqqjGLqjo^v">
-            <field name="NUM">0</field>
           </block>
         </value>
       </block>
