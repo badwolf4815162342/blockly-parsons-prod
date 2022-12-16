@@ -122,7 +122,7 @@
     <field name="MODE">UNTIL</field>
     <value name="BOOL">
       <block type="logic_compare" id="DB2QAmtP4W*rzIvJD#^Y" movable="false" editable="false" deletable="false">
-        <field name="OP">EQ</field>
+        <field name="OP">LT</field>
         <value name="A">
           <block type="variables_get" id=".I7K2!fvnR^7[Lse[vKh" movable="false" editable="false" deletable="false">
             <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
@@ -130,7 +130,7 @@
         </value>
         <value name="B">
           <block type="math_number" id="avcd[QDUr}I5_s_j3[kW" movable="false" editable="false" deletable="false">
-            <field name="NUM">-1</field>
+            <field name="NUM">0</field>
           </block>
         </value>
       </block>
