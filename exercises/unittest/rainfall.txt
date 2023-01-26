@@ -1,0 +1,20 @@
+import unittest
+from io import StringIO
+from unittest.mock import patch
+import sys
+
+def method():
+{parsons_puzzle}
+class myTests(unittest.TestCase):
+    def testOne(self):
+        capturedOutput = StringIO()          # Create StringIO object
+        sys.stdout = capturedOutput                   #  and redirect stdout.
+        method()                                  # Call unchanged function.
+        sys.stdout = sys.__stdout__                   # Reset redirect.
+        outputArray = capturedOutput.getvalue().split('\n')
+        if (len(outputArray)>1):
+            outputArray.pop()
+        self.assertEqual(outputArray,
+           ['Avg =3.0'],)
+  
+_test_result = myTests().testOne()
