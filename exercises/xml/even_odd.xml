@@ -1,108 +1,111 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
-    <variable id="*WRXg(7L]e[)*Um~GG2W">mod</variable>
     <variable id="-qP@.l-6=o4ueSGWh2+h">input_num</variable>
+    <variable id="*WRXg(7L]e[)*Um~GG2W">remainder</variable>
   </variables>
-  <block type="group_title" id="M7N/sy^Qjo#L-k)H5QNY" x="38" y="13" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id="-*s(?u$3XWY8!UX}62L-" deletable="false">
-        <field name="TEXT">Decide wether even/odd</field>
+  <block type="group_title" id="M7N/sy^Qjo#L-k)H5QNY" x="38" y="13" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="-*s(?u$3XWY8!UX}62L-" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Decide wether even/odd</field>
       </shadow>
-      <block type="text" id="8NOQ_t!lst{3Q-.2S$%G" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Decide wether even/odd</field>
+      <block type="text" id="8NOQ_t!lst{3Q-.2S$%G" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Decide wether even/odd</field>
       </block>
     </value>
   </block>
-  <block type="text_print" id=";KG(2@jP1m|;;po[t(X[" x="187" y="63" editable="false" deletable="false">
-    <value name="TEXT">
-      <shadow type="text" id=".0Lch2_iG~o!IDApV0YV" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="text_print" id=";KG(2@jP1m|;;po[t(X[" x="187" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id=".0Lch2_iG~o!IDApV0YV" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="L-aE;28RiWnbwQMT+d3T" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Number is odd.</field>
+      <block type="text" id="L-aE;28RiWnbwQMT+d3T" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Number is odd.</field>
       </block>
     </value>
   </block>
-  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="37" y="113" editable="false" deletable="false">
+  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="37" y="113" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <mutation else="1" />
-    <value name="IF0">
-      <block type="logic_compare" id="+(8FtaAfmQ*aQ|1*QEM-" movable="false" editable="false" deletable="false">
-        <field name="OP">EQ</field>
-        <value name="A">
-          <block type="variables_get" id="JuaGan2HpUVcCwAZi@ry" movable="false" editable="false" deletable="false">
-            <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">mod</field>
+    <value name="IF0" contextMenu="false" enableContextMenu="false">
+      <block type="logic_compare" id="+(8FtaAfmQ*aQ|1*QEM-" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="OP" contextMenu="false" enableContextMenu="false">EQ</field>
+        <value name="A" contextMenu="false" enableContextMenu="false">
+          <block type="variables_get" id="JuaGan2HpUVcCwAZi@ry" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W" contextMenu="false" enableContextMenu="false">remainder</field>
           </block>
         </value>
-        <value name="B">
-          <block type="math_number" id="x@A?JqVCSIqqjGLqjo^v" movable="false" editable="false" deletable="false">
-            <field name="NUM">0</field>
+        <value name="B" contextMenu="false" enableContextMenu="false">
+          <block type="math_number" id="x@A?JqVCSIqqjGLqjo^v" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="NUM" contextMenu="false" enableContextMenu="false">0</field>
           </block>
         </value>
       </block>
     </value>
   </block>
-  <block type="text_print" id="At#ZUoq2hh6,G^=3PCph" x="163" y="162" editable="false" deletable="false">
-    <value name="TEXT">
-      <shadow type="text" id="bv?yAun%oD:@gbZif2Qh" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="text_print" id="At#ZUoq2hh6,G^=3PCph" x="163" y="162" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="bv?yAun%oD:@gbZif2Qh" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="J}fQvgMgEWwDUOQRP@_%" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Number is even.</field>
+      <block type="text" id="J}fQvgMgEWwDUOQRP@_%" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Number is even.</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="87" y="287" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id="Xj-=E?w*kV6NjL^-_pjQ" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="87" y="287" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="Xj-=E?w*kV6NjL^-_pjQ" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="|516-HK=?R6L7mIQokGb" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Set user input</field>
+      <block type="text" id="|516-HK=?R6L7mIQokGb" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Set user input</field>
       </block>
     </value>
   </block>
-  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="-13" y="338" editable="false" deletable="false">
-    <field name="VAR" id="-qP@.l-6=o4ueSGWh2+h">input_num</field>
-    <value name="VALUE">
-      <block type="text_prompt_ext" id="o)ZF%Ox_aNX=Y;d$[PE^" movable="false" editable="false" deletable="false">
+  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="-13" y="338" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="-qP@.l-6=o4ueSGWh2+h" contextMenu="false" enableContextMenu="false">input_num</field>
+    <value name="VALUE" contextMenu="false" enableContextMenu="false">
+      <block type="text_prompt_ext" id="o)ZF%Ox_aNX=Y;d$[PE^" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
         <mutation type="NUMBER" />
-        <field name="TYPE">NUMBER</field>
-        <value name="TEXT">
-          <shadow type="text" id="L:aOLalO[e+^Nsi*8.BK" deletable="false">
-            <field name="TEXT">Type in a number.</field>
+        <field name="TYPE" contextMenu="false" enableContextMenu="false">NUMBER</field>
+        <value name="TEXT" contextMenu="false" enableContextMenu="false">
+          <shadow type="text" id="L:aOLalO[e+^Nsi*8.BK" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="TEXT" contextMenu="false" enableContextMenu="false">Type in a number.</field>
           </shadow>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="group_title" id="sJu{UW6U;ZXg{q@oXwwF" x="13" y="438" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id="*7b)XeEG$]-P1y~^0NH)" deletable="false">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="h+*~.|SnnbCYtF-oDSMC" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Calculate remainder for odd/even decision</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="b].-Ljv%,9D{wOmJUjX$" x="37" y="488" editable="false" deletable="false">
-    <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">mod</field>
-    <value name="VALUE">
-      <block type="math_modulo" id="fyklFiFOb38UB%d=NMd}" movable="false" editable="false" deletable="false">
-        <value name="DIVIDEND">
-          <shadow type="math_number" id="9i}9nwr.OZQJcHrF[D^;" deletable="false">
-            <field name="NUM">64</field>
-          </shadow>
-          <block type="variables_get" id="$iInkV13gjpBrOI{WS?," movable="false" editable="false" deletable="false">
-            <field name="VAR" id="-qP@.l-6=o4ueSGWh2+h">input_num</field>
+          <block type="text" id="vd6B}/LcM;{lu:QFRJoW" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="TEXT" contextMenu="false" enableContextMenu="false">Type in a number:</field>
           </block>
         </value>
-        <value name="DIVISOR">
-          <shadow type="math_number" id="+@eDj~rNe](wLkd#7S~]" deletable="false">
-            <field name="NUM">10</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="sJu{UW6U;ZXg{q@oXwwF" x="13" y="438" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="*7b)XeEG$]-P1y~^0NH)" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+      </shadow>
+      <block type="text" id="h+*~.|SnnbCYtF-oDSMC" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Calculate remainder for odd/even decision</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="b].-Ljv%,9D{wOmJUjX$" x="37" y="488" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W" contextMenu="false" enableContextMenu="false">remainder</field>
+    <value name="VALUE" contextMenu="false" enableContextMenu="false">
+      <block type="math_modulo" id="fyklFiFOb38UB%d=NMd}" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <value name="DIVIDEND" contextMenu="false" enableContextMenu="false">
+          <shadow type="math_number" id="9i}9nwr.OZQJcHrF[D^;" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="NUM" contextMenu="false" enableContextMenu="false">64</field>
           </shadow>
-          <block type="math_number" id="sn{TQM%X;hQ%}Rr88X4r" movable="false" editable="false" deletable="false">
-            <field name="NUM">2</field>
+          <block type="variables_get" id="$iInkV13gjpBrOI{WS?," movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id="-qP@.l-6=o4ueSGWh2+h" contextMenu="false" enableContextMenu="false">input_num</field>
+          </block>
+        </value>
+        <value name="DIVISOR" contextMenu="false" enableContextMenu="false">
+          <shadow type="math_number" id="+@eDj~rNe](wLkd#7S~]" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="NUM" contextMenu="false" enableContextMenu="false">10</field>
+          </shadow>
+          <block type="math_number" id="sn{TQM%X;hQ%}Rr88X4r" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="NUM" contextMenu="false" enableContextMenu="false">2</field>
           </block>
         </value>
       </block>

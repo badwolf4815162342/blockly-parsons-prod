@@ -6,7 +6,8 @@ import sys
 def method():
 {parsons_puzzle}
 class myTests(unittest.TestCase):
-    def testOne(self):
+    @patch('builtins.input',side_effect=[[5,3,7,-1,7,-5,0]])
+    def testOne(self, input):
         capturedOutput = StringIO()          # Create StringIO object
         sys.stdout = capturedOutput                   #  and redirect stdout.
         method()                                  # Call unchanged function.
@@ -15,6 +16,21 @@ class myTests(unittest.TestCase):
         if (len(outputArray)>1):
             outputArray.pop()
         self.assertEqual(outputArray,
-           ['Avg =3.0'],)
-  
-_test_result = myTests().testOne()
+           ['Avg =5.5'],)
+    @patch('builtins.input',side_effect=[[0,-1,-5]])
+    def testTwo(self, input):
+        capturedOutput = StringIO()          # Create StringIO object
+        sys.stdout = capturedOutput                   #  and redirect stdout.
+        method()                                  # Call unchanged function.
+        sys.stdout = sys.__stdout__                   # Reset redirect.
+        outputArray = capturedOutput.getvalue().split('\n')
+        if (len(outputArray)>1):
+            outputArray.pop()
+        self.assertEqual(outputArray,
+           ['no rain'],)
+    
+tests = [myTests().testOne(),myTests().testTwo()]
+_test_result = tests[0]
+for test in tests:
+    if test is not None:
+        _test_result = test

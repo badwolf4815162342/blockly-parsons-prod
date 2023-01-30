@@ -4,47 +4,47 @@
     <variable id="hw=bdEu-as$UkcyU$o:.">counter</variable>
     <variable id=")bV+!=IhE7(VZ:?LwOQm">num_to_guess</variable>
   </variables>
-  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="187" y="12" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id="=utDZ|C?z3E%neK9oR56" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="187" y="12" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="=utDZ|C?z3E%neK9oR56" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="2%7K$fRH2w4Si2Iy3()E" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Walk through list until -1 or guess found.</field>
+      <block type="text" id="2%7K$fRH2w4Si2Iy3()E" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Walk through list until -1 or guess found.</field>
       </block>
     </value>
   </block>
-  <block type="controls_whileUntil" id="KhLf~XC3pLHMur//]bBY" x="88" y="63" editable="false" deletable="false">
-    <field name="MODE">WHILE</field>
-    <value name="BOOL">
-      <block type="logic_operation" id="l@4MoYlLGY3)=D#xZ=tb" movable="false" editable="false" deletable="false">
-        <field name="OP">AND</field>
-        <value name="A">
-          <block type="logic_compare" id="t49$QX^qSnI]:^p^qBfj" movable="false" editable="false" deletable="false">
-            <field name="OP">GTE</field>
-            <value name="A">
-              <block type="variables_get" id="DwqrYTSr+Me_Jrx6jL/8" movable="false" editable="false" deletable="false">
-                <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess</field>
+  <block type="controls_whileUntil" id="KhLf~XC3pLHMur//]bBY" x="88" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="MODE" contextMenu="false" enableContextMenu="false">WHILE</field>
+    <value name="BOOL" contextMenu="false" enableContextMenu="false">
+      <block type="logic_operation" id="l@4MoYlLGY3)=D#xZ=tb" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="OP" contextMenu="false" enableContextMenu="false">AND</field>
+        <value name="A" contextMenu="false" enableContextMenu="false">
+          <block type="logic_compare" id="t49$QX^qSnI]:^p^qBfj" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="OP" contextMenu="false" enableContextMenu="false">GTE</field>
+            <value name="A" contextMenu="false" enableContextMenu="false">
+              <block type="variables_get" id="DwqrYTSr+Me_Jrx6jL/8" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+                <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" contextMenu="false" enableContextMenu="false">guess</field>
               </block>
             </value>
-            <value name="B">
-              <block type="math_number" id="z:Z7-qRTMoqZaYT)@]cx" movable="false" editable="false" deletable="false">
-                <field name="NUM">0</field>
+            <value name="B" contextMenu="false" enableContextMenu="false">
+              <block type="math_number" id="z:Z7-qRTMoqZaYT)@]cx" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+                <field name="NUM" contextMenu="false" enableContextMenu="false">0</field>
               </block>
             </value>
           </block>
         </value>
-        <value name="B">
-          <block type="logic_compare" id="EZS,IOBmQH;EJd0i!]d:" movable="false" editable="false" deletable="false">
-            <field name="OP">NEQ</field>
-            <value name="A">
-              <block type="variables_get" id="|_fATE9j+wY8CJ(@:3,R" movable="false" editable="false" deletable="false">
-                <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess</field>
+        <value name="B" contextMenu="false" enableContextMenu="false">
+          <block type="logic_compare" id="EZS,IOBmQH;EJd0i!]d:" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="OP" contextMenu="false" enableContextMenu="false">NEQ</field>
+            <value name="A" contextMenu="false" enableContextMenu="false">
+              <block type="variables_get" id="|_fATE9j+wY8CJ(@:3,R" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+                <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" contextMenu="false" enableContextMenu="false">guess</field>
               </block>
             </value>
-            <value name="B">
-              <block type="variables_get" id="JGA?|d-oE.ruXuA}pa#U" movable="false" editable="false" deletable="false">
-                <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">num_to_guess</field>
+            <value name="B" contextMenu="false" enableContextMenu="false">
+              <block type="variables_get" id="JGA?|d-oE.ruXuA}pa#U" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+                <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" contextMenu="false" enableContextMenu="false">num_to_guess</field>
               </block>
             </value>
           </block>
@@ -52,181 +52,187 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="qOc5x*ARG?TYolCv[]k4" x="13" y="137" editable="false" deletable="false">
-    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess</field>
-    <value name="VALUE">
-      <block type="text_prompt_ext" id="z@{Uon,uWfjYeoOE4_*p" movable="false" editable="false" deletable="false">
+  <block type="variables_set" id="qOc5x*ARG?TYolCv[]k4" x="13" y="137" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" contextMenu="false" enableContextMenu="false">guess</field>
+    <value name="VALUE" contextMenu="false" enableContextMenu="false">
+      <block type="text_prompt_ext" id="z@{Uon,uWfjYeoOE4_*p" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
         <mutation type="NUMBER" />
-        <field name="TYPE">NUMBER</field>
-        <value name="TEXT">
-          <shadow type="text" id="nt-z7h$%m!p~RKU1cH2S" deletable="false">
-            <field name="TEXT">Type in your guess.</field>
+        <field name="TYPE" contextMenu="false" enableContextMenu="false">NUMBER</field>
+        <value name="TEXT" contextMenu="false" enableContextMenu="false">
+          <shadow type="text" id="nt-z7h$%m!p~RKU1cH2S" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="TEXT" contextMenu="false" enableContextMenu="false">Type in your guess.</field>
           </shadow>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="YSIpRBR?gwBp%Jkq_G3p" x="188" y="162" editable="false" deletable="false">
-    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess</field>
-    <value name="VALUE">
-      <block type="text_prompt_ext" id="OtvStRPh0|JA,z(tD5hn" movable="false" editable="false" deletable="false">
-        <mutation type="NUMBER" />
-        <field name="TYPE">NUMBER</field>
-        <value name="TEXT">
-          <shadow type="text" id=".m3w#-uCV/]S-745qJ^K" deletable="false">
-            <field name="TEXT">Type in your guess.</field>
-          </shadow>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="512" y="237" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id="Pne0)if%N+@j{w5{b%BY" deletable="false">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="qlY=S+^03v{t1vGuF{cE" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Try counter</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="^V-@76?,NANGS#0nhPU|" x="588" y="288" editable="false" deletable="false">
-    <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
-    <value name="VALUE">
-      <block type="math_number" id="WyW@{:{6$-veGBY)L$~." movable="false" editable="false" deletable="false">
-        <field name="NUM">1</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="K+62t|Zs2Gx@ScT?Q?G-" x="438" y="312" editable="false" deletable="false">
-    <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
-    <value name="VALUE">
-      <block type="math_arithmetic" id="J84!pT[)AB{-o{v3-rgm" movable="false" editable="false" deletable="false">
-        <field name="OP">ADD</field>
-        <value name="A">
-          <shadow type="math_number" id="Z4vvF_:itTz3C3H*mdUo" deletable="false">
-            <field name="NUM">1</field>
-          </shadow>
-          <block type="variables_get" id="_X-LVXqKIhk;deLNtV#W" movable="false" editable="false" deletable="false">
-            <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
+          <block type="text" id="VWax21WpI[+h3KaPhR7Z" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="TEXT" contextMenu="false" enableContextMenu="false">Type your guess:</field>
           </block>
         </value>
-        <value name="B">
-          <shadow type="math_number" id="BLuS2nGnzSx?/+ZNOi)V" deletable="false">
-            <field name="NUM">1</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="YSIpRBR?gwBp%Jkq_G3p" x="188" y="162" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" contextMenu="false" enableContextMenu="false">guess</field>
+    <value name="VALUE" contextMenu="false" enableContextMenu="false">
+      <block type="text_prompt_ext" id="OtvStRPh0|JA,z(tD5hn" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <mutation type="NUMBER" />
+        <field name="TYPE" contextMenu="false" enableContextMenu="false">NUMBER</field>
+        <value name="TEXT" contextMenu="false" enableContextMenu="false">
+          <shadow type="text" id=".m3w#-uCV/]S-745qJ^K" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="TEXT" contextMenu="false" enableContextMenu="false">Type in your guess.</field>
+          </shadow>
+          <block type="text" id=")3_b0t8RXI}NQxhX]{?3" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="TEXT" contextMenu="false" enableContextMenu="false">Type your guess:</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="512" y="237" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="Pne0)if%N+@j{w5{b%BY" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+      </shadow>
+      <block type="text" id="qlY=S+^03v{t1vGuF{cE" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Try counter</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="^V-@76?,NANGS#0nhPU|" x="588" y="288" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="hw=bdEu-as$UkcyU$o:." contextMenu="false" enableContextMenu="false">counter</field>
+    <value name="VALUE" contextMenu="false" enableContextMenu="false">
+      <block type="math_number" id="WyW@{:{6$-veGBY)L$~." movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="NUM" contextMenu="false" enableContextMenu="false">1</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="K+62t|Zs2Gx@ScT?Q?G-" x="438" y="312" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="hw=bdEu-as$UkcyU$o:." contextMenu="false" enableContextMenu="false">counter</field>
+    <value name="VALUE" contextMenu="false" enableContextMenu="false">
+      <block type="math_arithmetic" id="J84!pT[)AB{-o{v3-rgm" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="OP" contextMenu="false" enableContextMenu="false">ADD</field>
+        <value name="A" contextMenu="false" enableContextMenu="false">
+          <shadow type="math_number" id="Z4vvF_:itTz3C3H*mdUo" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="NUM" contextMenu="false" enableContextMenu="false">1</field>
+          </shadow>
+          <block type="variables_get" id="_X-LVXqKIhk;deLNtV#W" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id="hw=bdEu-as$UkcyU$o:." contextMenu="false" enableContextMenu="false">counter</field>
+          </block>
+        </value>
+        <value name="B" contextMenu="false" enableContextMenu="false">
+          <shadow type="math_number" id="BLuS2nGnzSx?/+ZNOi)V" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="NUM" contextMenu="false" enableContextMenu="false">1</field>
           </shadow>
         </value>
       </block>
     </value>
   </block>
-  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="12" y="338" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id="miWq~KHwvy}d1K8VQe,-" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="12" y="338" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="miWq~KHwvy}d1K8VQe,-" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="S;3ArY}Mie)cDFVAT]9V" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Set guess number</field>
+      <block type="text" id="S;3ArY}Mie)cDFVAT]9V" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Set guess number</field>
       </block>
     </value>
   </block>
-  <block type="variables_set" id="#AVh[w14Cn@pw6)(7uFm" x="63" y="388" editable="false" deletable="false">
-    <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">num_to_guess</field>
-    <value name="VALUE">
-      <block type="math_number" id="A?PdIhEMMzd+wqroZts6" movable="false" editable="false" deletable="false">
-        <field name="NUM">7</field>
+  <block type="variables_set" id="#AVh[w14Cn@pw6)(7uFm" x="63" y="388" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" contextMenu="false" enableContextMenu="false">num_to_guess</field>
+    <value name="VALUE" contextMenu="false" enableContextMenu="false">
+      <block type="math_number" id="A?PdIhEMMzd+wqroZts6" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="NUM" contextMenu="false" enableContextMenu="false">7</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="413" y="438" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" deletable="false">
-        <field name="TEXT">Too high/low?</field>
+  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="413" y="438" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Too high/low?</field>
       </shadow>
-      <block type="text" id="2luk$1:@FEW:S_2.yML-" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Too high/low?</field>
+      <block type="text" id="2luk$1:@FEW:S_2.yML-" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Too high/low?</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="63" y="488" editable="false" deletable="false" movable="false">
-    <value name="TEXT">
-      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="63" y="488" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="tBz}If~s[UW{!1U:(m8M" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Is the guess correct?</field>
+      <block type="text" id="tBz}If~s[UW{!1U:(m8M" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Is the guess correct?</field>
       </block>
     </value>
   </block>
-  <block type="text_print" id="@Xel2X[t-0z$Pj5*1$qy" x="562" y="487" editable="false" deletable="false">
-    <value name="TEXT">
-      <shadow type="text" id="0ocr3A|UT|i%1P:l5[i]" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="text_print" id="@Xel2X[t-0z$Pj5*1$qy" x="562" y="487" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="0ocr3A|UT|i%1P:l5[i]" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="_,YL[.^zu?}bCD|0bu8$" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Too low ...</field>
+      <block type="text" id="_,YL[.^zu?}bCD|0bu8$" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Too low ...</field>
       </block>
     </value>
   </block>
-  <block type="controls_if" id="7m-X4-A8IsbD-+.X:Gzs" x="462" y="513" editable="false" deletable="false">
+  <block type="controls_if" id="7m-X4-A8IsbD-+.X:Gzs" x="462" y="513" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <mutation else="1" />
-    <value name="IF0">
-      <block type="logic_compare" id="ID8UV3a-d+X9~124M1~!" movable="false" editable="false" deletable="false">
-        <field name="OP">GT</field>
-        <value name="A">
-          <block type="variables_get" id="i5nsk+L@F=2g^$s2w5Jy" movable="false" editable="false" deletable="false">
-            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess</field>
+    <value name="IF0" contextMenu="false" enableContextMenu="false">
+      <block type="logic_compare" id="ID8UV3a-d+X9~124M1~!" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="OP" contextMenu="false" enableContextMenu="false">GT</field>
+        <value name="A" contextMenu="false" enableContextMenu="false">
+          <block type="variables_get" id="i5nsk+L@F=2g^$s2w5Jy" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" contextMenu="false" enableContextMenu="false">guess</field>
           </block>
         </value>
-        <value name="B">
-          <block type="variables_get" id="++6=Z8dgUC;xx?Ps]![n" movable="false" editable="false" deletable="false">
-            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">num_to_guess</field>
-          </block>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="controls_if" id="yVvy9~=8kfcxoAc=l/N," x="88" y="538" editable="false" deletable="false">
-    <value name="IF0">
-      <block type="logic_compare" id="@K#(BQLE3g[(0H8YjPKC" movable="false" editable="false" deletable="false">
-        <field name="OP">EQ</field>
-        <value name="A">
-          <block type="variables_get" id="]KVG/Rl6,c0yBnr=bPcS" movable="false" editable="false" deletable="false">
-            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess</field>
-          </block>
-        </value>
-        <value name="B">
-          <block type="variables_get" id="n4N8Pc~kU-1Nt@+_fA0E" movable="false" editable="false" deletable="false">
-            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">num_to_guess</field>
+        <value name="B" contextMenu="false" enableContextMenu="false">
+          <block type="variables_get" id="++6=Z8dgUC;xx?Ps]![n" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" contextMenu="false" enableContextMenu="false">num_to_guess</field>
           </block>
         </value>
       </block>
     </value>
   </block>
-  <block type="text_print" id="YaIF=m,67szu}TEB9,%D" x="594" y="544" editable="false" deletable="false">
-    <value name="TEXT">
-      <shadow type="text" id="mrlR-?4O6fZDLSPM^yxT" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="controls_if" id="yVvy9~=8kfcxoAc=l/N," x="88" y="538" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="IF0" contextMenu="false" enableContextMenu="false">
+      <block type="logic_compare" id="@K#(BQLE3g[(0H8YjPKC" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="OP" contextMenu="false" enableContextMenu="false">EQ</field>
+        <value name="A" contextMenu="false" enableContextMenu="false">
+          <block type="variables_get" id="]KVG/Rl6,c0yBnr=bPcS" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" contextMenu="false" enableContextMenu="false">guess</field>
+          </block>
+        </value>
+        <value name="B" contextMenu="false" enableContextMenu="false">
+          <block type="variables_get" id="n4N8Pc~kU-1Nt@+_fA0E" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" contextMenu="false" enableContextMenu="false">num_to_guess</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="YaIF=m,67szu}TEB9,%D" x="594" y="544" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="mrlR-?4O6fZDLSPM^yxT" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text" id="b!R1*-0L3qebWA-=%Wkz" movable="false" editable="false" deletable="false">
-        <field name="TEXT">Too high ...</field>
+      <block type="text" id="b!R1*-0L3qebWA-=%Wkz" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">Too high ...</field>
       </block>
     </value>
   </block>
-  <block type="text_print" id="{uFF%Lr+OXv2=@J~Xbog" x="12" y="613" editable="false" deletable="false">
-    <value name="TEXT">
-      <shadow type="text" id="o,S;*[_zW7{jEHoOkhRV" deletable="false">
-        <field name="TEXT">abc</field>
+  <block type="text_print" id="{uFF%Lr+OXv2=@J~Xbog" x="12" y="613" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" contextMenu="false" enableContextMenu="false">
+      <shadow type="text" id="o,S;*[_zW7{jEHoOkhRV" deletable="false" contextMenu="false" enableContextMenu="false">
+        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
       </shadow>
-      <block type="text_join" id="OIR[]N/6scUzfGK^HdqU" movable="false" editable="false" deletable="false">
+      <block type="text_join" id="OIR[]N/6scUzfGK^HdqU" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
         <mutation items="2" />
-        <value name="ADD0">
-          <block type="text" id="Q4wBj(o)6YDc*kQ^m?^v" movable="false" editable="false" deletable="false">
-            <field name="TEXT">Right! Number of Tries: </field>
+        <value name="ADD0" contextMenu="false" enableContextMenu="false">
+          <block type="text" id="Q4wBj(o)6YDc*kQ^m?^v" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="TEXT" contextMenu="false" enableContextMenu="false">Right! Number of Tries: </field>
           </block>
         </value>
-        <value name="ADD1">
-          <block type="variables_get" id="i-LM2!tu~_3-V$-mn-~~" movable="false" editable="false" deletable="false">
-            <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
+        <value name="ADD1" contextMenu="false" enableContextMenu="false">
+          <block type="variables_get" id="i-LM2!tu~_3-V$-mn-~~" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+            <field name="VAR" id="hw=bdEu-as$UkcyU$o:." contextMenu="false" enableContextMenu="false">counter</field>
           </block>
         </value>
       </block>

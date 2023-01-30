@@ -1,7 +1,7 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
-    <variable id="*WRXg(7L]e[)*Um~GG2W">mod</variable>
     <variable id="`qP@.l`6=o4ueSGWh2+h">input_num</variable>
+    <variable id="*WRXg(7L]e[)*Um~GG2W">remainder</variable>
   </variables>
   <block type="text_print" id="M7N/sy^Qjo#L`k)H5QNY" x="38" y="13">
     <value name="TEXT">
@@ -30,7 +30,7 @@
         <field name="OP">EQ</field>
         <value name="A">
           <block type="variables_get" id="JuaGan2HpUVcCwAZi@ry">
-            <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">mod</field>
+            <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">remainder</field>
           </block>
         </value>
         <value name="B">
@@ -71,6 +71,9 @@
           <shadow type="text" id="L:aOLalO[e+^Nsi*8.BK">
             <field name="TEXT">Type in a number.</field>
           </shadow>
+          <block type="text" id="vd6B}/LcM;{lu:QFRJoW">
+            <field name="TEXT">Type in a number:</field>
+          </block>
         </value>
       </block>
     </value>
@@ -86,7 +89,7 @@
     </value>
   </block>
   <block type="variables_set" id="b].`Ljv%,9D{wOmJUjX$" x="37" y="488">
-    <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">mod</field>
+    <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">remainder</field>
     <value name="VALUE">
       <block type="math_modulo" id="fyklFiFOb38UB%d=NMd}">
         <value name="DIVIDEND">

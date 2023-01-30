@@ -3,8 +3,8 @@
     <variable id="ySX9Jw(CQ6{AuUh-OU4g">count</variable>
     <variable id="(ez!WO2|yV?sUu5*E@qX">day</variable>
     <variable id="XH-jEjvb]V^%1YArzcr1">sum_rain</variable>
-    <variable id="aVJG_/-!*VjKQM}CiN2s">avg</variable>
     <variable id="FDGI^nlXXe7~FLZ.nYz;">rain</variable>
+    <variable id="aVJG_/-!*VjKQM}CiN2s">avg</variable>
   </variables>
   <block type="text_print" id=":$PD8Ph_~N*HG{}hJR7s" x="63" y="37">
     <value name="TEXT">
@@ -29,7 +29,7 @@
   <block type="controls_if" id="@c8hUGxXnf:|d;RC4iWU" x="463" y="87">
     <value name="IF0">
       <block type="logic_compare" id="LAm#oMH_`%YR*1Y2js{$">
-        <field name="OP">GTE</field>
+        <field name="OP">GT</field>
         <value name="A">
           <block type="variables_get" id="[Q{9F-+_ik/L/)(b[7^9">
             <field name="VAR" id="(ez!WO2|yV?sUu5*E@qX">day</field>
@@ -116,7 +116,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="*wD_M8~4;o!7~yKn.(w2" x="88" y="362">
+  <block type="text_print" id="*wD_M8~4;o!7~yKn.(w2" x="63" y="337">
     <value name="TEXT">
       <shadow type="text" id="[Y*N}[uQI,=tccw|*g4(">
         <field name="TEXT">abc</field>
@@ -126,17 +126,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="g;8g.BE-qoh$ste]@8j." x="638" y="362">
-    <value name="TEXT">
-      <shadow type="text" id="7=Y]y50Ag*,Q0,`Gg8^!">
-        <field name="TEXT">no rain</field>
-      </shadow>
-      <block type="text" id="%s~1IOiFU41aKIA.R.3(">
-        <field name="TEXT">no rain</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="uM`jLQLajP6k$0U3]+p6" x="62" y="437">
+  <block type="variables_set" id="uM`jLQLajP6k$0U3]+p6" x="13" y="387">
     <field name="VAR" id="XH-jEjvb]V^%1YArzcr1">sum_rain</field>
     <value name="VALUE">
       <block type="math_arithmetic" id="FsHkdrl@~a]29.%:N.7r">
@@ -160,6 +150,24 @@
       </block>
     </value>
   </block>
+  <block type="text_print" id="g;8g.BE-qoh$ste]@8j." x="638" y="362">
+    <value name="TEXT">
+      <shadow type="text" id="7=Y]y50Ag*,Q0,`Gg8^!">
+        <field name="TEXT">no rain</field>
+      </shadow>
+      <block type="text" id="%s~1IOiFU41aKIA.R.3(">
+        <field name="TEXT">no rain</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="*}{L},KL3?$YWyXS)]G*" x="62" y="437">
+    <field name="VAR" id="XH-jEjvb]V^%1YArzcr1">sum_rain</field>
+    <value name="VALUE">
+      <block type="math_number" id="]*sF$q3_CxRH,3kN8}kU">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+  </block>
   <block type="text_print" id="#8i(A$[5=FmT8^^!(,pc" x="562" y="412">
     <value name="TEXT">
       <shadow type="text" id="HB=L0X{|4:OwA:v1E_pQ">
@@ -180,25 +188,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="*}{L},KL3?$YWyXS)]G*" x="13" y="487">
-    <field name="VAR" id="XH-jEjvb]V^%1YArzcr1">sum_rain</field>
-    <value name="VALUE">
-      <block type="math_number" id="]*sF$q3_CxRH,3kN8}kU">
-        <field name="NUM">0</field>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id="-zps;Ik(~;!4bN,k$`Z[" x="488" y="512">
-    <value name="TEXT">
-      <shadow type="text" id="XZM,XQQ}|V7O^cu7X?wx">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="t5dJif%tq}sfe{u7DHKk">
-        <field name="TEXT">Title: Create List</field>
-      </block>
-    </value>
-  </block>
-  <block type="controls_forEach" id="j^e}k8RBoPUBL=bP|N,d" disabled="true" x="87" y="538">
+  <block type="controls_forEach" id="j^e}k8RBoPUBL=bP|N,d" disabled="true" x="12" y="488">
     <field name="VAR" id="(ez!WO2|yV?sUu5*E@qX">day</field>
     <value name="LIST">
       <block type="variables_get" id="1cJin81e36~}G6vr_Ck*">
@@ -206,40 +196,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="$8#(~;ylal;CfIU(mw_]" x="462" y="562">
-    <field name="VAR" id="FDGI^nlXXe7~FLZ.nYz;">rain</field>
-    <value name="VALUE">
-      <block type="lists_create_with" id="a^w5hC^}=%mNd,Jih0r-">
-        <mutation items="5"></mutation>
-        <value name="ADD0">
-          <block type="math_number" id="l6;2z!zD!?_2sk`n)4#W">
-            <field name="NUM">0</field>
-          </block>
-        </value>
-        <value name="ADD1">
-          <block type="math_number" id="t|k9c2BbG@Y[AiOO7z$#">
-            <field name="NUM">5</field>
-          </block>
-        </value>
-        <value name="ADD2">
-          <block type="math_number" id="9TW(OetI[VpH$C+I[66+">
-            <field name="NUM">1</field>
-          </block>
-        </value>
-        <value name="ADD3">
-          <block type="math_number" id="b~IW=2zvVZLX(jvSvdll">
-            <field name="NUM">-1</field>
-          </block>
-        </value>
-        <value name="ADD4">
-          <block type="math_number" id="nAANQ^CQ#Ay;cD;(:?Ue">
-            <field name="NUM">6</field>
-          </block>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id=".d8)G`[bZh!j^9EiPa;r" x="38" y="612">
+  <block type="variables_set" id=".d8)G`[bZh!j^9EiPa;r" x="63" y="562">
     <field name="VAR" id="aVJG_/-!*VjKQM}CiN2s">avg</field>
     <value name="VALUE">
       <block type="math_arithmetic" id="O3o0o~|FZmqWKSjXNGY#">
@@ -258,6 +215,33 @@
           </shadow>
           <block type="variables_get" id="z/f5i;vYokgAlUJ%^}|z">
             <field name="VAR" id="ySX9Jw(CQ6{AuUh-OU4g">count</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="-zps;Ik(~;!4bN,k$`Z[" x="488" y="588">
+    <value name="TEXT">
+      <shadow type="text" id="XZM,XQQ}|V7O^cu7X?wx">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="t5dJif%tq}sfe{u7DHKk">
+        <field name="TEXT">Title: Read in list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="$8#(~;ylal;CfIU(mw_]" x="212" y="637">
+    <field name="VAR" id="FDGI^nlXXe7~FLZ.nYz;">rain</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id=";K4WcFa2NhN7y3|zYw;U">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id=":LA!+u!F%BwQ$/2wDwb|">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="#~j.hnzJPnQKJB,~LOiY">
+            <field name="TEXT">Type in a list of numbers.</field>
           </block>
         </value>
       </block>

@@ -14,17 +14,17 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="+4VgYl=Ww0zb}r@!UbN5" x="37" y="88">
+  <block type="text_print" id="g~KmltkRGLU*f.;*?9K@" x="37" y="113">
     <value name="TEXT">
-      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x">
+      <shadow type="text" id="r_$@,xNqNNj`X~iQ;~0;">
         <field name="TEXT">abc</field>
       </shadow>
-      <block type="text" id="NnOblZEvmbkTZuS;e=D2">
+      <block type="text" id="v#FWP@qPlb0|K.@u^h0K">
         <field name="TEXT">Title: Alternate</field>
       </block>
     </value>
   </block>
-  <block type="variables_set" id="q0NN;],}?ZGH]5M~DeSF" x="362" y="113">
+  <block type="variables_set" id="q0NN;],}?ZGH]5M~DeSF" x="387" y="113">
     <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
     <value name="VALUE">
       <block type="variables_get" id="JRu`N{OQx]ahqsn89Jjv">
@@ -32,11 +32,14 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="w/w~=NuPjBZXi94woGz;" x="87" y="138">
+  <block type="text_print" id=";KG(2@jP1m|;;po[t(X[" x="112" y="162">
     <value name="TEXT">
-      <shadow type="text" id="GSS?QyXBGXWs9vi)9i{_">
-        <field name="TEXT">Number is odd.</field>
+      <shadow type="text" id=".0Lch2_iG~o!IDApV0YV">
+        <field name="TEXT">abc</field>
       </shadow>
+      <block type="text" id="L`aE;28RiWnbwQMT+d3T">
+        <field name="TEXT">Number is odd.</field>
+      </block>
     </value>
   </block>
   <block type="text_print" id="r_}_JE3U9#EbpyFD(f(Q" x="462" y="162">
@@ -49,7 +52,7 @@
       </block>
     </value>
   </block>
-  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="38" y="188">
+  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="37" y="213">
     <mutation else="1"></mutation>
     <value name="IF0">
       <block type="math_number_property" id=":eB6ZT;|l/MCI#QI}L6q">
@@ -83,7 +86,17 @@
       </block>
     </value>
   </block>
-  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" x="563" y="263">
+  <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf" x="138" y="262">
+    <value name="TEXT">
+      <shadow type="text" id="0-i(=,+=DCCxr4at?w|2">
+        <field name="TEXT">Number is even</field>
+      </shadow>
+      <block type="text" id="#:#-;rZCu,Sp*~bzSVjk">
+        <field name="TEXT">Number is even.</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" x="588" y="263">
     <value name="TIMES">
       <shadow type="math_number" id="RnAbuDu#ER[+p)!N)Stz">
         <field name="NUM">10</field>
@@ -93,14 +106,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf" x="113" y="312">
-    <value name="TEXT">
-      <shadow type="text" id="0-i(=,+=DCCxr4at?w|2">
-        <field name="TEXT">Number is even</field>
-      </shadow>
-    </value>
-  </block>
-  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="413" y="338">
+  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="412" y="313">
     <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
     <value name="VALUE">
       <block type="math_number" id="k:uhb!xNbKkG`a;={/B6">
@@ -108,7 +114,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="Zvio2y)A!P)6[+`Nk9vn" x="38" y="437">
+  <block type="text_print" id="Zvio2y)A!P)6[+`Nk9vn" x="112" y="437">
     <value name="TEXT">
       <shadow type="text" id="%nh8NrCvlJ$!!|Ea+uQE">
         <field name="TEXT">abc</field>
@@ -156,6 +162,9 @@
           <shadow type="text" id="jqM[~_L~wM,6tGgVE81T">
             <field name="TEXT">Type next number</field>
           </shadow>
+          <block type="text" id="W6J1sxWTz_fPZ|@Kq8Xw">
+            <field name="TEXT">Type next number:</field>
+          </block>
         </value>
       </block>
     </value>
