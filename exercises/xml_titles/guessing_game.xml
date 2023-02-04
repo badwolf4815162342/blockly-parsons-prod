@@ -1,56 +1,56 @@
-<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="false">
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
   <variables>
     <variable id="ryq}yoSm|-xaO3V0X7)W">guess</variable>
-    <variable id="hw=bdEu-as$UkcyU$o:.">counter</variable>
     <variable id=")bV+!=IhE7(VZ:?LwOQm">num_to_guess</variable>
+    <variable id="hw=bdEu-as$UkcyU$o:.">counter</variable>
   </variables>
-  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="187" y="12" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="=utDZ|C?z3E%neK9oR56" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="38" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="=utDZ|C?z3E%neK9oR56" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="2%7K$fRH2w4Si2Iy3()E" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Walk through list until -1 or guess found.</field>
+      <block type="text" id="2%7K$fRH2w4Si2Iy3()E" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Walk through list until -1 or guess found.</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="512" y="237" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="Pne0)if%N+@j{w5{b%BY" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="362" y="217" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="qlY=S+^03v{t1vGuF{cE" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Try counter</field>
+      <block type="text" id="tBz}If~s[UW{!1U:(m8M" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Is the guess correct?</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="12" y="338" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="miWq~KHwvy}d1K8VQe,-" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="38" y="267" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="miWq~KHwvy}d1K8VQe,-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="S;3ArY}Mie)cDFVAT]9V" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Set guess number</field>
+      <block type="text" id="S;3ArY}Mie)cDFVAT]9V" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Set guess number</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="413" y="438" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Too high/low?</field>
+  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="38" y="418" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="Pne0)if%N+@j{w5{b%BY" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="2luk$1:@FEW:S_2.yML-" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Too high/low?</field>
+      <block type="text" id="qlY=S+^03v{t1vGuF{cE" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Try counter</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="63" y="488" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="462" y="472" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Too high/low?</field>
       </shadow>
-      <block type="text" id="tBz}If~s[UW{!1U:(m8M" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Is the guess correct?</field>
+      <block type="text" id="2luk$1:@FEW:S_2.yML-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Too high/low?</field>
       </block>
     </value>
   </block>

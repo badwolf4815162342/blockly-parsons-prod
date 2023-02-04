@@ -16,7 +16,6 @@ class myTests(unittest.TestCase):
         if (len(outputArray)>1):
             outputArray.pop()
         self.assertEqual(outputArray,
-           ['Number is even','This is the current max.','Number is odd.','This is the current max.','Number is even','Number is odd.'],)
-
+           ['Number is even.','This is the current max.','Number is odd.','This is the current max.','Number is even.'],)
     
 _test_result = myTests().testOne()

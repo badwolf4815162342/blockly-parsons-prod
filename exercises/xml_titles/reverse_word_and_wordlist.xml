@@ -1,38 +1,38 @@
-<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="false">
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
   <variables>
     <variable id="/H0zamS-3CFEiqhRxwqr">words</variable>
-    <variable id=")B5|ts8+:qg}H!QNdPS#">letter</variable>
+    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
     <variable id="H|faJeHkeC=j(3_6^s8k">new_word</variable>
     <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
-    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
+    <variable id=")B5|ts8+:qg}H!QNdPS#">letter</variable>
   </variables>
-  <block type="group_title" id="wkWP8Td7$H4Jj$,%:9;J" x="37" y="38" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="f#}v^f(GX4xWPkx/|V;D" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="wkWP8Td7$H4Jj$,%:9;J" x="37" y="43" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="f#}v^f(GX4xWPkx/|V;D" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="FSBX!iTkLMhoM3)g3-tP" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">The given array</field>
+      <block type="text" id="FSBX!iTkLMhoM3)g3-tP" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">The given array</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="cXHKJO-{.,mTSNtK(X$h" x="37" y="287" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="{%f-5;Y:gY{v~w(5BX5:" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="R2S-a8|k-PGO:V%@Y=,_" x="488" y="42" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="RW|+.v.2h5R#%rCMP|hp" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="H/{J9O%O3PagvBwQOpC|" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">reverse the letters in a word</field>
+      <block type="text" id="^8vy@cP7.B.G9-uE%bLH" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">New list with elements in reverse</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="R2S-a8|k-PGO:V%@Y=,_" x="37" y="463" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="RW|+.v.2h5R#%rCMP|hp" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="cXHKJO-{.,mTSNtK(X$h" x="37" y="318" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="{%f-5;Y:gY{v~w(5BX5:" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="^8vy@cP7.B.G9-uE%bLH" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">New list with elements in reverse</field>
+      <block type="text" id="H/{J9O%O3PagvBwQOpC|" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">reverse the letters in a word</field>
       </block>
     </value>
   </block>

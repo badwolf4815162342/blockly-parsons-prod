@@ -1,58 +1,58 @@
-<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="false">
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
   <variables>
-    <variable id="ySX9Jw(CQ6{AuUh-OU4g">count</variable>
     <variable id="(ez!WO2|yV?sUu5*E@qX">day</variable>
+    <variable id="ySX9Jw(CQ6{AuUh-OU4g">count</variable>
     <variable id="XH-jEjvb]V^%1YArzcr1">sum_rain</variable>
     <variable id="FDGI^nlXXe7~FLZ.nYz;">rain</variable>
     <variable id="aVJG_/-!*VjKQM}CiN2s">avg</variable>
   </variables>
-  <block type="group_title" id=":$PD8Ph_~N*HG{}hJR7s" x="63" y="37" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="aHYAFA,9QBkh4-2:hXRv" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id=":$PD8Ph_~N*HG{}hJR7s" x="63" y="42" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="aHYAFA,9QBkh4-2:hXRv" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="i//hrhZujjU)b9d1eUe-" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Counting</field>
+      <block type="text" id="i//hrhZujjU)b9d1eUe-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Counting</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="AJgbX;aw$zEQTc/A/ukW" x="512" y="37" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="TO;NKy.%l$nuL6=_}Ng$" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="AJgbX;aw$zEQTc/A/ukW" x="513" y="42" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="TO;NKy.%l$nuL6=_}Ng$" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id=",$@iI-?N7h-fY4,#WS$p" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Filter list</field>
+      <block type="text" id=",$@iI-?N7h-fY4,#WS$p" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Filter list</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="xEx!3[vY|6*/?9C!WN-r" x="512" y="262" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="wBBAk-@;xz%vdtim6kS#" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="*wD_M8~4;o!7~yKn.(w2" x="462" y="267" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="[Y*N}[uQI,=tccw|*g4(" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="V9fXk{O97.zo.Iw:E%VG" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Print result</field>
+      <block type="text" id="_a21EBpf|Gq6K!k4:-Vn" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Calculate sum</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="*wD_M8~4;o!7~yKn.(w2" x="63" y="337" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="[Y*N}[uQI,=tccw|*g4(" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="xEx!3[vY|6*/?9C!WN-r" x="62" y="317" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="wBBAk-@;xz%vdtim6kS#" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="_a21EBpf|Gq6K!k4:-Vn" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Calculate sum</field>
+      <block type="text" id="V9fXk{O97.zo.Iw:E%VG" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print result</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="-zps;Ik(~;!4bN,k$-Z[" x="488" y="588" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="false">
-    <value name="TEXT" contextMenu="false" enableContextMenu="false">
-      <shadow type="text" id="XZM,XQQ}|V7O^cu7X?wx" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">abc</field>
+  <block type="group_title" id="-zps;Ik(~;!4bN,k$-Z[" x="163" y="567" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="XZM,XQQ}|V7O^cu7X?wx" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
-      <block type="text" id="t5dJif%tq}sfe{u7DHKk" movable="false" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-        <field name="TEXT" contextMenu="false" enableContextMenu="false">Read in list</field>
+      <block type="text" id="t5dJif%tq}sfe{u7DHKk" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
       </block>
     </value>
   </block>

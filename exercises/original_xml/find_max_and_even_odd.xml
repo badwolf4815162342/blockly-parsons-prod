@@ -4,6 +4,16 @@
     <variable id="4oTv|8O2h7FpX1?{XIYq">num</variable>
     <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
   </variables>
+  <block type="text_print" id="+4VgYl=Ww0zb}r@!UbN5" x="38" y="62">
+    <value name="TEXT">
+      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="NnOblZEvmbkTZuS;e=D2">
+        <field name="TEXT">Title: Alternate odd/even</field>
+      </block>
+    </value>
+  </block>
   <block type="text_print" id="jB+?Ir.D-y+@YG0eStN8" x="488" y="63">
     <value name="TEXT">
       <shadow type="text" id="*Hc0+;:v|V[]~l+11`S/">
@@ -14,45 +24,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="g~KmltkRGLU*f.;*?9K@" x="37" y="113">
-    <value name="TEXT">
-      <shadow type="text" id="r_$@,xNqNNj`X~iQ;~0;">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="v#FWP@qPlb0|K.@u^h0K">
-        <field name="TEXT">Title: Alternate</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="q0NN;],}?ZGH]5M~DeSF" x="387" y="113">
-    <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
-    <value name="VALUE">
-      <block type="variables_get" id="JRu`N{OQx]ahqsn89Jjv">
-        <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id=";KG(2@jP1m|;;po[t(X[" x="112" y="162">
-    <value name="TEXT">
-      <shadow type="text" id=".0Lch2_iG~o!IDApV0YV">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="L`aE;28RiWnbwQMT+d3T">
-        <field name="TEXT">Number is odd.</field>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id="r_}_JE3U9#EbpyFD(f(Q" x="462" y="162">
-    <value name="TEXT">
-      <shadow type="text" id="9GvZR=/o#$Z;v]p*+jOw">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="?K!.Yxa%KP08sXEOc$2u">
-        <field name="TEXT">This is the current max.</field>
-      </block>
-    </value>
-  </block>
-  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="37" y="213">
+  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="38" y="137">
     <mutation else="1"></mutation>
     <value name="IF0">
       <block type="math_number_property" id=":eB6ZT;|l/MCI#QI}L6q">
@@ -68,35 +40,40 @@
         </value>
       </block>
     </value>
-  </block>
-  <block type="controls_if" id="ldaKJ1QN[o1U%akKu2(R" x="437" y="213">
-    <value name="IF0">
-      <block type="logic_compare" id="IUXoj;2qM;?E2]s_%aMu">
-        <field name="OP">GTE</field>
-        <value name="A">
-          <block type="variables_get" id="q?UZxWg{KfiqfUC-`4Sc">
-            <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
-          </block>
-        </value>
-        <value name="B">
-          <block type="variables_get" id="!uRYSa~4=y~qZ|t?RIv6">
-            <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
+    <statement name="DO0">
+      <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf">
+        <value name="TEXT">
+          <shadow type="text" id="0-i(=,+=DCCxr4at?w|2">
+            <field name="TEXT">Number is even</field>
+          </shadow>
+          <block type="text" id="mo@t@3t@Fn;anG,+Xk]T">
+            <field name="TEXT">Number is even.</field>
           </block>
         </value>
       </block>
-    </value>
+    </statement>
+    <statement name="ELSE">
+      <block type="text_print" id="w/w~=NuPjBZXi94woGz;">
+        <value name="TEXT">
+          <shadow type="text" id="GSS?QyXBGXWs9vi)9i{_">
+            <field name="TEXT">Number is odd.</field>
+          </shadow>
+          <block type="text" id="~d+?KvQO;;3?M5^6qk%m">
+            <field name="TEXT">Number is odd.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
   </block>
-  <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf" x="138" y="262">
-    <value name="TEXT">
-      <shadow type="text" id="0-i(=,+=DCCxr4at?w|2">
-        <field name="TEXT">Number is even</field>
-      </shadow>
-      <block type="text" id="#:#-;rZCu,Sp*~bzSVjk">
-        <field name="TEXT">Number is even.</field>
+  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="488" y="137">
+    <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
+    <value name="VALUE">
+      <block type="math_number" id="k:uhb!xNbKkG`a;={/B6">
+        <field name="NUM">0</field>
       </block>
     </value>
   </block>
-  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" x="588" y="263">
+  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" x="488" y="212">
     <value name="TIMES">
       <shadow type="math_number" id="RnAbuDu#ER[+p)!N)Stz">
         <field name="NUM">10</field>
@@ -105,54 +82,59 @@
         <field name="VAR" id="|cH300xOF|DgeP$?+ga-">x</field>
       </block>
     </value>
-  </block>
-  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="412" y="313">
-    <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
-    <value name="VALUE">
-      <block type="math_number" id="k:uhb!xNbKkG`a;={/B6">
-        <field name="NUM">0</field>
+    <statement name="DO">
+      <block type="controls_if" id="ldaKJ1QN[o1U%akKu2(R">
+        <value name="IF0">
+          <block type="logic_compare" id="IUXoj;2qM;?E2]s_%aMu">
+            <field name="OP">GTE</field>
+            <value name="A">
+              <block type="variables_get" id="q?UZxWg{KfiqfUC-`4Sc">
+                <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="variables_get" id="!uRYSa~4=y~qZ|t?RIv6">
+                <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="text_print" id="r_}_JE3U9#EbpyFD(f(Q">
+            <value name="TEXT">
+              <shadow type="text" id="9GvZR=/o#$Z;v]p*+jOw">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="text" id="?K!.Yxa%KP08sXEOc$2u">
+                <field name="TEXT">This is the current max.</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="q0NN;],}?ZGH]5M~DeSF">
+                <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
+                <value name="VALUE">
+                  <block type="variables_get" id="JRu`N{OQx]ahqsn89Jjv">
+                    <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
       </block>
-    </value>
+    </statement>
   </block>
-  <block type="text_print" id="Zvio2y)A!P)6[+`Nk9vn" x="112" y="437">
+  <block type="text_print" id="Zvio2y)A!P)6[+`Nk9vn" x="38" y="412">
     <value name="TEXT">
       <shadow type="text" id="%nh8NrCvlJ$!!|Ea+uQE">
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="^Z*vE+iAK=`pWQVe[u#1">
-        <field name="TEXT">Title: loop through list</field>
+        <field name="TEXT">Title: Loop over values until sentinel reached</field>
       </block>
     </value>
   </block>
-  <block type="controls_whileUntil" id="$*Vg|1lh;tCSq}j(f+1Z" x="63" y="487">
-    <field name="MODE">UNTIL</field>
-    <value name="BOOL">
-      <block type="logic_compare" id="DB2QAmtP4W*rzIvJD#^Y">
-        <field name="OP">LT</field>
-        <value name="A">
-          <block type="variables_get" id=".I7K2!fvnR^7[Lse[vKh">
-            <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
-          </block>
-        </value>
-        <value name="B">
-          <block type="math_number" id="avcd[QDUr}I5_s_j3[kW">
-            <field name="NUM">0</field>
-          </block>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id="gCnw)9w_dV8Tu@V2Tmf(" x="538" y="512">
-    <value name="TEXT">
-      <shadow type="text" id="k}Y):8N.)!^,=j|vGq8a">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="Ca}y`VPK(;/s{IOR`Vz3">
-        <field name="TEXT">Title: Read values</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="}=_b=GSnQGIJjwKR1]Qw" x="288" y="562">
+  <block type="variables_set" id="}=_b=GSnQGIJjwKR1]Qw" x="38" y="487">
     <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
     <value name="VALUE">
       <block type="text_prompt_ext" id="ZTQ^Cmh}3{qV6^ca5%Qi">
@@ -162,11 +144,50 @@
           <shadow type="text" id="jqM[~_L~wM,6tGgVE81T">
             <field name="TEXT">Type next number</field>
           </shadow>
-          <block type="text" id="W6J1sxWTz_fPZ|@Kq8Xw">
-            <field name="TEXT">Type next number:</field>
+          <block type="text" id="B2J`3nO1AyF;8-]-NeUC">
+            <field name="TEXT">Type first number:</field>
           </block>
         </value>
       </block>
     </value>
+    <next>
+      <block type="controls_whileUntil" id="$*Vg|1lh;tCSq}j(f+1Z">
+        <field name="MODE">UNTIL</field>
+        <value name="BOOL">
+          <block type="logic_compare" id="DB2QAmtP4W*rzIvJD#^Y">
+            <field name="OP">LT</field>
+            <value name="A">
+              <block type="variables_get" id=".I7K2!fvnR^7[Lse[vKh">
+                <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="avcd[QDUr}I5_s_j3[kW">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="la:8`u8ta-0lYbrIq?H7">
+            <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
+            <value name="VALUE">
+              <block type="text_prompt_ext" id="+i6vGY/:TXaJ`cBMk/Gr">
+                <mutation type="NUMBER"></mutation>
+                <field name="TYPE">NUMBER</field>
+                <value name="TEXT">
+                  <shadow type="text" id="bf8?P@,0qwo%hh^dw5^`">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="text" id="?h#HzNdU2(8u6mny/8qn">
+                    <field name="TEXT">Type next number:</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
   </block>
 </xml>
