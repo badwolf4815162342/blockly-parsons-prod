@@ -3,17 +3,17 @@
     <variable id="-qP@.l-6=o4ueSGWh2+h">input_num</variable>
     <variable id="*WRXg(7L]e[)*Um~GG2W">remainder</variable>
   </variables>
-  <block type="group_title" id="M7N/sy^Qjo#L-k)H5QNY" x="62" y="97" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="M7N/sy^Qjo#L-k)H5QNY" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="-*s(?u$3XWY8!UX}62L-" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">Decide wether even/odd</field>
       </shadow>
       <block type="text" id="8NOQ_t!lst{3Q-.2S$%G" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Decide whether even/odd</field>
+        <field name="TEXT" editable="false" movable="false">Title: Decide whether even/odd</field>
       </block>
     </value>
   </block>
-  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="63" y="137" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="12" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <mutation else="1" />
     <value name="IF0" editable="false" movable="false">
       <block type="logic_compare" id="+(8FtaAfmQ*aQ|1*QEM-" editable="false" movable="false">
@@ -55,7 +55,7 @@
       </block>
     </statement>
   </block>
-  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="62" y="318" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="13" y="268" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="Xj-=E?w*kV6NjL^-_pjQ" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -65,7 +65,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="62" y="363" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="13" y="312" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="-qP@.l-6=o4ueSGWh2+h" editable="false" movable="false">input_num</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="text_prompt_ext" id="o)ZF%Ox_aNX=Y;d$[PE^" editable="false" movable="false">
@@ -76,13 +76,13 @@
             <field name="TEXT" editable="false" movable="false">Type in a number.</field>
           </shadow>
           <block type="text" id="vd6B}/LcM;{lu:QFRJoW" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Type in a number:</field>
+            <field name="TEXT" editable="false" movable="false">Type a number:</field>
           </block>
         </value>
       </block>
     </value>
   </block>
-  <block type="group_title" id="sJu{UW6U;ZXg{q@oXwwF" x="63" y="468" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="sJu{UW6U;ZXg{q@oXwwF" x="13" y="417" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="*7b)XeEG$]-P1y~^0NH)" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -92,7 +92,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="b].-Ljv%,9D{wOmJUjX$" x="62" y="513" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="variables_set" id="b].-Ljv%,9D{wOmJUjX$" x="13" y="462" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W" editable="false" movable="false">remainder</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="math_modulo" id="fyklFiFOb38UB%d=NMd}" editable="false" movable="false">

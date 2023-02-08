@@ -3,17 +3,17 @@
     <variable id="-qP@.l-6=o4ueSGWh2+h">input_num</variable>
     <variable id="*WRXg(7L]e[)*Um~GG2W">remainder</variable>
   </variables>
-  <block type="group_title" id="M7N/sy^Qjo#L-k)H5QNY" x="62" y="97" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="M7N/sy^Qjo#L-k)H5QNY" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="-*s(?u$3XWY8!UX}62L-" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">Decide wether even/odd</field>
       </shadow>
       <block type="text" id="8NOQ_t!lst{3Q-.2S$%G" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Decide whether even/odd</field>
+        <field name="TEXT" editable="false" movable="false">Title: Decide whether even/odd</field>
       </block>
     </value>
   </block>
-  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="62" y="318" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="13" y="268" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="Xj-=E?w*kV6NjL^-_pjQ" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -23,7 +23,7 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id="sJu{UW6U;ZXg{q@oXwwF" x="63" y="468" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="sJu{UW6U;ZXg{q@oXwwF" x="13" y="417" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="*7b)XeEG$]-P1y~^0NH)" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>

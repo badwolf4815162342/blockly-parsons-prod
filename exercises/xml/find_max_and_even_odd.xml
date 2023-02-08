@@ -4,17 +4,7 @@
     <variable id="4oTv|8O2h7FpX1?{XIYq">num</variable>
     <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
   </variables>
-  <block type="group_title" id="+4VgYl=Ww0zb}r@!UbN5" x="38" y="92" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id="NnOblZEvmbkTZuS;e=D2" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Alternate odd/even</field>
-      </block>
-    </value>
-  </block>
-  <block type="group_title" id="jB+?Ir.D-y+@YG0eStN8" x="488" y="93" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="jB+?Ir.D-y+@YG0eStN8" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="*Hc0+;:v|V[]~l+11-S/" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -24,48 +14,7 @@
       </block>
     </value>
   </block>
-  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="38" y="137" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <mutation else="1" />
-    <value name="IF0" editable="false" movable="false">
-      <block type="math_number_property" id=":eB6ZT;|l/MCI#QI}L6q" editable="false" movable="false">
-        <mutation divisor_input="false" />
-        <field name="PROPERTY" editable="false" movable="false">EVEN</field>
-        <value name="NUMBER_TO_CHECK" editable="false" movable="false">
-          <shadow type="math_number" id="a@v~A=2KdXrb8ojhFCU~" editable="false" movable="false">
-            <field name="NUM" editable="false" movable="false">0</field>
-          </shadow>
-          <block type="variables_get" id="ccon(S@2sn=mh^$W-pfH" editable="false" movable="false">
-            <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq" editable="false" movable="false">num</field>
-          </block>
-        </value>
-      </block>
-    </value>
-    <statement name="DO0" editable="true" movable="true">
-      <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf" editable="true" movable="true">
-        <value name="TEXT" editable="false" movable="false">
-          <shadow type="text" id="0-i(=,+=DCCxr4at?w|2" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Number is even</field>
-          </shadow>
-          <block type="text" id="mo@t@3t@Fn;anG,+Xk]T" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Number is even.</field>
-          </block>
-        </value>
-      </block>
-    </statement>
-    <statement name="ELSE" editable="true" movable="true">
-      <block type="text_print" id="w/w~=NuPjBZXi94woGz;" editable="true" movable="true">
-        <value name="TEXT" editable="false" movable="false">
-          <shadow type="text" id="GSS?QyXBGXWs9vi)9i{_" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Number is odd.</field>
-          </shadow>
-          <block type="text" id="~d+?KvQO;;3?M5^6qk%m" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Number is odd.</field>
-          </block>
-        </value>
-      </block>
-    </statement>
-  </block>
-  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="488" y="137" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="13" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp" editable="false" movable="false">max</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="math_number" id="k:uhb!xNbKkG-a;={/B6" editable="false" movable="false">
@@ -73,7 +22,7 @@
       </block>
     </value>
   </block>
-  <block type="disabled_loop" id="#IEY3n=SN.NWjsIEeVac" disabled="false" x="488" y="212" editable="true" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="disabled_loop" id="#IEY3n=SN.NWjsIEeVac" disabled="false" x="12" y="137" editable="true" deletable="false" contextMenu="false" enableContextMenu="false">
     <statement name="DO" editable="true" movable="true">
       <block type="controls_if" id="ldaKJ1QN[o1U%akKu2(R" disabled="false" editable="true" movable="true">
         <value name="IF0">
@@ -116,7 +65,58 @@
       </block>
     </statement>
   </block>
-  <block type="group_title" id="Zvio2y)A!P)6[+-Nk9vn" x="38" y="442" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="+4VgYl=Ww0zb}r@!UbN5" x="12" y="368" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="NnOblZEvmbkTZuS;e=D2" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Alternate odd/even</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="12" y="412" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <mutation else="1" />
+    <value name="IF0" editable="false" movable="false">
+      <block type="math_number_property" id=":eB6ZT;|l/MCI#QI}L6q" editable="false" movable="false">
+        <mutation divisor_input="false" />
+        <field name="PROPERTY" editable="false" movable="false">EVEN</field>
+        <value name="NUMBER_TO_CHECK" editable="false" movable="false">
+          <shadow type="math_number" id="a@v~A=2KdXrb8ojhFCU~" editable="false" movable="false">
+            <field name="NUM" editable="false" movable="false">0</field>
+          </shadow>
+          <block type="variables_get" id="ccon(S@2sn=mh^$W-pfH" editable="false" movable="false">
+            <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq" editable="false" movable="false">num</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0" editable="true" movable="true">
+      <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf" editable="true" movable="true">
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="0-i(=,+=DCCxr4at?w|2" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Number is even</field>
+          </shadow>
+          <block type="text" id="mo@t@3t@Fn;anG,+Xk]T" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Number is even.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="ELSE" editable="true" movable="true">
+      <block type="text_print" id="w/w~=NuPjBZXi94woGz;" editable="true" movable="true">
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="GSS?QyXBGXWs9vi)9i{_" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Number is odd.</field>
+          </shadow>
+          <block type="text" id="~d+?KvQO;;3?M5^6qk%m" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Number is odd.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="group_title" id="Zvio2y)A!P)6[+-Nk9vn" x="13" y="618" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="%nh8NrCvlJ$!!|Ea+uQE" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -126,7 +126,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="}=_b=GSnQGIJjwKR1]Qw" x="38" y="487" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="variables_set" id="}=_b=GSnQGIJjwKR1]Qw" x="12" y="663" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq" editable="false" movable="false">num</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="text_prompt_ext" id="ZTQ^Cmh}3{qV6^ca5%Qi" editable="false" movable="false">

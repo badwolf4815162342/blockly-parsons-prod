@@ -4,7 +4,7 @@
     <variable id=")bV+!=IhE7(VZ:?LwOQm">num_to_guess</variable>
     <variable id="hw=bdEu-as$UkcyU$o:.">counter</variable>
   </variables>
-  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="38" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="13" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="=utDZ|C?z3E%neK9oR56" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -14,17 +14,7 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="362" y="217" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id="tBz}If~s[UW{!1U:(m8M" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Is the guess correct?</field>
-      </block>
-    </value>
-  </block>
-  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="38" y="267" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="13" y="243" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="miWq~KHwvy}d1K8VQe,-" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -34,7 +24,7 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="38" y="418" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="12" y="392" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="Pne0)if%N+@j{w5{b%BY" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -44,13 +34,23 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="462" y="472" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="12" y="617" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="tBz}If~s[UW{!1U:(m8M" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Is the guess correct?</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="13" y="843" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">Too high/low?</field>
       </shadow>
       <block type="text" id="2luk$1:@FEW:S_2.yML-" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Too high/low?</field>
+        <field name="TEXT" editable="false" movable="false">Title: Too high/low?</field>
       </block>
     </value>
   </block>

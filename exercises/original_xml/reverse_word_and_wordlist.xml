@@ -1,12 +1,12 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
     <variable id="/H0zamS`3CFEiqhRxwqr">words</variable>
-    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
     <variable id="H|faJeHkeC=j(3_6^s8k">new_word</variable>
-    <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
+    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
     <variable id=")B5|ts8+:qg}H!QNdPS#">letter</variable>
+    <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
   </variables>
-  <block type="text_print" id="wkWP8Td7$H4Jj$,%:9;J" x="37" y="13">
+  <block type="text_print" id="wkWP8Td7$H4Jj$,%:9;J" x="13" y="-12">
     <value name="TEXT">
       <shadow type="text" id="f#}v^f(GX4xWPkx/|V;D">
         <field name="TEXT">abc</field>
@@ -16,17 +16,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="R2S`a8|k`PGO:V%@Y=,_" x="488" y="12">
-    <value name="TEXT">
-      <shadow type="text" id="RW|+.v.2h5R#%rCMP|hp">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="^8vy@cP7.B.G9`uE%bLH">
-        <field name="TEXT">Title: New list with elements in reverse</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="N6U95E}V^M`D$iB@UJZj" x="38" y="88">
+  <block type="variables_set" id="N6U95E}V^M`D$iB@UJZj" x="13" y="63">
     <field name="VAR" id="/H0zamS`3CFEiqhRxwqr">words</field>
     <value name="VALUE">
       <block type="lists_create_with" id="#^F7%z3BZZ=(t@/@4fDU">
@@ -64,7 +54,68 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="KbNoaA_i^1H2`riU=f^0" x="488" y="87">
+  <block type="text_print" id="cXHKJO-{.,mTSNtK(X$h" x="13" y="262">
+    <value name="TEXT">
+      <shadow type="text" id="{%f`5;Y:gY{v~w(5BX5:">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="H/{J9O%O3PagvBwQOpC|">
+        <field name="TEXT">Title: reverse the letters in a word</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id=".mbPW@r^BB:cg}Sy-D{V" x="12" y="337">
+    <field name="VAR" id="H|faJeHkeC=j(3_6^s8k">new_word</field>
+    <value name="VALUE">
+      <block type="text" id="5VkNz{VXH97m[vE(*7,4">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="vP7e|Q3OuxOtq?o6tTY+">
+        <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#">letter</field>
+        <value name="LIST">
+          <block type="variables_get" id="0s%R7;poyQNmoI#;+ab-">
+            <field name="VAR" id=",,M%_MG6[oi^RPyD@/4$">word</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="text_append" id="p^y4?%g5#0prGv+dV[%g">
+            <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#">letter</field>
+            <value name="TEXT">
+              <shadow type="text" id="m}TY`jt24Z7q(,M!**j}">
+                <field name="TEXT"></field>
+              </shadow>
+              <block type="variables_get" id="t!uQ`xypZ)0H_0dma6Es">
+                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k">new_word</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="WG4$t:rP$ADw0VsGN=kB">
+                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k">new_word</field>
+                <value name="VALUE">
+                  <block type="variables_get" id="KMQ([Tb]?d1xG~io[okv">
+                    <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#">letter</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id="R2S`a8|k`PGO:V%@Y=,_" x="13" y="512">
+    <value name="TEXT">
+      <shadow type="text" id="RW|+.v.2h5R#%rCMP|hp">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="^8vy@cP7.B.G9`uE%bLH">
+        <field name="TEXT">Title: New list with elements in reverse</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="KbNoaA_i^1H2`riU=f^0" x="13" y="587">
     <field name="VAR" id="o*Q}|h3u5}krYFceD*S#">new_words</field>
     <value name="VALUE">
       <block type="text" id="3F~o(a#,K2B6LBYwOj$g">
@@ -117,57 +168,6 @@
             </value>
           </block>
         </next>
-      </block>
-    </next>
-  </block>
-  <block type="text_print" id="cXHKJO-{.,mTSNtK(X$h" x="37" y="288">
-    <value name="TEXT">
-      <shadow type="text" id="{%f`5;Y:gY{v~w(5BX5:">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="H/{J9O%O3PagvBwQOpC|">
-        <field name="TEXT">Title: reverse the letters in a word</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id=".mbPW@r^BB:cg}Sy-D{V" x="37" y="362">
-    <field name="VAR" id="H|faJeHkeC=j(3_6^s8k">new_word</field>
-    <value name="VALUE">
-      <block type="text" id="5VkNz{VXH97m[vE(*7,4">
-        <field name="TEXT"></field>
-      </block>
-    </value>
-    <next>
-      <block type="controls_forEach" id="vP7e|Q3OuxOtq?o6tTY+">
-        <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#">letter</field>
-        <value name="LIST">
-          <block type="variables_get" id="0s%R7;poyQNmoI#;+ab-">
-            <field name="VAR" id=",,M%_MG6[oi^RPyD@/4$">word</field>
-          </block>
-        </value>
-        <statement name="DO">
-          <block type="text_append" id="p^y4?%g5#0prGv+dV[%g">
-            <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#">letter</field>
-            <value name="TEXT">
-              <shadow type="text" id="m}TY`jt24Z7q(,M!**j}">
-                <field name="TEXT"></field>
-              </shadow>
-              <block type="variables_get" id="t!uQ`xypZ)0H_0dma6Es">
-                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k">new_word</field>
-              </block>
-            </value>
-            <next>
-              <block type="variables_set" id="WG4$t:rP$ADw0VsGN=kB">
-                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k">new_word</field>
-                <value name="VALUE">
-                  <block type="variables_get" id="KMQ([Tb]?d1xG~io[okv">
-                    <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#">letter</field>
-                  </block>
-                </value>
-              </block>
-            </next>
-          </block>
-        </statement>
       </block>
     </next>
   </block>

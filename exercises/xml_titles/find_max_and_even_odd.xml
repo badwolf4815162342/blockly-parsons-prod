@@ -4,17 +4,7 @@
     <variable id="4oTv|8O2h7FpX1?{XIYq">num</variable>
     <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
   </variables>
-  <block type="group_title" id="+4VgYl=Ww0zb}r@!UbN5" x="38" y="92" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id="NnOblZEvmbkTZuS;e=D2" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Alternate odd/even</field>
-      </block>
-    </value>
-  </block>
-  <block type="group_title" id="jB+?Ir.D-y+@YG0eStN8" x="488" y="93" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="jB+?Ir.D-y+@YG0eStN8" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="*Hc0+;:v|V[]~l+11-S/" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -24,7 +14,17 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id="Zvio2y)A!P)6[+-Nk9vn" x="38" y="442" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+  <block type="group_title" id="+4VgYl=Ww0zb}r@!UbN5" x="12" y="368" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="NnOblZEvmbkTZuS;e=D2" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Alternate odd/even</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="Zvio2y)A!P)6[+-Nk9vn" x="13" y="618" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="%nh8NrCvlJ$!!|Ea+uQE" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>

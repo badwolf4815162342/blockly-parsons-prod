@@ -59,11 +59,15 @@ for filename in dir_list:
             for child in toplevelelement.findall('.//{https://developers.google.com/blockly/xml}field'):
                 if child.text != None:
                     # Headline or Grouptitle comments as new block called group_title
-                    if 'Title: ' in child.text:
+                    if 'Title: ' in child.text and (toplevelelement.get('type')!='group_title'):
                         child.text = child.text.replace('Title: ','')
                         toplevelelement.set('type','group_title')
                         y = int(toplevelelement.get('y'))
-                        toplevelelement.set('y',str(y+30))
+                        # print('Headline'+child.text)
+                        # print(y)
+                        y = y + 30
+                        toplevelelement.set('y',str(y))
+                        # print('new y: '+str(y))
                         # Make Headline or Grouptitle comments movable
                         # toplevelelement.set('movable','false')
                         makeChildrenUneditable(toplevelelement)

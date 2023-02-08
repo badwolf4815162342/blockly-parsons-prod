@@ -3,7 +3,7 @@
     <variable id="`qP@.l`6=o4ueSGWh2+h">input_num</variable>
     <variable id="*WRXg(7L]e[)*Um~GG2W">remainder</variable>
   </variables>
-  <block type="text_print" id="M7N/sy^Qjo#L`k)H5QNY" x="62" y="37">
+  <block type="text_print" id="M7N/sy^Qjo#L`k)H5QNY" x="12" y="-12">
     <value name="TEXT">
       <shadow type="text" id="-*s(?u$3XWY8!UX}62L`">
         <field name="TEXT">Title: Decide wether even/odd</field>
@@ -13,7 +13,7 @@
       </block>
     </value>
   </block>
-  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="63" y="137">
+  <block type="controls_if" id="@9{7$OX,Rx?^EtjGZdzJ" x="12" y="63">
     <mutation else="1"></mutation>
     <value name="IF0">
       <block type="logic_compare" id="+(8FtaAfmQ*aQ|1*QEM`">
@@ -55,7 +55,7 @@
       </block>
     </statement>
   </block>
-  <block type="text_print" id="|-^i8a_PX#fT0Jw!tD:/" x="62" y="288">
+  <block type="text_print" id="|-^i8a_PX#fT0Jw!tD:/" x="13" y="238">
     <value name="TEXT">
       <shadow type="text" id="Xj`=E?w*kV6NjL^-_pjQ">
         <field name="TEXT">abc</field>
@@ -65,7 +65,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="62" y="363">
+  <block type="variables_set" id="_B2@@)l4@^[W{Lwa]33}" x="13" y="312">
     <field name="VAR" id="`qP@.l`6=o4ueSGWh2+h">input_num</field>
     <value name="VALUE">
       <block type="text_prompt_ext" id="o)ZF%Ox_aNX=Y;d$[PE^">
@@ -76,13 +76,13 @@
             <field name="TEXT">Type in a number.</field>
           </shadow>
           <block type="text" id="vd6B}/LcM;{lu:QFRJoW">
-            <field name="TEXT">Type in a number:</field>
+            <field name="TEXT">Type a number:</field>
           </block>
         </value>
       </block>
     </value>
   </block>
-  <block type="text_print" id="sJu{UW6U;ZXg{q@oXwwF" x="63" y="438">
+  <block type="text_print" id="sJu{UW6U;ZXg{q@oXwwF" x="13" y="387">
     <value name="TEXT">
       <shadow type="text" id="*7b)XeEG$]-P1y~^0NH)">
         <field name="TEXT">abc</field>
@@ -92,7 +92,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="b].`Ljv%,9D{wOmJUjX$" x="62" y="513">
+  <block type="variables_set" id="b].`Ljv%,9D{wOmJUjX$" x="13" y="462">
     <field name="VAR" id="*WRXg(7L]e[)*Um~GG2W">remainder</field>
     <value name="VALUE">
       <block type="math_modulo" id="fyklFiFOb38UB%d=NMd}">

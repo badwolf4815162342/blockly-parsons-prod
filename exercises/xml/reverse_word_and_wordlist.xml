@@ -1,12 +1,12 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
     <variable id="/H0zamS-3CFEiqhRxwqr">words</variable>
-    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
     <variable id="H|faJeHkeC=j(3_6^s8k">new_word</variable>
-    <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
+    <variable id="o*Q}|h3u5}krYFceD*S#">new_words</variable>
     <variable id=")B5|ts8+:qg}H!QNdPS#">letter</variable>
+    <variable id=",,M%_MG6[oi^RPyD@/4$">word</variable>
   </variables>
-  <block type="group_title" id="wkWP8Td7$H4Jj$,%:9;J" x="37" y="43" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="wkWP8Td7$H4Jj$,%:9;J" x="13" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="f#}v^f(GX4xWPkx/|V;D" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -16,17 +16,7 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id="R2S-a8|k-PGO:V%@Y=,_" x="488" y="42" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id="RW|+.v.2h5R#%rCMP|hp" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id="^8vy@cP7.B.G9-uE%bLH" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">New list with elements in reverse</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="N6U95E}V^M-D$iB@UJZj" x="38" y="88" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="variables_set" id="N6U95E}V^M-D$iB@UJZj" x="13" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="/H0zamS-3CFEiqhRxwqr" editable="false" movable="false">words</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="lists_create_with" id="#^F7%z3BZZ=(t@/@4fDU" editable="false" movable="false">
@@ -64,7 +54,68 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="KbNoaA_i^1H2-riU=f^0" x="488" y="87" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="cXHKJO-{.,mTSNtK(X$h" x="13" y="292" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="{%f-5;Y:gY{v~w(5BX5:" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="H/{J9O%O3PagvBwQOpC|" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">reverse the letters in a word</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id=".mbPW@r^BB:cg}Sy-D{V" x="12" y="337" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="H|faJeHkeC=j(3_6^s8k" editable="false" movable="false">new_word</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text" id="5VkNz{VXH97m[vE(*7,4" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false" />
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="controls_forEach" id="vP7e|Q3OuxOtq?o6tTY+" editable="true" movable="true">
+        <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#" editable="false" movable="false">letter</field>
+        <value name="LIST" editable="false" movable="false">
+          <block type="variables_get" id="0s%R7;poyQNmoI#;+ab-" editable="false" movable="false">
+            <field name="VAR" id=",,M%_MG6[oi^RPyD@/4$" editable="false" movable="false">word</field>
+          </block>
+        </value>
+        <statement name="DO" editable="true" movable="true">
+          <block type="text_append" id="p^y4?%g5#0prGv+dV[%g" editable="true" movable="true">
+            <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#" editable="false" movable="false">letter</field>
+            <value name="TEXT" editable="false" movable="false">
+              <shadow type="text" id="m}TY-jt24Z7q(,M!**j}" editable="false" movable="false">
+                <field name="TEXT" editable="false" movable="false" />
+              </shadow>
+              <block type="variables_get" id="t!uQ-xypZ)0H_0dma6Es" editable="false" movable="false">
+                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k" editable="false" movable="false">new_word</field>
+              </block>
+            </value>
+            <next editable="true" movable="true">
+              <block type="variables_set" id="WG4$t:rP$ADw0VsGN=kB" editable="true" movable="true">
+                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k" editable="false" movable="false">new_word</field>
+                <value name="VALUE" editable="false" movable="false">
+                  <block type="variables_get" id="KMQ([Tb]?d1xG~io[okv" editable="false" movable="false">
+                    <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#" editable="false" movable="false">letter</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="group_title" id="R2S-a8|k-PGO:V%@Y=,_" x="13" y="542" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="RW|+.v.2h5R#%rCMP|hp" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="^8vy@cP7.B.G9-uE%bLH" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">New list with elements in reverse</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="KbNoaA_i^1H2-riU=f^0" x="13" y="587" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="o*Q}|h3u5}krYFceD*S#" editable="false" movable="false">new_words</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="text" id="3F~o(a#,K2B6LBYwOj$g" editable="false" movable="false">
@@ -117,57 +168,6 @@
             </value>
           </block>
         </next>
-      </block>
-    </next>
-  </block>
-  <block type="group_title" id="cXHKJO-{.,mTSNtK(X$h" x="37" y="318" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id="{%f-5;Y:gY{v~w(5BX5:" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id="H/{J9O%O3PagvBwQOpC|" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">reverse the letters in a word</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id=".mbPW@r^BB:cg}Sy-D{V" x="37" y="362" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <field name="VAR" id="H|faJeHkeC=j(3_6^s8k" editable="false" movable="false">new_word</field>
-    <value name="VALUE" editable="false" movable="false">
-      <block type="text" id="5VkNz{VXH97m[vE(*7,4" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false" />
-      </block>
-    </value>
-    <next editable="true" movable="true">
-      <block type="controls_forEach" id="vP7e|Q3OuxOtq?o6tTY+" editable="true" movable="true">
-        <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#" editable="false" movable="false">letter</field>
-        <value name="LIST" editable="false" movable="false">
-          <block type="variables_get" id="0s%R7;poyQNmoI#;+ab-" editable="false" movable="false">
-            <field name="VAR" id=",,M%_MG6[oi^RPyD@/4$" editable="false" movable="false">word</field>
-          </block>
-        </value>
-        <statement name="DO" editable="true" movable="true">
-          <block type="text_append" id="p^y4?%g5#0prGv+dV[%g" editable="true" movable="true">
-            <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#" editable="false" movable="false">letter</field>
-            <value name="TEXT" editable="false" movable="false">
-              <shadow type="text" id="m}TY-jt24Z7q(,M!**j}" editable="false" movable="false">
-                <field name="TEXT" editable="false" movable="false" />
-              </shadow>
-              <block type="variables_get" id="t!uQ-xypZ)0H_0dma6Es" editable="false" movable="false">
-                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k" editable="false" movable="false">new_word</field>
-              </block>
-            </value>
-            <next editable="true" movable="true">
-              <block type="variables_set" id="WG4$t:rP$ADw0VsGN=kB" editable="true" movable="true">
-                <field name="VAR" id="H|faJeHkeC=j(3_6^s8k" editable="false" movable="false">new_word</field>
-                <value name="VALUE" editable="false" movable="false">
-                  <block type="variables_get" id="KMQ([Tb]?d1xG~io[okv" editable="false" movable="false">
-                    <field name="VAR" id=")B5|ts8+:qg}H!QNdPS#" editable="false" movable="false">letter</field>
-                  </block>
-                </value>
-              </block>
-            </next>
-          </block>
-        </statement>
       </block>
     </next>
   </block>

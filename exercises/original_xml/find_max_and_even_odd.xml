@@ -4,17 +4,7 @@
     <variable id="4oTv|8O2h7FpX1?{XIYq">num</variable>
     <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
   </variables>
-  <block type="text_print" id="+4VgYl=Ww0zb}r@!UbN5" x="38" y="62">
-    <value name="TEXT">
-      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x">
-        <field name="TEXT">abc</field>
-      </shadow>
-      <block type="text" id="NnOblZEvmbkTZuS;e=D2">
-        <field name="TEXT">Title: Alternate odd/even</field>
-      </block>
-    </value>
-  </block>
-  <block type="text_print" id="jB+?Ir.D-y+@YG0eStN8" x="488" y="63">
+  <block type="text_print" id="jB+?Ir.D-y+@YG0eStN8" x="12" y="-12">
     <value name="TEXT">
       <shadow type="text" id="*Hc0+;:v|V[]~l+11`S/">
         <field name="TEXT">abc</field>
@@ -24,48 +14,7 @@
       </block>
     </value>
   </block>
-  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="38" y="137">
-    <mutation else="1"></mutation>
-    <value name="IF0">
-      <block type="math_number_property" id=":eB6ZT;|l/MCI#QI}L6q">
-        <mutation divisor_input="false"></mutation>
-        <field name="PROPERTY">EVEN</field>
-        <value name="NUMBER_TO_CHECK">
-          <shadow type="math_number" id="a@v~A=2KdXrb8ojhFCU~">
-            <field name="NUM">0</field>
-          </shadow>
-          <block type="variables_get" id="ccon(S@2sn=mh^$W-pfH">
-            <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
-          </block>
-        </value>
-      </block>
-    </value>
-    <statement name="DO0">
-      <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf">
-        <value name="TEXT">
-          <shadow type="text" id="0-i(=,+=DCCxr4at?w|2">
-            <field name="TEXT">Number is even</field>
-          </shadow>
-          <block type="text" id="mo@t@3t@Fn;anG,+Xk]T">
-            <field name="TEXT">Number is even.</field>
-          </block>
-        </value>
-      </block>
-    </statement>
-    <statement name="ELSE">
-      <block type="text_print" id="w/w~=NuPjBZXi94woGz;">
-        <value name="TEXT">
-          <shadow type="text" id="GSS?QyXBGXWs9vi)9i{_">
-            <field name="TEXT">Number is odd.</field>
-          </shadow>
-          <block type="text" id="~d+?KvQO;;3?M5^6qk%m">
-            <field name="TEXT">Number is odd.</field>
-          </block>
-        </value>
-      </block>
-    </statement>
-  </block>
-  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="488" y="137">
+  <block type="variables_set" id="n%2M{t4RiO?(wjs14-N{" x="13" y="63">
     <field name="VAR" id="{.n;O~gc/tvR;8@4T-vp">max</field>
     <value name="VALUE">
       <block type="math_number" id="k:uhb!xNbKkG`a;={/B6">
@@ -73,7 +22,7 @@
       </block>
     </value>
   </block>
-  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" x="488" y="212">
+  <block type="controls_repeat_ext" id="#IEY3n=SN.NWjsIEeVac" disabled="true" x="12" y="137">
     <value name="TIMES">
       <shadow type="math_number" id="RnAbuDu#ER[+p)!N)Stz">
         <field name="NUM">10</field>
@@ -124,7 +73,58 @@
       </block>
     </statement>
   </block>
-  <block type="text_print" id="Zvio2y)A!P)6[+`Nk9vn" x="38" y="412">
+  <block type="text_print" id="+4VgYl=Ww0zb}r@!UbN5" x="12" y="338">
+    <value name="TEXT">
+      <shadow type="text" id="nO@8ox~8(!1fE:syKQ5x">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="NnOblZEvmbkTZuS;e=D2">
+        <field name="TEXT">Title: Alternate odd/even</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="j1K6oz{G1O3VCN%IlP-e" x="12" y="412">
+    <mutation else="1"></mutation>
+    <value name="IF0">
+      <block type="math_number_property" id=":eB6ZT;|l/MCI#QI}L6q">
+        <mutation divisor_input="false"></mutation>
+        <field name="PROPERTY">EVEN</field>
+        <value name="NUMBER_TO_CHECK">
+          <shadow type="math_number" id="a@v~A=2KdXrb8ojhFCU~">
+            <field name="NUM">0</field>
+          </shadow>
+          <block type="variables_get" id="ccon(S@2sn=mh^$W-pfH">
+            <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="text_print" id="J@2Vr(qXcNYkz^6Wk~xf">
+        <value name="TEXT">
+          <shadow type="text" id="0-i(=,+=DCCxr4at?w|2">
+            <field name="TEXT">Number is even</field>
+          </shadow>
+          <block type="text" id="mo@t@3t@Fn;anG,+Xk]T">
+            <field name="TEXT">Number is even.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="ELSE">
+      <block type="text_print" id="w/w~=NuPjBZXi94woGz;">
+        <value name="TEXT">
+          <shadow type="text" id="GSS?QyXBGXWs9vi)9i{_">
+            <field name="TEXT">Number is odd.</field>
+          </shadow>
+          <block type="text" id="~d+?KvQO;;3?M5^6qk%m">
+            <field name="TEXT">Number is odd.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="text_print" id="Zvio2y)A!P)6[+`Nk9vn" x="13" y="588">
     <value name="TEXT">
       <shadow type="text" id="%nh8NrCvlJ$!!|Ea+uQE">
         <field name="TEXT">abc</field>
@@ -134,7 +134,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="}=_b=GSnQGIJjwKR1]Qw" x="38" y="487">
+  <block type="variables_set" id="}=_b=GSnQGIJjwKR1]Qw" x="12" y="663">
     <field name="VAR" id="4oTv|8O2h7FpX1?{XIYq">num</field>
     <value name="VALUE">
       <block type="text_prompt_ext" id="ZTQ^Cmh}3{qV6^ca5%Qi">

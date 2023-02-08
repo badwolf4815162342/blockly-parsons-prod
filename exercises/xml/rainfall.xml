@@ -1,12 +1,12 @@
 <xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
-    <variable id="(ez!WO2|yV?sUu5*E@qX">day</variable>
     <variable id="ySX9Jw(CQ6{AuUh-OU4g">count</variable>
-    <variable id="XH-jEjvb]V^%1YArzcr1">sum_rain</variable>
+    <variable id="(ez!WO2|yV?sUu5*E@qX">day</variable>
     <variable id="FDGI^nlXXe7~FLZ.nYz;">rain</variable>
+    <variable id="XH-jEjvb]V^%1YArzcr1">sum_rain</variable>
     <variable id="aVJG_/-!*VjKQM}CiN2s">avg</variable>
   </variables>
-  <block type="group_title" id=":$PD8Ph_~N*HG{}hJR7s" x="63" y="42" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id=":$PD8Ph_~N*HG{}hJR7s" x="12" y="17" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="aHYAFA,9QBkh4-2:hXRv" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -16,87 +16,48 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id="AJgbX;aw$zEQTc/A/ukW" x="513" y="42" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id="TO;NKy.%l$nuL6=_}Ng$" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id=",$@iI-?N7h-fY4,#WS$p" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Filter list</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="bDaC,bOg*Cg5PM[#gSZ3" x="62" y="88" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="variables_set" id="bDaC,bOg*Cg5PM[#gSZ3" x="12" y="62" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="ySX9Jw(CQ6{AuUh-OU4g" editable="false" movable="false">count</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="math_number" id="Iji3C9A%{L+];@%WMX]i" editable="false" movable="false">
         <field name="NUM" editable="false" movable="false">0</field>
       </block>
     </value>
-  </block>
-  <block type="disabled_loop" id="30H$J9iI~w|eQ4Mk#$+5" disabled="false" x="512" y="87" editable="true" deletable="false" contextMenu="false" enableContextMenu="false">
-    <statement name="DO" editable="true" movable="true">
-      <block type="controls_if" id="@c8hUGxXnf:|d;RC4iWU" disabled="false" editable="true" movable="true">
-        <value name="IF0">
-          <block type="logic_compare" id="LAm#oMH_-%YR*1Y2js{$" editable="false" movable="false">
-            <field name="OP" editable="false" movable="false">GT</field>
-            <value name="A" editable="false" movable="false">
-              <block type="variables_get" id="[Q{9F-+_ik/L/)(b[7^9" editable="false" movable="false">
-                <field name="VAR" id="(ez!WO2|yV?sUu5*E@qX" editable="false" movable="false">day</field>
-              </block>
-            </value>
-            <value name="B" editable="false" movable="false">
-              <block type="math_number" id="G@!(kbP/]5{TxO-X#O~P" editable="false" movable="false">
-                <field name="NUM" editable="false" movable="false">0</field>
+    <next editable="true" movable="true">
+      <block type="controls_forEach" id="|Cvft_2]@I?vKunTET|s" editable="true" movable="true">
+        <field name="VAR" id="(ez!WO2|yV?sUu5*E@qX" editable="false" movable="false">day</field>
+        <value name="LIST" editable="false" movable="false">
+          <block type="variables_get" id="NQ_Jp^Bon:*@i7@60f^+" editable="false" movable="false">
+            <field name="VAR" id="FDGI^nlXXe7~FLZ.nYz;" editable="false" movable="false">rain</field>
+          </block>
+        </value>
+        <statement name="DO" editable="true" movable="true">
+          <block type="variables_set" id="Io=)o[WwfI/p1uKwvQ.t" editable="true" movable="true">
+            <field name="VAR" id="ySX9Jw(CQ6{AuUh-OU4g" editable="false" movable="false">count</field>
+            <value name="VALUE" editable="false" movable="false">
+              <block type="math_arithmetic" id="R8G@|(,@IxOhwt#ZobUO" editable="false" movable="false">
+                <field name="OP" editable="false" movable="false">ADD</field>
+                <value name="A" editable="false" movable="false">
+                  <shadow type="math_number" id=":DdohQL-MK#OW6dqb6_{" editable="false" movable="false">
+                    <field name="NUM" editable="false" movable="false">1</field>
+                  </shadow>
+                  <block type="variables_get" id="d9v@spRQ9{V!z[T)0Qt7" editable="false" movable="false">
+                    <field name="VAR" id="ySX9Jw(CQ6{AuUh-OU4g" editable="false" movable="false">count</field>
+                  </block>
+                </value>
+                <value name="B" editable="false" movable="false">
+                  <shadow type="math_number" id="#~9=.x+.,zZic_il%1-0" editable="false" movable="false">
+                    <field name="NUM" editable="false" movable="false">1</field>
+                  </shadow>
+                </value>
               </block>
             </value>
           </block>
-        </value>
+        </statement>
       </block>
-    </statement>
+    </next>
   </block>
-  <block type="controls_forEach" id="|Cvft_2]@I?vKunTET|s" x="62" y="162" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <field name="VAR" id="(ez!WO2|yV?sUu5*E@qX" editable="false" movable="false">day</field>
-    <value name="LIST" editable="false" movable="false">
-      <block type="variables_get" id="NQ_Jp^Bon:*@i7@60f^+" editable="false" movable="false">
-        <field name="VAR" id="FDGI^nlXXe7~FLZ.nYz;" editable="false" movable="false">rain</field>
-      </block>
-    </value>
-    <statement name="DO" editable="true" movable="true">
-      <block type="variables_set" id="Io=)o[WwfI/p1uKwvQ.t" editable="true" movable="true">
-        <field name="VAR" id="ySX9Jw(CQ6{AuUh-OU4g" editable="false" movable="false">count</field>
-        <value name="VALUE" editable="false" movable="false">
-          <block type="math_arithmetic" id="R8G@|(,@IxOhwt#ZobUO" editable="false" movable="false">
-            <field name="OP" editable="false" movable="false">ADD</field>
-            <value name="A" editable="false" movable="false">
-              <shadow type="math_number" id=":DdohQL-MK#OW6dqb6_{" editable="false" movable="false">
-                <field name="NUM" editable="false" movable="false">1</field>
-              </shadow>
-              <block type="variables_get" id="d9v@spRQ9{V!z[T)0Qt7" editable="false" movable="false">
-                <field name="VAR" id="ySX9Jw(CQ6{AuUh-OU4g" editable="false" movable="false">count</field>
-              </block>
-            </value>
-            <value name="B" editable="false" movable="false">
-              <shadow type="math_number" id="#~9=.x+.,zZic_il%1-0" editable="false" movable="false">
-                <field name="NUM" editable="false" movable="false">1</field>
-              </shadow>
-            </value>
-          </block>
-        </value>
-      </block>
-    </statement>
-  </block>
-  <block type="group_title" id="*wD_M8~4;o!7~yKn.(w2" x="462" y="267" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id="[Y*N}[uQI,=tccw|*g4(" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id="_a21EBpf|Gq6K!k4:-Vn" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Calculate sum</field>
-      </block>
-    </value>
-  </block>
-  <block type="group_title" id="xEx!3[vY|6*/?9C!WN-r" x="62" y="317" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="xEx!3[vY|6*/?9C!WN-r" x="13" y="242" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="wBBAk-@;xz%vdtim6kS#" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -106,15 +67,7 @@
       </block>
     </value>
   </block>
-  <block type="variables_set" id="*}{L},KL3?$YWyXS)]G*" x="462" y="312" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <field name="VAR" id="XH-jEjvb]V^%1YArzcr1" editable="false" movable="false">sum_rain</field>
-    <value name="VALUE" editable="false" movable="false">
-      <block type="math_number" id="]*sF$q3_CxRH,3kN8}kU" editable="false" movable="false">
-        <field name="NUM" editable="false" movable="false">0</field>
-      </block>
-    </value>
-  </block>
-  <block type="controls_if" id="g$F[q7eIZH0XJBCh@?pU" x="63" y="363" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="controls_if" id="g$F[q7eIZH0XJBCh@?pU" x="13" y="288" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <mutation else="1" />
     <value name="IF0" editable="false" movable="false">
       <block type="logic_compare" id="A77^{AghkiZ[hO;qXaP!" editable="false" movable="false">
@@ -166,7 +119,83 @@
       </block>
     </statement>
   </block>
-  <block type="disabled_loop" id="j^e}k8RBoPUBL=bP|N,d" disabled="false" x="462" y="387" editable="true" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="AJgbX;aw$zEQTc/A/ukW" x="13" y="517" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="TO;NKy.%l$nuL6=_}Ng$" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id=",$@iI-?N7h-fY4,#WS$p" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Filter list</field>
+      </block>
+    </value>
+  </block>
+  <block type="disabled_loop" id="30H$J9iI~w|eQ4Mk#$+5" disabled="false" x="12" y="562" editable="true" deletable="false" contextMenu="false" enableContextMenu="false">
+    <statement name="DO" editable="true" movable="true">
+      <block type="controls_if" id="@c8hUGxXnf:|d;RC4iWU" disabled="false" editable="true" movable="true">
+        <value name="IF0">
+          <block type="logic_compare" id="LAm#oMH_-%YR*1Y2js{$" editable="false" movable="false">
+            <field name="OP" editable="false" movable="false">GT</field>
+            <value name="A" editable="false" movable="false">
+              <block type="variables_get" id="[Q{9F-+_ik/L/)(b[7^9" editable="false" movable="false">
+                <field name="VAR" id="(ez!WO2|yV?sUu5*E@qX" editable="false" movable="false">day</field>
+              </block>
+            </value>
+            <value name="B" editable="false" movable="false">
+              <block type="math_number" id="G@!(kbP/]5{TxO-X#O~P" editable="false" movable="false">
+                <field name="NUM" editable="false" movable="false">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="group_title" id="-zps;Ik(~;!4bN,k$-Z[" x="13" y="742" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="XZM,XQQ}|V7O^cu7X?wx" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="t5dJif%tq}sfe{u7DHKk" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="$8#(~;ylal;CfIU(mw_]" x="13" y="787" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="FDGI^nlXXe7~FLZ.nYz;" editable="false" movable="false">rain</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text_prompt_ext" id=";K4WcFa2NhN7y3|zYw;U" editable="false" movable="false">
+        <mutation type="TEXT" />
+        <field name="TYPE" editable="false" movable="false">TEXT</field>
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id=":LA!+u!F%BwQ$/2wDwb|" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">abc</field>
+          </shadow>
+          <block type="text" id="#~j.hnzJPnQKJB,~LOiY" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Type in a list of numbers.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="*wD_M8~4;o!7~yKn.(w2" x="13" y="892" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="[Y*N}[uQI,=tccw|*g4(" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="_a21EBpf|Gq6K!k4:-Vn" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Calculate sum</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="*}{L},KL3?$YWyXS)]G*" x="13" y="937" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="XH-jEjvb]V^%1YArzcr1" editable="false" movable="false">sum_rain</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="math_number" id="]*sF$q3_CxRH,3kN8}kU" editable="false" movable="false">
+        <field name="NUM" editable="false" movable="false">0</field>
+      </block>
+    </value>
+  </block>
+  <block type="disabled_loop" id="j^e}k8RBoPUBL=bP|N,d" disabled="false" x="13" y="1012" editable="true" deletable="false" contextMenu="false" enableContextMenu="false">
     <statement name="DO" editable="true" movable="true">
       <block type="variables_set" id="uM-jLQLajP6k$0U3]+p6" disabled="false" editable="true" movable="true">
         <field name="VAR" id="XH-jEjvb]V^%1YArzcr1">sum_rain</field>
@@ -194,7 +223,7 @@
       </block>
     </statement>
   </block>
-  <block type="variables_set" id=".d8)G-[bZh!j^9EiPa;r" x="462" y="512" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="variables_set" id=".d8)G-[bZh!j^9EiPa;r" x="12" y="1138" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <field name="VAR" id="aVJG_/-!*VjKQM}CiN2s" editable="false" movable="false">avg</field>
     <value name="VALUE" editable="false" movable="false">
       <block type="math_arithmetic" id="O3o0o~|FZmqWKSjXNGY#" editable="false" movable="false">
@@ -213,33 +242,6 @@
           </shadow>
           <block type="variables_get" id="z/f5i;vYokgAlUJ%^}|z" editable="false" movable="false">
             <field name="VAR" id="ySX9Jw(CQ6{AuUh-OU4g" editable="false" movable="false">count</field>
-          </block>
-        </value>
-      </block>
-    </value>
-  </block>
-  <block type="group_title" id="-zps;Ik(~;!4bN,k$-Z[" x="163" y="567" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <value name="TEXT" editable="false" movable="false">
-      <shadow type="text" id="XZM,XQQ}|V7O^cu7X?wx" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">abc</field>
-      </shadow>
-      <block type="text" id="t5dJif%tq}sfe{u7DHKk" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Read in list</field>
-      </block>
-    </value>
-  </block>
-  <block type="variables_set" id="$8#(~;ylal;CfIU(mw_]" x="163" y="612" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
-    <field name="VAR" id="FDGI^nlXXe7~FLZ.nYz;" editable="false" movable="false">rain</field>
-    <value name="VALUE" editable="false" movable="false">
-      <block type="text_prompt_ext" id=";K4WcFa2NhN7y3|zYw;U" editable="false" movable="false">
-        <mutation type="TEXT" />
-        <field name="TYPE" editable="false" movable="false">TEXT</field>
-        <value name="TEXT" editable="false" movable="false">
-          <shadow type="text" id=":LA!+u!F%BwQ$/2wDwb|" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">abc</field>
-          </shadow>
-          <block type="text" id="#~j.hnzJPnQKJB,~LOiY" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Type in a list of numbers.</field>
           </block>
         </value>
       </block>
