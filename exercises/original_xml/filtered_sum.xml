@@ -1,0 +1,171 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="r$MH[qNVJVWWur;^91;f">numbers</variable>
+    <variable id="$.1L_jQ/uEt^:U_Uk^+;">sum</variable>
+    <variable id="A]{-`L;MX~oOfN.Nb1m_">i</variable>
+    <variable id="-=[my;_JvvXDhpsk#K}:">number</variable>
+  </variables>
+  <block type="text_print" id="_[t4Z@.jF6vR4ugbSrg[" x="12" y="-12">
+    <value name="TEXT">
+      <shadow type="text" id="i2owpwuKxbN)s*L]v]eS">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="yqXEpHMW-_y/;Ka-uSFt">
+        <field name="TEXT">Title: Calculate sum</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="{-pky7SQZZo!sLR=,3;M" x="12" y="62">
+    <field name="VAR" id="$.1L_jQ/uEt^:U_Uk^+;">sum</field>
+    <value name="VALUE">
+      <block type="math_number" id="y3j(L4j}E4*pJX`R_4RE">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="vMSLnl^M-}IN,64NWet^">
+        <field name="VAR" id="-=[my;_JvvXDhpsk#K}:">number</field>
+        <value name="LIST">
+          <block type="variables_get" id="4jQ(A)m|5`,AQv,#%Y@N">
+            <field name="VAR" id="r$MH[qNVJVWWur;^91;f">numbers</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="}t@XMxN|2x@X,S?G{`Et">
+            <field name="VAR" id="$.1L_jQ/uEt^:U_Uk^+;">sum</field>
+            <value name="VALUE">
+              <block type="math_arithmetic" id="FfeF]vAyhkBS?@_gdPv2">
+                <field name="OP">ADD</field>
+                <value name="A">
+                  <shadow type="math_number" id="(7eI#UNP@NAG7y=ET!WO">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="3AET*og1Ui4ORjdRoG!9">
+                    <field name="VAR" id="$.1L_jQ/uEt^:U_Uk^+;">sum</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="FHOq/mi:7`$Gc$?Poz!1">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="*YEMsRR__nEfcO5iizme">
+                    <field name="VAR" id="-=[my;_JvvXDhpsk#K}:">number</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id=";WtRFd[#tRVa-Msyhb|k" x="13" y="213">
+    <value name="TEXT">
+      <shadow type="text" id="d$`]MQTr%KSJfTE|{=jM">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="(vCc#^lG7_E{`L`82l5s">
+        <field name="TEXT">Title: Filter list of numbers</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_forEach" id="U3*aH^Bfe3noZvG;/hbw" disabled="true" x="13" y="287">
+    <field name="VAR" id="A]{-`L;MX~oOfN.Nb1m_">i</field>
+    <statement name="DO">
+      <block type="controls_if" id="v-ASv$b;LRLzCnvh=z;)">
+        <value name="IF0">
+          <block type="logic_operation" id="Y1UksYK!2Uv:pqUe.Kq4">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="r-!V{2t#@MzbByN%B2!m">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="variables_get" id="L(Nuo0-]Rr$}?xW#]~5q">
+                    <field name="VAR" id="-=[my;_JvvXDhpsk#K}:">number</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="bLsNdle4~WZdY#O6J7)+">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="YCCho$gA3Zps!GgX)Fro">
+                <field name="OP">LT</field>
+                <value name="A">
+                  <block type="variables_get" id="B`JA|qBa!ajw!wi-@)pK">
+                    <field name="VAR" id="-=[my;_JvvXDhpsk#K}:">number</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id=";Z=uxANz7^jpy%z]5bP*">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="text_print" id="unT,8EvFEj7T=e{C8C@G" x="12" y="462">
+    <value name="TEXT">
+      <shadow type="text" id="$0z9jBtOp]a}3i%gQ1,5">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="Em+nUizHwNx.1fOvRcWx">
+        <field name="TEXT">Title: Print sum</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="CqZ%G*A9H5=~AX+gqGwo" x="13" y="537">
+    <value name="TEXT">
+      <shadow type="text" id="nUggTC3!P68l1[n)ks/5">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text_join" id="/%Jm[cR::P*zHf~`btl+">
+        <mutation items="2"></mutation>
+        <value name="ADD0">
+          <block type="text" id="w!Y$;nmB~dnN$^th|sw6">
+            <field name="TEXT">The sum is </field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="variables_get" id="0z-$|Th}L$CU=a^~u/d6">
+            <field name="VAR" id="$.1L_jQ/uEt^:U_Uk^+;">sum</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="8(#=Lc@wP*+[D.`yQyHU" x="13" y="638">
+    <value name="TEXT">
+      <shadow type="text" id="mztD]{ihsn!wgMTlaiE-">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="__V*oj=%noiUQ3YGJl4J">
+        <field name="TEXT">Title: Read in list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="Zk?=V58NAfvu6OiL;em=" x="12" y="713">
+    <field name="VAR" id="r$MH[qNVJVWWur;^91;f">numbers</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="BbNX1CK{t|OfzwJt;PLJ">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="cy8(bhIZ8^9!;b(o;4!|">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="3:;_wETlrNdvpQd*ZG=X">
+            <field name="TEXT">Type in a list of numbers.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>

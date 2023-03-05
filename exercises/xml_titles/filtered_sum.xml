@@ -1,0 +1,48 @@
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
+  <variables>
+    <variable id="r$MH[qNVJVWWur;^91;f">numbers</variable>
+    <variable id="$.1L_jQ/uEt^:U_Uk^+;">sum</variable>
+    <variable id="A]{--L;MX~oOfN.Nb1m_">i</variable>
+    <variable id="-=[my;_JvvXDhpsk#K}:">number</variable>
+  </variables>
+  <block type="group_title" id="_[t4Z@.jF6vR4ugbSrg[" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="i2owpwuKxbN)s*L]v]eS" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="yqXEpHMW-_y/;Ka-uSFt" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Calculate sum</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=";WtRFd[#tRVa-Msyhb|k" x="13" y="243" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="d$-]MQTr%KSJfTE|{=jM" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="(vCc#^lG7_E{-L-82l5s" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Filter list of numbers</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="unT,8EvFEj7T=e{C8C@G" x="12" y="492" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="$0z9jBtOp]a}3i%gQ1,5" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="Em+nUizHwNx.1fOvRcWx" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print sum</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="8(#=Lc@wP*+[D.-yQyHU" x="13" y="668" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="mztD]{ihsn!wgMTlaiE-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="__V*oj=%noiUQ3YGJl4J" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
+      </block>
+    </value>
+  </block>
+  </xml>

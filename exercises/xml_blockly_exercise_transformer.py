@@ -2,6 +2,45 @@
 import os
 import xml.etree.ElementTree as ET
 
+def makeDisabledLoop(toplevelelement):
+    toplevelelement.set('editable', 'true')
+    print('disabled found')
+    print(toplevelelement.get('type'))
+    toplevelelement.set('type','disabled_loop')
+    toplevelelement.set('disabled','false')
+    print(toplevelelement.get('type'))
+    for secondlevelelement in reversed(toplevelelement):
+        # if not the statement (inner block) delete
+        if '}statement' not in secondlevelelement.tag:
+            #   if child.get('name') == 'TIMES':
+            toplevelelement.remove(secondlevelelement)
+        # if secondlevelelement is statement inner block
+        else:
+            for statment_child in reversed(secondlevelelement):
+                if '}block' in statment_child.tag:
+                    statment_child.set('disabled','false')
+                    statment_child.set('editable', 'true')
+                    statment_child.set('movable','true')
+                    for block_children in reversed(statment_child):
+                        makeChildrenUneditable(block_children)
+            # set everything that is a child of a statement editable (and also the statements)
+            setFilteredChildrenEditableValue('true', toplevelelement,'}statement')
+            setFilteredChildrenByParentEditableValue('true', toplevelelement,'}statement')
+            # make the appending next bit of code editable
+            setFilteredChildrenEditableValue('true', toplevelelement,'}next')
+            setFilteredChildrenByParentEditableValue('true', toplevelelement,'}next')
+
+def makeChildrenDisabledLoopIfNeeded(element, counter):
+    if (counter >= 3):
+        return
+    if element.get('disabled') == 'true':
+        makeDisabledLoop(element)
+    counter = counter + 1
+    children = reversed(element)
+    for child in children:
+        makeChildrenDisabledLoopIfNeeded(child, counter)
+    return
+
 def makeChildrenUneditable(element):
     children = reversed(element)
     for child in children:
@@ -71,37 +110,12 @@ for filename in dir_list:
                         # Make Headline or Grouptitle comments movable
                         # toplevelelement.set('movable','false')
                         makeChildrenUneditable(toplevelelement)
-            # edit disabled piece to be own piece
             if toplevelelement.get('disabled') == 'true':
-                toplevelelement.set('editable', 'true')
-                # print('disabled found')
-                toplevelelement.set('type','disabled_loop')
-                toplevelelement.set('disabled','false')
-                for secondlevelelement in reversed(toplevelelement):
-                    # if not the statement (inner block) delete
-                    if '}statement' not in secondlevelelement.tag:
-                        #   if child.get('name') == 'TIMES':
-                        toplevelelement.remove(secondlevelelement)
-                    # if secondlevelelement is statement inner block
-                    else:
-                        for statment_child in reversed(secondlevelelement):
-                            if '}block' in statment_child.tag:
-                                statment_child.set('disabled','false')
-                                statment_child.set('editable', 'true')
-                                statment_child.set('movable','true')
-                                for block_children in reversed(statment_child):
-                                    makeChildrenUneditable(block_children)
-                        # set everything that is a child of a statement editable (and also the statements)
-                        setFilteredChildrenEditableValue('true', toplevelelement,'}statement')
-                        setFilteredChildrenByParentEditableValue('true', toplevelelement,'}statement')
-                        # make the appending next bit of code editable
-                        setFilteredChildrenEditableValue('true', toplevelelement,'}next')
-                        setFilteredChildrenByParentEditableValue('true', toplevelelement,'}next')
-
-
-
+                makeDisabledLoop(toplevelelement)
             # for everything that is not in the disabled bit
             else:
+                # edit disabled piece to be own piece
+                makeChildrenDisabledLoopIfNeeded(toplevelelement, 0)
                 # set shadows fields and values uneditable
                 setFilteredChildrenEditableValue('false', toplevelelement,'}shadow')
                 setFilteredChildrenEditableValue('false', toplevelelement,'}field')
@@ -113,12 +127,12 @@ for filename in dir_list:
                 # make the appending next bit of code editable
                 setFilteredChildrenEditableValue('true', toplevelelement,'}next')
                 setFilteredChildrenByParentEditableValue('true', toplevelelement,'}next')
+            
 
 
 
     mytree.write('./xml/'+filename)
     transformed_f = open('./xml/'+filename, "r")
-    # print(f.read())
     transformed_xml = transformed_f.read()
     transformed_f.close()
     final_xml = transformed_xml.replace('ns0:','').replace(':ns0','') #.replace('disabled="true"','disabled="true" movable="false"')

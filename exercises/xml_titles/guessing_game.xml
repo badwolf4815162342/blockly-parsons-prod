@@ -47,10 +47,10 @@
   <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="13" y="843" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Too high/low?</field>
+        <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="2luk$1:@FEW:S_2.yML-" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Title: Too high/low?</field>
+        <field name="TEXT" editable="false" movable="false">Too high/low?</field>
       </block>
     </value>
   </block>

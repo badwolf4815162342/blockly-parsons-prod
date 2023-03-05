@@ -1,0 +1,53 @@
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
+  <variables>
+    <variable id="nBj}0|ewtaN-)B35m:J+">start</variable>
+    <variable id="d4T4CK}Ta.ED?17-8Z.r">length</variable>
+    <variable id="W(S(^:]*=Q;H#QiRKVhN">sum</variable>
+    <variable id="bW5QWCXURdTiiP:Nyue]">list</variable>
+    <variable id="32RKGn?ZR6-3SWhgbjQP">end</variable>
+    <variable id="az[~;a)=0NxluMJk+8TU">i</variable>
+    <variable id="9^h)H|cW{w(ziBFW~zmo">avg</variable>
+    <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
+    <variable id="k}(?c6V%o:v+NjpiLwZz">value</variable>
+  </variables>
+  <block type="group_title" id="p~-,~*lqJowgGipRpc+1" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="k@sf!jnex-aRY,CwYb4-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="D7?1lZ%nYd^,vzcH/*~*" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Run through part of list with given boundaries</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=")h,LO!SH^PW8-lr*vPI." x="12" y="293" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="_Ln8J[!|AsFOK;RQf47y" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="}hCT_^5FLq5Ub=OJ{Q9n" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Calculate average if length 1 or higher</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="CJ//]u!geDmd(yp}I@GL" x="12" y="668" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="10E0jTzMg-uHAY|j)BDt" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="9O;f;jz|3kZp|m):5SQh" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Calculate sum</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="_._d9/sTf?XzXn}nV2rJ" x="12" y="892" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="KvV{LVLqv7rM-Ej[EUUn" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="to8W*Y^DxPO,r2QfpzbP" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
+      </block>
+    </value>
+  </block>
+  </xml>

@@ -199,7 +199,7 @@
   <block type="text_print" id="5R{k/|=)d=X(IqAc9Oi-" x="13" y="813">
     <value name="TEXT">
       <shadow type="text" id="jewHpEmc`xoKmlH{bV-*">
-        <field name="TEXT">Title: Too high/low?</field>
+        <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="2luk$1:@FEW:S_2.yML-">
         <field name="TEXT">Title: Too high/low?</field>
