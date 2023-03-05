@@ -1,0 +1,240 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="tmF~V}0H$({InZ6SX-C,">target</variable>
+    <variable id="|6~eoOj=n=hSYyKtlE`a">numbers</variable>
+    <variable id="sagTxlxlp:X9H_l|9Bk:">maxLen</variable>
+    <variable id="FO)c}-$Kph};.^f,{o5u">lenCount</variable>
+    <variable id="aZRV09f{`Y0cA:z[8yH7">num</variable>
+    <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
+  </variables>
+  <block type="text_print" id="p~`,~*lqJowgGipRpc+1" x="12" y="-12">
+    <value name="TEXT">
+      <shadow type="text" id="k@sf!jnex-aRY,CwYb4-">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="D7?1lZ%nYd^,vzcH/*~*">
+        <field name="TEXT">Title: Counter</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="9yb6$tM,n}0Mwv=SmIkf" x="12" y="62">
+    <field name="VAR" id="FO)c}-$Kph};.^f,{o5u">lenCount</field>
+    <value name="VALUE">
+      <block type="math_number" id="/,M8b)CN#T?5W5R4}_0]">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="VzX|ohkEC[,xYw:1-Oc.">
+        <field name="VAR" id="aZRV09f{`Y0cA:z[8yH7">num</field>
+        <value name="LIST">
+          <block type="variables_get" id=";{#~Ubr5^3$ln,gmP3b1">
+            <field name="VAR" id="|6~eoOj=n=hSYyKtlE`a">numbers</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="?md$v,kBFH3vdBmtzI5Q">
+            <field name="VAR" id="FO)c}-$Kph};.^f,{o5u">lenCount</field>
+            <value name="VALUE">
+              <block type="math_arithmetic" id="kO[w1dXC6#}Lb$/wEefi">
+                <field name="OP">ADD</field>
+                <value name="A">
+                  <shadow type="math_number" id="!5|09^gL|+Q$P]L|W8.Q">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="/fMl~.ce%E[^_(2sIxmF">
+                    <field name="VAR" id="FO)c}-$Kph};.^f,{o5u">lenCount</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="0W|.t%E#9fdw(3=XZdXp">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="math_number" id="6%LIi#b=:aRTX4dR%N@5">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id="_._d9/sTf?XzXn}nV2rJ" x="12" y="213">
+    <value name="TEXT">
+      <shadow type="text" id="KvV{LVLqv7rM-Ej[EUUn">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="to8W*Y^DxPO,r2QfpzbP">
+        <field name="TEXT">Title: Read in list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="AjpFz!r`{^f.2u6kLvQ[" x="13" y="288">
+    <field name="VAR" id="|6~eoOj=n=hSYyKtlE`a">numbers</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="7n*bF*Js.S|p8O9u6qV7">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="8)Q,C@fQ^_0[nGBAfZjx">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="NtT_e#FDe_1Uv7=w%U!X">
+            <field name="TEXT">Type in the list with numbers, start, end.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="CJ//]u!geDmd(yp}I@GL" x="13" y="362">
+    <value name="TEXT">
+      <shadow type="text" id="10E0jTzMg`uHAY|j)BDt">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="9O;f;jz|3kZp|m):5SQh">
+        <field name="TEXT">Title: Find maximum</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="qadmQ(V-C8@fg!g*A,6$" x="13" y="437">
+    <field name="VAR" id="sagTxlxlp:X9H_l|9Bk:">maxLen</field>
+    <value name="VALUE">
+      <block type="math_number" id="H!9|K)W1fM2EoQKY_jHU">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="fEro5~n)v{-NB,/j`t9)">
+        <field name="VAR" id="sagTxlxlp:X9H_l|9Bk:">maxLen</field>
+        <value name="VALUE">
+          <block type="variables_get" id="n(J]6|f4c7ZQ)SQ0JeXu">
+            <field name="VAR" id="FO)c}-$Kph};.^f,{o5u">lenCount</field>
+          </block>
+        </value>
+        <next>
+          <block type="controls_repeat_ext" id="*}Uh**n-.}U8rvw6.8h8" disabled="true">
+            <value name="TIMES">
+              <shadow type="math_number" id="OH!Q6ZKb[UUp%uHf3fz#">
+                <field name="NUM">10</field>
+              </shadow>
+              <block type="variables_get" id=":IMPEbeYqlX.XKL4xcrE">
+                <field name="VAR" id="|cH300xOF|DgeP$?+ga-">x</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="controls_if" id="~3LD?1Z?*T(CktqS8w~X">
+                <value name="IF0">
+                  <block type="logic_compare" id="iQql(]/Vh2UYB$*)0$G*">
+                    <field name="OP">GT</field>
+                    <value name="A">
+                      <block type="variables_get" id="2ZBI?q=4/AxdlP{lrd)T">
+                        <field name="VAR" id="FO)c}-$Kph};.^f,{o5u">lenCount</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="variables_get" id="$mi^@!~sFY#aro9NFJ%e">
+                        <field name="VAR" id="sagTxlxlp:X9H_l|9Bk:">maxLen</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="variables_set" id="(mB/:5?zTiAc/x2f)w?F">
+                    <field name="VAR" id="sagTxlxlp:X9H_l|9Bk:">maxLen</field>
+                    <value name="VALUE">
+                      <block type="variables_get" id="Qqk!`Xv0_|T+:lo9gJLB">
+                        <field name="VAR" id="FO)c}-$Kph};.^f,{o5u">lenCount</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id="K]IT16yap+CcS=i%.]J9" x="12" y="662">
+    <value name="TEXT">
+      <shadow type="text" id="k_*:WyVsS{*$4%FH;1}(">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="BMu_j7(A;2Q};+=YQ0tQ">
+        <field name="TEXT">Title: Filter list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="%4?zd)Ve$s:hxCd{Fd/+" x="13" y="738">
+    <field name="VAR" id="tmF~V}0H$({InZ6SX-C,">target</field>
+    <value name="VALUE">
+      <block type="math_number" id="[Omm6kRLfA0[,G~I7[v6">
+        <field name="NUM">10</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_repeat_ext" id="N+W$cuVVhRBq%/S1wn}2" disabled="true">
+        <value name="TIMES">
+          <shadow type="math_number" id="RnAbuDu#ER[+p)!N)Stz">
+            <field name="NUM">10</field>
+          </shadow>
+          <block type="variables_get" id="o@parq)LxlXZ%F2PbJ0l">
+            <field name="VAR" id="|cH300xOF|DgeP$?+ga-">x</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="controls_if" id="JGJcB[dPx3G#6r9T/l:}">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="RtH7K!q=+i.esiZo9_h;">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="8;9l5f7{5C)F2}8K2z_-">
+                    <field name="VAR" id="aZRV09f{`Y0cA:z[8yH7">num</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="variables_get" id="76:i%VdBqIA{;j+u[SZJ">
+                    <field name="VAR" id="tmF~V}0H$({InZ6SX-C,">target</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id=")h,LO!SH^PW8-lr*vPI." x="13" y="962">
+    <value name="TEXT">
+      <shadow type="text" id="_Ln8J[!|AsFOK;RQf47y">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="}hCT_^5FLq5Ub=OJ{Q9n">
+        <field name="TEXT">Title: Print out longest consecutive block length</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="wj#]l:6GKE$zw06.Gx`p" x="12" y="1038">
+    <value name="TEXT">
+      <shadow type="text" id="5IjdB*3pyD_v/DwbuYmH">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text_join" id="SCz1K([gi=UioOzUS,|W">
+        <mutation items="2"></mutation>
+        <value name="ADD0">
+          <block type="text" id="D,Pl6{PPT9@[2mQ:OCk]">
+            <field name="TEXT">Length = </field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="variables_get" id="`BDeBHBpD=?i^uCV=a)@">
+            <field name="VAR" id="FO)c}-$Kph};.^f,{o5u">lenCount</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+</xml>
