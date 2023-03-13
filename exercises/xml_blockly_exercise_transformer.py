@@ -31,7 +31,7 @@ def makeDisabledLoop(toplevelelement):
             setFilteredChildrenByParentEditableValue('true', toplevelelement,'}next')
 
 def makeChildrenDisabledLoopIfNeeded(element, counter):
-    if (counter >= 3):
+    if (counter >= 5):
         return
     if element.get('disabled') == 'true':
         makeDisabledLoop(element)

@@ -5,7 +5,6 @@
     <variable id="v[v=@xT`I#9vHv24tLK*">flag</variable>
     <variable id="_`E8|rLfsE[PoJXg/vQo">letter1</variable>
     <variable id="NC^*Lczs%gnFJSxlP:1D">i</variable>
-    <variable id="P)b0/FAtq73e|CyW+}}?">text</variable>
   </variables>
   <block type="text_print" id="32rg8F)[TqOpsS|q2Rac" x="13" y="-13">
     <value name="TEXT">
@@ -29,16 +28,11 @@
         <field name="VAR" id="_`E8|rLfsE[PoJXg/vQo">letter1</field>
         <value name="VALUE">
           <block type="text_charAt" id="wr}z[H`B#f0QTcZ%_Ru%">
-            <mutation at="true"></mutation>
-            <field name="WHERE">FROM_START</field>
+            <mutation at="false"></mutation>
+            <field name="WHERE">FIRST</field>
             <value name="VALUE">
               <block type="variables_get" id="Hco1AlQtfhmd!SA3s{OP">
-                <field name="VAR" id="P)b0/FAtq73e|CyW+}}?">text</field>
-              </block>
-            </value>
-            <value name="AT">
-              <block type="math_number" id="1}m6A;+[FMN`k6CJdtx:">
-                <field name="NUM">0</field>
+                <field name="VAR" id="D6Uc?G_LWz,zVHNu29_,">word</field>
               </block>
             </value>
           </block>

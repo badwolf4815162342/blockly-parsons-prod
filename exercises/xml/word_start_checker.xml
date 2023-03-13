@@ -5,7 +5,6 @@
     <variable id="v[v=@xT-I#9vHv24tLK*">flag</variable>
     <variable id="_-E8|rLfsE[PoJXg/vQo">letter1</variable>
     <variable id="NC^*Lczs%gnFJSxlP:1D">i</variable>
-    <variable id="P)b0/FAtq73e|CyW+}}?">text</variable>
   </variables>
   <block type="group_title" id="32rg8F)[TqOpsS|q2Rac" x="13" y="17" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
@@ -29,16 +28,11 @@
         <field name="VAR" id="_-E8|rLfsE[PoJXg/vQo" editable="false" movable="false">letter1</field>
         <value name="VALUE" editable="false" movable="false">
           <block type="text_charAt" id="wr}z[H-B#f0QTcZ%_Ru%" editable="false" movable="false">
-            <mutation at="true" />
-            <field name="WHERE" editable="false" movable="false">FROM_START</field>
+            <mutation at="false" />
+            <field name="WHERE" editable="false" movable="false">FIRST</field>
             <value name="VALUE" editable="false" movable="false">
               <block type="variables_get" id="Hco1AlQtfhmd!SA3s{OP" editable="false" movable="false">
-                <field name="VAR" id="P)b0/FAtq73e|CyW+}}?" editable="false" movable="false">text</field>
-              </block>
-            </value>
-            <value name="AT" editable="false" movable="false">
-              <block type="math_number" id="1}m6A;+[FMN-k6CJdtx:" editable="false" movable="false">
-                <field name="NUM" editable="false" movable="false">0</field>
+                <field name="VAR" id="D6Uc?G_LWz,zVHNu29_," editable="false" movable="false">word</field>
               </block>
             </value>
           </block>
