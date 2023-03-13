@@ -1,0 +1,170 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="D6Uc?G_LWz,zVHNu29_,">word</variable>
+    <variable id=":kGls!96_syiw?+#gz8J">words</variable>
+    <variable id="v[v=@xT`I#9vHv24tLK*">flag</variable>
+    <variable id="_`E8|rLfsE[PoJXg/vQo">letter1</variable>
+    <variable id="NC^*Lczs%gnFJSxlP:1D">i</variable>
+    <variable id="P)b0/FAtq73e|CyW+}}?">text</variable>
+  </variables>
+  <block type="text_print" id="32rg8F)[TqOpsS|q2Rac" x="13" y="-13">
+    <value name="TEXT">
+      <shadow type="text" id="M=aG}H$hz_5}Yny$(hB4">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="lnK1mknv^Zymy{|w|g1f">
+        <field name="TEXT">Title: Look at each's elements first letter in a list</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_forEach" id="-!KjHh{B}4/ez!Vu}/-p" x="13" y="63">
+    <field name="VAR" id="D6Uc?G_LWz,zVHNu29_,">word</field>
+    <value name="LIST">
+      <block type="variables_get" id=",A[ZdQwi8-Zi|A_X1UxR">
+        <field name="VAR" id=":kGls!96_syiw?+#gz8J">words</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="variables_set" id="E,nzIZ*}dY*n$7,K}mkm">
+        <field name="VAR" id="_`E8|rLfsE[PoJXg/vQo">letter1</field>
+        <value name="VALUE">
+          <block type="text_charAt" id="wr}z[H`B#f0QTcZ%_Ru%">
+            <mutation at="true"></mutation>
+            <field name="WHERE">FROM_START</field>
+            <value name="VALUE">
+              <block type="variables_get" id="Hco1AlQtfhmd!SA3s{OP">
+                <field name="VAR" id="P)b0/FAtq73e|CyW+}}?">text</field>
+              </block>
+            </value>
+            <value name="AT">
+              <block type="math_number" id="1}m6A;+[FMN`k6CJdtx:">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="text_print" id="E6dJ(wt52EKp%TSnXhq{" x="13" y="188">
+    <value name="TEXT">
+      <shadow type="text" id=")so8+M3Dmv-;{7Vbjt5-">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="m/yR)PJN`RKS{Tkt)!2h">
+        <field name="TEXT">Title: Read in list of words</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="2HMaF%|osT~j[pUE%cbl" x="13" y="262">
+    <field name="VAR" id=":kGls!96_syiw?+#gz8J">words</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="OPx#5d?h[J!qnE;s3GdU">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="9t((FT3B,N-uPYiY]JB3">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="R-L^l!-0LQfZQ6Q?ko-8">
+            <field name="TEXT">Type in a list of words.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id=":s}|@A~LA6e[4Z}jg2xT" x="12" y="337">
+    <value name="TEXT">
+      <shadow type="text" id="BMX]P{2Y%jzso)rts.+5">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="8|P1plCRap_G%=Rx-I]v">
+        <field name="TEXT">Title: Print result depending on flag</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="D6-#hpy*:g;[/[2b^~A:" x="13" y="412">
+    <mutation else="1"></mutation>
+    <value name="IF0">
+      <block type="variables_get" id="Ww6#T+,oCrW$R3JGVx$m">
+        <field name="VAR" id="v[v=@xT`I#9vHv24tLK*">flag</field>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="text_print" id="(n5%?0zkwy4Du79IT[TT">
+        <value name="TEXT">
+          <shadow type="text" id="#%|@ZQ{pyr#[^`fkI7!Y">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="oo*gOWKKq{?W~47D$][+">
+            <field name="TEXT">All words start with an 'S'.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="ELSE">
+      <block type="text_print" id="+yhyL-7!F(?@8*h*DOH0">
+        <value name="TEXT">
+          <shadow type="text" id="[Vc.LJfMo({c^F6-:+Oh">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="HXy7R,!#=@5TOiGdSt@M">
+            <field name="TEXT">Some words start with other letters than 'S'.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="text_print" id="H^6vK@75V7DOowzP:C%`" x="13" y="562">
+    <value name="TEXT">
+      <shadow type="text" id="CPhF5s%R`c=Vu]u753|O">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="hNip[.j+$m@}9Y;X-w*u">
+        <field name="TEXT">Title: Set and update flag</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="%!RDEmL[0X^LylN0x5p6" x="13" y="638">
+    <field name="VAR" id="v[v=@xT`I#9vHv24tLK*">flag</field>
+    <value name="VALUE">
+      <block type="logic_boolean" id="gOD$kc_04agQ{D[QbuFr">
+        <field name="BOOL">TRUE</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="I{iW,D$X3A0y-vG3KKBr" disabled="true">
+        <field name="VAR" id="NC^*Lczs%gnFJSxlP:1D">i</field>
+        <statement name="DO">
+          <block type="controls_if" id="{(4fOWq;Uld:vuHhdEmy">
+            <value name="IF0">
+              <block type="logic_compare" id="6}9Yx1CEOZE:7kFFBh#L">
+                <field name="OP">NEQ</field>
+                <value name="A">
+                  <block type="variables_get" id="P.PbJ4gh_}rNlHenIBIg">
+                    <field name="VAR" id="_`E8|rLfsE[PoJXg/vQo">letter1</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="yeaLu]o_]-dXBz/jxy9B">
+                    <field name="TEXT">S</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id="h@[e84s[4s6rYfs@GyE0">
+                <field name="VAR" id="v[v=@xT`I#9vHv24tLK*">flag</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="ux#rVB)],(T+7u|C{y$/">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

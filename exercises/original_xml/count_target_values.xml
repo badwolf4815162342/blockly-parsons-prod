@@ -1,0 +1,159 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="PXf!97v.H#j9^v5@(yMw">count</variable>
+    <variable id="fc5P?:+.=UIu[WvGJ|j*">numbers</variable>
+    <variable id="V%YGgxgj37A|2qra.EQ@">target</variable>
+    <variable id="J}O:NJc?S4TPL;!~DeE$">num</variable>
+    <variable id="E^/#)Kdq^9sQ#S1W?}_}">i</variable>
+  </variables>
+  <block type="text_print" id="i|o~%(W@9tGwFN@s6~[S" x="12" y="-12">
+    <value name="TEXT">
+      <shadow type="text" id="$=l@vP{eSPy)7BJcg^;`">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="4HPvk+xF5s((*CvT:QV+">
+        <field name="TEXT">Title: Print result of counting</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="0_uccu}X]N1S1s];fT~f" x="13" y="63">
+    <value name="TEXT">
+      <shadow type="text" id="5,g;Q%_(H%`pwT|^6C}p">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text_join" id="Jt=lAMYpGH9m?t;dsM@/">
+        <mutation items="2"></mutation>
+        <value name="ADD0">
+          <block type="text" id="bkWIR2$ma9$S8DB=VLy!">
+            <field name="TEXT">The target was found this often: </field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="variables_get" id="J#t;[=+.uS9jXewaGQYW">
+            <field name="VAR" id="PXf!97v.H#j9^v5@(yMw">count</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id=")QXsv9sf*c0]Ir0NCi(+" x="12" y="163">
+    <value name="TEXT">
+      <shadow type="text" id="85d~7=65GMJB7aEaiM$F">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="5F(5.VxW,FwWb~oHMOaq">
+        <field name="TEXT">Title: Read in list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="jkayy=t[8POX+MU5HvG0" x="12" y="238">
+    <field name="VAR" id="fc5P?:+.=UIu[WvGJ|j*">numbers</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="P^?IYb#T9pKy2.O(S6d!">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="jq}P?-E7_p7Fx%d46t*S">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="iv-yKg~v;._{#p-Dr^Qi">
+            <field name="TEXT">Type in a list of numbers.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="0(Zi;mMdqXAHD4-;4Q(!" x="12" y="313">
+    <value name="TEXT">
+      <shadow type="text" id="MiHh6ibtE2@I|k6:mLv)">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="e+=8aqX@um]9_GIWeInc">
+        <field name="TEXT">Title: Counting</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="C6PoL4yN!:YDEZFgCkB|" x="13" y="387">
+    <field name="VAR" id="PXf!97v.H#j9^v5@(yMw">count</field>
+    <value name="VALUE">
+      <block type="math_number" id="d.L^.7?@y#o+Kgl`2ee@">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="}V(yIVtCv2Qqy=l)S~PL">
+        <field name="VAR" id="J}O:NJc?S4TPL;!~DeE$">num</field>
+        <value name="LIST">
+          <block type="variables_get" id="c0HFrLp,EDqBFP3IfK:i">
+            <field name="VAR" id="fc5P?:+.=UIu[WvGJ|j*">numbers</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="So;kuKW*I8c5INiZw`?w">
+            <field name="VAR" id="PXf!97v.H#j9^v5@(yMw">count</field>
+            <value name="VALUE">
+              <block type="math_arithmetic" id="ln|uH1H+/k/7:oGtExU.">
+                <field name="OP">ADD</field>
+                <value name="A">
+                  <shadow type="math_number" id="^0/szgee5jxWLzk5.tAo">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="zCjsqy07:83iLrT,0PeL">
+                    <field name="VAR" id="PXf!97v.H#j9^v5@(yMw">count</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="-!OFnAiN8PRhKF*=FL#+">
+                    <field name="NUM">1</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id="R%IxiO[u,`$4Q3h7j03]" x="12" y="538">
+    <value name="TEXT">
+      <shadow type="text" id="onCfhd`V~zz?v-f:X6ov">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="BiXe8{mSo!/uOgC{E~jy">
+        <field name="TEXT">Title: Filter list by target</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="hf^w@g[U+3RMk?}UhIEP" x="13" y="613">
+    <field name="VAR" id="V%YGgxgj37A|2qra.EQ@">target</field>
+    <value name="VALUE">
+      <block type="math_number" id="+M_@p%PlRk@*Btt}^z~N">
+        <field name="NUM">3</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="v.iXPfSU0C1+qEfoI#u0" disabled="true">
+        <field name="VAR" id="E^/#)Kdq^9sQ#S1W?}_}">i</field>
+        <statement name="DO">
+          <block type="controls_if" id="cCjOfkuyovk):e|$#h*,">
+            <value name="IF0">
+              <block type="logic_compare" id="FJKglUt,{:d7wD}Eag2-">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="$w#i6dGPRYirk*;c6H-G">
+                    <field name="VAR" id="J}O:NJc?S4TPL;!~DeE$">num</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="variables_get" id="3V}IW8jWP(RK?eL+sy?Z">
+                    <field name="VAR" id="V%YGgxgj37A|2qra.EQ@">target</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

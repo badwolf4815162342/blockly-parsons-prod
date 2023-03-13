@@ -1,0 +1,117 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="QX`5zQ`^NkPM6n4(qbf.">booleans</variable>
+    <variable id="OS?bf%wi!SgzoOku=U%!">flag</variable>
+    <variable id="jJwX7upl/`).PWs)OQ`8">i</variable>
+    <variable id="OUr[H56vacD}D@vU/-_?">boolean</variable>
+  </variables>
+  <block type="text_print" id="[L?S5[oDo!kr]@9U#{V8" x="12" y="-12">
+    <value name="TEXT">
+      <shadow type="text" id="c59H)UhV30bnN]qpjY5Y">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="]UWg%ev3_a`zs4c@VBvT">
+        <field name="TEXT">Title: Read in booleans</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="_%m#DA-MB002L0iGz^d~" x="12" y="63">
+    <field name="VAR" id="QX`5zQ`^NkPM6n4(qbf.">booleans</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="VH|-A0pSk^Aqx[p)(y{9">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="n4`4O?Q0kteB-MDh^bym">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="K,_Ng7EJ~/*0W~RJXPbu">
+            <field name="TEXT">Type in list of booleans.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="9M+?DnM`tm)McA@1)H}L" x="13" y="137">
+    <value name="TEXT">
+      <shadow type="text" id="v%)?pT5o{h/2wj%,4VB-">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="=;kFZidVGvrroFZe=!tf">
+        <field name="TEXT">Title: Set and update flag</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="8hnZTgSNc0{-K_xWcX~$" x="12" y="213">
+    <field name="VAR" id="OS?bf%wi!SgzoOku=U%!">flag</field>
+    <value name="VALUE">
+      <block type="logic_boolean" id="-vbq#77p/7k4u,Q1$B#7">
+        <field name="BOOL">FALSE</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="iu!{)t8b!`z5G*iU7{x[" disabled="true">
+        <field name="VAR" id="jJwX7upl/`).PWs)OQ`8">i</field>
+        <statement name="DO">
+          <block type="controls_if" id="o,{)6dK;/8sEME6C:g/r">
+            <value name="IF0">
+              <block type="variables_get" id="I`ilGLlG{wJ)RSOE7K9=">
+                <field name="VAR" id="OUr[H56vacD}D@vU/-_?">boolean</field>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id="7bs:6RMv(dWfsA5BgJTu">
+                <field name="VAR" id="OS?bf%wi!SgzoOku=U%!">flag</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id=")IQMY[nEUGi(L#V%RMO:">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id=".LyN5fsGrz/~m4dop-BK" x="12" y="387">
+    <value name="TEXT">
+      <shadow type="text" id=";lTj(JqF]L0B9!%N!OT{">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id=",+yw_ebF`8e1F!r1),}J">
+        <field name="TEXT">Title: Print result</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="msXb0[[Cn:X2h,5b;FCi" x="12" y="463">
+    <value name="TEXT">
+      <shadow type="text" id="w]p^[I0;|s)F-vzYjqPO">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="variables_get" id="p8_=Z9bh_`U=mw?!A7P*">
+        <field name="VAR" id="OS?bf%wi!SgzoOku=U%!">flag</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="JLuX1i[2XJ_-b)Epb37Y" x="13" y="538">
+    <value name="TEXT">
+      <shadow type="text" id="[4x5A}T1H4/P,6Xi)dP^">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="~k5c^%BFmq^Z(Jr+d=k$">
+        <field name="TEXT">Title: Run through list of booleans</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="EM3g;q+ulxGD[WAUZ5)9">
+        <field name="VAR" id="OUr[H56vacD}D@vU/-_?">boolean</field>
+        <value name="LIST">
+          <block type="variables_get" id="k[ljb%j((In(xJG/`b@z">
+            <field name="VAR" id="QX`5zQ`^NkPM6n4(qbf.">booleans</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

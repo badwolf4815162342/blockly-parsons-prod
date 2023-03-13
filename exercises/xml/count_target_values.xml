@@ -1,0 +1,158 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="PXf!97v.H#j9^v5@(yMw">count</variable>
+    <variable id="fc5P?:+.=UIu[WvGJ|j*">numbers</variable>
+    <variable id="V%YGgxgj37A|2qra.EQ@">target</variable>
+    <variable id="J}O:NJc?S4TPL;!~DeE$">num</variable>
+    <variable id="E^/#)Kdq^9sQ#S1W?}_}">i</variable>
+  </variables>
+  <block type="group_title" id="i|o~%(W@9tGwFN@s6~[S" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="$=l@vP{eSPy)7BJcg^;-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="4HPvk+xF5s((*CvT:QV+" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print result of counting</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="0_uccu}X]N1S1s];fT~f" x="13" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="5,g;Q%_(H%-pwT|^6C}p" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text_join" id="Jt=lAMYpGH9m?t;dsM@/" editable="false" movable="false">
+        <mutation items="2" />
+        <value name="ADD0" editable="false" movable="false">
+          <block type="text" id="bkWIR2$ma9$S8DB=VLy!" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">The target was found this often: </field>
+          </block>
+        </value>
+        <value name="ADD1" editable="false" movable="false">
+          <block type="variables_get" id="J#t;[=+.uS9jXewaGQYW" editable="false" movable="false">
+            <field name="VAR" id="PXf!97v.H#j9^v5@(yMw" editable="false" movable="false">count</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=")QXsv9sf*c0]Ir0NCi(+" x="12" y="193" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="85d~7=65GMJB7aEaiM$F" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="5F(5.VxW,FwWb~oHMOaq" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="jkayy=t[8POX+MU5HvG0" x="12" y="238" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="fc5P?:+.=UIu[WvGJ|j*" editable="false" movable="false">numbers</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text_prompt_ext" id="P^?IYb#T9pKy2.O(S6d!" editable="false" movable="false">
+        <mutation type="TEXT" />
+        <field name="TYPE" editable="false" movable="false">TEXT</field>
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="jq}P?-E7_p7Fx%d46t*S" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">abc</field>
+          </shadow>
+          <block type="text" id="iv-yKg~v;._{#p-Dr^Qi" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Type in a list of numbers.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="0(Zi;mMdqXAHD4-;4Q(!" x="12" y="343" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="MiHh6ibtE2@I|k6:mLv)" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="e+=8aqX@um]9_GIWeInc" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Counting</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="C6PoL4yN!:YDEZFgCkB|" x="13" y="387" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="PXf!97v.H#j9^v5@(yMw" editable="false" movable="false">count</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="math_number" id="d.L^.7?@y#o+Kgl-2ee@" editable="false" movable="false">
+        <field name="NUM" editable="false" movable="false">0</field>
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="controls_forEach" id="}V(yIVtCv2Qqy=l)S~PL" editable="true" movable="true">
+        <field name="VAR" id="J}O:NJc?S4TPL;!~DeE$" editable="false" movable="false">num</field>
+        <value name="LIST" editable="false" movable="false">
+          <block type="variables_get" id="c0HFrLp,EDqBFP3IfK:i" editable="false" movable="false">
+            <field name="VAR" id="fc5P?:+.=UIu[WvGJ|j*" editable="false" movable="false">numbers</field>
+          </block>
+        </value>
+        <statement name="DO" editable="true" movable="true">
+          <block type="variables_set" id="So;kuKW*I8c5INiZw-?w" editable="true" movable="true">
+            <field name="VAR" id="PXf!97v.H#j9^v5@(yMw" editable="false" movable="false">count</field>
+            <value name="VALUE" editable="false" movable="false">
+              <block type="math_arithmetic" id="ln|uH1H+/k/7:oGtExU." editable="false" movable="false">
+                <field name="OP" editable="false" movable="false">ADD</field>
+                <value name="A" editable="false" movable="false">
+                  <shadow type="math_number" id="^0/szgee5jxWLzk5.tAo" editable="false" movable="false">
+                    <field name="NUM" editable="false" movable="false">1</field>
+                  </shadow>
+                  <block type="variables_get" id="zCjsqy07:83iLrT,0PeL" editable="false" movable="false">
+                    <field name="VAR" id="PXf!97v.H#j9^v5@(yMw" editable="false" movable="false">count</field>
+                  </block>
+                </value>
+                <value name="B" editable="false" movable="false">
+                  <shadow type="math_number" id="-!OFnAiN8PRhKF*=FL#+" editable="false" movable="false">
+                    <field name="NUM" editable="false" movable="false">1</field>
+                  </shadow>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="group_title" id="R%IxiO[u,-$4Q3h7j03]" x="12" y="568" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="onCfhd-V~zz?v-f:X6ov" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="BiXe8{mSo!/uOgC{E~jy" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Filter list by target</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="hf^w@g[U+3RMk?}UhIEP" x="13" y="613" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="V%YGgxgj37A|2qra.EQ@" editable="false" movable="false">target</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="math_number" id="+M_@p%PlRk@*Btt}^z~N" editable="false" movable="false">
+        <field name="NUM" editable="false" movable="false">3</field>
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="disabled_loop" id="v.iXPfSU0C1+qEfoI#u0" disabled="false" editable="true" movable="true">
+        <statement name="DO" editable="true" movable="true">
+          <block type="controls_if" id="cCjOfkuyovk):e|$#h*," disabled="false" editable="true" movable="true">
+            <value name="IF0" editable="false" movable="false">
+              <block type="logic_compare" id="FJKglUt,{:d7wD}Eag2-" editable="false" movable="false">
+                <field name="OP" editable="false" movable="false">EQ</field>
+                <value name="A" editable="false" movable="false">
+                  <block type="variables_get" id="$w#i6dGPRYirk*;c6H-G" editable="false" movable="false">
+                    <field name="VAR" id="J}O:NJc?S4TPL;!~DeE$" editable="false" movable="false">num</field>
+                  </block>
+                </value>
+                <value name="B" editable="false" movable="false">
+                  <block type="variables_get" id="3V}IW8jWP(RK?eL+sy?Z" editable="false" movable="false">
+                    <field name="VAR" id="V%YGgxgj37A|2qra.EQ@" editable="false" movable="false">target</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

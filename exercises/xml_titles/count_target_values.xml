@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
+  <variables>
+    <variable id="PXf!97v.H#j9^v5@(yMw">count</variable>
+    <variable id="fc5P?:+.=UIu[WvGJ|j*">numbers</variable>
+    <variable id="V%YGgxgj37A|2qra.EQ@">target</variable>
+    <variable id="J}O:NJc?S4TPL;!~DeE$">num</variable>
+    <variable id="E^/#)Kdq^9sQ#S1W?}_}">i</variable>
+  </variables>
+  <block type="group_title" id="i|o~%(W@9tGwFN@s6~[S" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="$=l@vP{eSPy)7BJcg^;-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="4HPvk+xF5s((*CvT:QV+" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print result of counting</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=")QXsv9sf*c0]Ir0NCi(+" x="12" y="193" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="85d~7=65GMJB7aEaiM$F" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="5F(5.VxW,FwWb~oHMOaq" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="0(Zi;mMdqXAHD4-;4Q(!" x="12" y="343" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="MiHh6ibtE2@I|k6:mLv)" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="e+=8aqX@um]9_GIWeInc" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Counting</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="R%IxiO[u,-$4Q3h7j03]" x="12" y="568" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="onCfhd-V~zz?v-f:X6ov" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="BiXe8{mSo!/uOgC{E~jy" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Filter list by target</field>
+      </block>
+    </value>
+  </block>
+  </xml>

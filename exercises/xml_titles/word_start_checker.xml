@@ -1,0 +1,50 @@
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
+  <variables>
+    <variable id="D6Uc?G_LWz,zVHNu29_,">word</variable>
+    <variable id=":kGls!96_syiw?+#gz8J">words</variable>
+    <variable id="v[v=@xT-I#9vHv24tLK*">flag</variable>
+    <variable id="_-E8|rLfsE[PoJXg/vQo">letter1</variable>
+    <variable id="NC^*Lczs%gnFJSxlP:1D">i</variable>
+    <variable id="P)b0/FAtq73e|CyW+}}?">text</variable>
+  </variables>
+  <block type="group_title" id="32rg8F)[TqOpsS|q2Rac" x="13" y="17" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="M=aG}H$hz_5}Yny$(hB4" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="lnK1mknv^Zymy{|w|g1f" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Look at each's elements first letter in a list</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="E6dJ(wt52EKp%TSnXhq{" x="13" y="218" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=")so8+M3Dmv-;{7Vbjt5-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="m/yR)PJN-RKS{Tkt)!2h" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list of words</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=":s}|@A~LA6e[4Z}jg2xT" x="12" y="367" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="BMX]P{2Y%jzso)rts.+5" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="8|P1plCRap_G%=Rx-I]v" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print result depending on flag</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="H^6vK@75V7DOowzP:C%-" x="13" y="592" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="CPhF5s%R-c=Vu]u753|O" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="hNip[.j+$m@}9Y;X-w*u" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Set and update flag</field>
+      </block>
+    </value>
+  </block>
+  </xml>
