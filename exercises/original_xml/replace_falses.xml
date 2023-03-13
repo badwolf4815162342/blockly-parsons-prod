@@ -1,0 +1,165 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="QX`5zQ`^NkPM6n4(qbf.">booleans</variable>
+    <variable id="jJwX7upl/`).PWs)OQ`8">i</variable>
+    <variable id="M+XE)W3v{#^%:b(+b50u">index</variable>
+    <variable id="OUr[H56vacD}D@vU/-_?">boolean</variable>
+  </variables>
+  <block type="text_print" id="[L?S5[oDo!kr]@9U#{V8" x="12" y="-12">
+    <value name="TEXT">
+      <shadow type="text" id="c59H)UhV30bnN]qpjY5Y">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="]UWg%ev3_a`zs4c@VBvT">
+        <field name="TEXT">Title: Read in booleans</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="_%m#DA-MB002L0iGz^d~" x="12" y="63">
+    <field name="VAR" id="QX`5zQ`^NkPM6n4(qbf.">booleans</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="VH|-A0pSk^Aqx[p)(y{9">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="n4`4O?Q0kteB-MDh^bym">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text" id="K,_Ng7EJ~/*0W~RJXPbu">
+            <field name="TEXT">Type in list of booleans.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="9M+?DnM`tm)McA@1)H}L" x="13" y="137">
+    <value name="TEXT">
+      <shadow type="text" id="v%)?pT5o{h/2wj%,4VB-">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="=;kFZidVGvrroFZe=!tf">
+        <field name="TEXT">Title: Filter list of booleans for 'false' items</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_forEach" id="iu!{)t8b!`z5G*iU7{x[" disabled="true" x="12" y="212">
+    <field name="VAR" id="jJwX7upl/`).PWs)OQ`8">i</field>
+    <statement name="DO">
+      <block type="controls_if" id="o,{)6dK;/8sEME6C:g/r">
+        <value name="IF0">
+          <block type="logic_negate" id="Y{GIAsmRoNnA$t]l7d.Z">
+            <value name="BOOL">
+              <block type="variables_get" id="I`ilGLlG{wJ)RSOE7K9=">
+                <field name="VAR" id="OUr[H56vacD}D@vU/-_?">boolean</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="text_print" id=".LyN5fsGrz/~m4dop-BK" x="12" y="362">
+    <value name="TEXT">
+      <shadow type="text" id=";lTj(JqF]L0B9!%N!OT{">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id=",+yw_ebF`8e1F!r1),}J">
+        <field name="TEXT">Title: Print result</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="msXb0[[Cn:X2h,5b;FCi" x="12" y="438">
+    <value name="TEXT">
+      <shadow type="text" id="w]p^[I0;|s)F-vzYjqPO">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="variables_get" id="!lqK|8W8R^v1!c+b?*bc">
+        <field name="VAR" id="QX`5zQ`^NkPM6n4(qbf.">booleans</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="JLuX1i[2XJ_-b)Epb37Y" x="12" y="513">
+    <value name="TEXT">
+      <shadow type="text" id="[4x5A}T1H4/P,6Xi)dP^">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="~k5c^%BFmq^Z(Jr+d=k$">
+        <field name="TEXT">Title: Run through list of booleans with index</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="S`X@[#.t)2LxW9w}A=S|" x="13" y="587">
+    <field name="VAR" id="M+XE)W3v{#^%:b(+b50u">index</field>
+    <value name="VALUE">
+      <block type="math_number" id="`=#?Cwru:RLxk|sP8LL:">
+        <field name="NUM">0</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_forEach" id="EM3g;q+ulxGD[WAUZ5)9">
+        <field name="VAR" id="OUr[H56vacD}D@vU/-_?">boolean</field>
+        <value name="LIST">
+          <block type="variables_get" id="k[ljb%j((In(xJG/`b@z">
+            <field name="VAR" id="QX`5zQ`^NkPM6n4(qbf.">booleans</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="lsbMFp1jn~CW~WSt84-d">
+            <field name="VAR" id="M+XE)W3v{#^%:b(+b50u">index</field>
+            <value name="VALUE">
+              <block type="math_arithmetic" id="YqKtZ5,=_VgZ)fHcEU7.">
+                <field name="OP">ADD</field>
+                <value name="A">
+                  <shadow type="math_number" id="ol-k`iKEC2O?Y!+q!W/c">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="variables_get" id="M8v%B?3/#x!rS1B,{VII">
+                    <field name="VAR" id="M+XE)W3v{#^%:b(+b50u">index</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <shadow type="math_number" id="URRB$%iJ^n6^N(dHQ|Cy">
+                    <field name="NUM">1</field>
+                  </shadow>
+                  <block type="math_number" id="18b%qTsMY(x)(bve]5,:">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id="51~i[#2QQHLFIrn_p%PB" x="13" y="738">
+    <value name="TEXT">
+      <shadow type="text" id="B,QV:ibzlwOqXhcOKjm4">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="oq-x}wCf@D`KqCjtB%fM">
+        <field name="TEXT">Title: Replace 'false' item with 'true'</field>
+      </block>
+    </value>
+  </block>
+  <block type="lists_setIndex" id="0|?9FZb]ryE/b@JT.44?" x="13" y="813">
+    <mutation at="true"></mutation>
+    <field name="MODE">SET</field>
+    <field name="WHERE">FROM_START</field>
+    <value name="LIST">
+      <block type="variables_get" id="yDRKAaIUaL%:c%*?5V3/">
+        <field name="VAR" id="QX`5zQ`^NkPM6n4(qbf.">booleans</field>
+      </block>
+    </value>
+    <value name="AT">
+      <block type="variables_get" id="y!{/8wl=+b@7nCIpx{fY">
+        <field name="VAR" id="M+XE)W3v{#^%:b(+b50u">index</field>
+      </block>
+    </value>
+    <value name="TO">
+      <block type="logic_boolean" id="Q@^A89a:)e{iE)!Fob~@">
+        <field name="BOOL">TRUE</field>
+      </block>
+    </value>
+  </block>
+</xml>

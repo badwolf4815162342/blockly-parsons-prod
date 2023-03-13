@@ -49,31 +49,29 @@
         <field name="BOOL" editable="false" movable="false">FALSE</field>
       </block>
     </value>
-    <next editable="true" movable="true">
-      <block type="disabled_loop" id="iu!{)t8b!-z5G*iU7{x[" disabled="false" editable="true" movable="true">
-        <statement name="DO" editable="true" movable="true">
-          <block type="controls_if" id="o,{)6dK;/8sEME6C:g/r" disabled="false" editable="true" movable="true">
-            <value name="IF0" editable="false" movable="false">
-              <block type="variables_get" id="I-ilGLlG{wJ)RSOE7K9=" editable="false" movable="false">
-                <field name="VAR" id="OUr[H56vacD}D@vU/-_?" editable="false" movable="false">boolean</field>
+  </block>
+  <block type="disabled_loop" id="iu!{)t8b!-z5G*iU7{x[" disabled="false" x="13" y="287" editable="true" deletable="false" contextMenu="false" enableContextMenu="false">
+    <statement name="DO" editable="true" movable="true">
+      <block type="controls_if" id="o,{)6dK;/8sEME6C:g/r" disabled="false" editable="true" movable="true">
+        <value name="IF0">
+          <block type="variables_get" id="I-ilGLlG{wJ)RSOE7K9=" editable="false" movable="false">
+            <field name="VAR" id="OUr[H56vacD}D@vU/-_?" editable="false" movable="false">boolean</field>
+          </block>
+        </value>
+        <statement name="DO0" editable="true" movable="true">
+          <block type="variables_set" id="7bs:6RMv(dWfsA5BgJTu" editable="true" movable="true">
+            <field name="VAR" id="OS?bf%wi!SgzoOku=U%!" editable="false" movable="false">flag</field>
+            <value name="VALUE" editable="false" movable="false">
+              <block type="logic_boolean" id=")IQMY[nEUGi(L#V%RMO:" editable="false" movable="false">
+                <field name="BOOL" editable="false" movable="false">TRUE</field>
               </block>
             </value>
-            <statement name="DO0" editable="true" movable="true">
-              <block type="variables_set" id="7bs:6RMv(dWfsA5BgJTu" editable="true" movable="true">
-                <field name="VAR" id="OS?bf%wi!SgzoOku=U%!" editable="false" movable="false">flag</field>
-                <value name="VALUE" editable="false" movable="false">
-                  <block type="logic_boolean" id=")IQMY[nEUGi(L#V%RMO:" editable="false" movable="false">
-                    <field name="BOOL" editable="false" movable="false">TRUE</field>
-                  </block>
-                </value>
-              </block>
-            </statement>
           </block>
         </statement>
       </block>
-    </next>
+    </statement>
   </block>
-  <block type="group_title" id=".LyN5fsGrz/~m4dop-BK" x="12" y="417" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id=".LyN5fsGrz/~m4dop-BK" x="12" y="468" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id=";lTj(JqF]L0B9!%N!OT{" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -83,7 +81,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="msXb0[[Cn:X2h,5b;FCi" x="12" y="463" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="text_print" id="msXb0[[Cn:X2h,5b;FCi" x="12" y="512" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="w]p^[I0;|s)F-vzYjqPO" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -93,7 +91,7 @@
       </block>
     </value>
   </block>
-  <block type="group_title" id="JLuX1i[2XJ_-b)Epb37Y" x="13" y="568" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="group_title" id="JLuX1i[2XJ_-b)Epb37Y" x="13" y="617" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="[4x5A}T1H4/P,6Xi)dP^" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
@@ -102,15 +100,13 @@
         <field name="TEXT" editable="false" movable="false">Run through list of booleans</field>
       </block>
     </value>
-    <next editable="true" movable="true">
-      <block type="controls_forEach" id="EM3g;q+ulxGD[WAUZ5)9" editable="true" movable="true">
-        <field name="VAR" id="OUr[H56vacD}D@vU/-_?" editable="false" movable="false">boolean</field>
-        <value name="LIST" editable="false" movable="false">
-          <block type="variables_get" id="k[ljb%j((In(xJG/-b@z" editable="false" movable="false">
-            <field name="VAR" id="QX-5zQ-^NkPM6n4(qbf." editable="false" movable="false">booleans</field>
-          </block>
-        </value>
+  </block>
+  <block type="controls_forEach" id="EM3g;q+ulxGD[WAUZ5)9" x="13" y="662" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="OUr[H56vacD}D@vU/-_?" editable="false" movable="false">boolean</field>
+    <value name="LIST" editable="false" movable="false">
+      <block type="variables_get" id="k[ljb%j((In(xJG/-b@z" editable="false" movable="false">
+        <field name="VAR" id="QX-5zQ-^NkPM6n4(qbf." editable="false" movable="false">booleans</field>
       </block>
-    </next>
+    </value>
   </block>
 </xml>

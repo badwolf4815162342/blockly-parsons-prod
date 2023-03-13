@@ -49,36 +49,34 @@
         <field name="BOOL">TRUE</field>
       </block>
     </value>
-    <next>
-      <block type="controls_forEach" id="iu!{)t8b!`z5G*iU7{x[" disabled="true">
-        <field name="VAR" id="jJwX7upl/`).PWs)OQ`8">i</field>
-        <statement name="DO">
-          <block type="controls_if" id="o,{)6dK;/8sEME6C:g/r">
-            <value name="IF0">
-              <block type="logic_negate" id="zJ;U2cyMHBs{Ya!jsEiE">
-                <value name="BOOL">
-                  <block type="variables_get" id="I`ilGLlG{wJ)RSOE7K9=">
-                    <field name="VAR" id="OUr[H56vacD}D@vU/-_?">boolean</field>
-                  </block>
-                </value>
+  </block>
+  <block type="controls_forEach" id="iu!{)t8b!`z5G*iU7{x[" disabled="true" x="13" y="288">
+    <field name="VAR" id="jJwX7upl/`).PWs)OQ`8">i</field>
+    <statement name="DO">
+      <block type="controls_if" id="o,{)6dK;/8sEME6C:g/r">
+        <value name="IF0">
+          <block type="logic_negate" id="zJ;U2cyMHBs{Ya!jsEiE">
+            <value name="BOOL">
+              <block type="variables_get" id="I`ilGLlG{wJ)RSOE7K9=">
+                <field name="VAR" id="OUr[H56vacD}D@vU/-_?">boolean</field>
               </block>
             </value>
-            <statement name="DO0">
-              <block type="variables_set" id="7bs:6RMv(dWfsA5BgJTu">
-                <field name="VAR" id="OS?bf%wi!SgzoOku=U%!">flag</field>
-                <value name="VALUE">
-                  <block type="logic_boolean" id=")IQMY[nEUGi(L#V%RMO:">
-                    <field name="BOOL">FALSE</field>
-                  </block>
-                </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="7bs:6RMv(dWfsA5BgJTu">
+            <field name="VAR" id="OS?bf%wi!SgzoOku=U%!">flag</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id=")IQMY[nEUGi(L#V%RMO:">
+                <field name="BOOL">FALSE</field>
               </block>
-            </statement>
+            </value>
           </block>
         </statement>
       </block>
-    </next>
+    </statement>
   </block>
-  <block type="text_print" id=".LyN5fsGrz/~m4dop-BK" x="12" y="387">
+  <block type="text_print" id=".LyN5fsGrz/~m4dop-BK" x="13" y="437">
     <value name="TEXT">
       <shadow type="text" id=";lTj(JqF]L0B9!%N!OT{">
         <field name="TEXT">abc</field>
@@ -88,7 +86,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="msXb0[[Cn:X2h,5b;FCi" x="12" y="463">
+  <block type="text_print" id="msXb0[[Cn:X2h,5b;FCi" x="13" y="512">
     <value name="TEXT">
       <shadow type="text" id="w]p^[I0;|s)F-vzYjqPO">
         <field name="TEXT">abc</field>
@@ -98,7 +96,7 @@
       </block>
     </value>
   </block>
-  <block type="text_print" id="JLuX1i[2XJ_-b)Epb37Y" x="13" y="538">
+  <block type="text_print" id="JLuX1i[2XJ_-b)Epb37Y" x="13" y="587">
     <value name="TEXT">
       <shadow type="text" id="[4x5A}T1H4/P,6Xi)dP^">
         <field name="TEXT">abc</field>
@@ -108,7 +106,7 @@
       </block>
     </value>
   </block>
-  <block type="controls_forEach" id="EM3g;q+ulxGD[WAUZ5)9" x="12" y="612">
+  <block type="controls_forEach" id="EM3g;q+ulxGD[WAUZ5)9" x="12" y="662">
     <field name="VAR" id="OUr[H56vacD}D@vU/-_?">boolean</field>
     <value name="LIST">
       <block type="variables_get" id="k[ljb%j((In(xJG/`b@z">

@@ -6,7 +6,7 @@ import sys
 def method():
 {parsons_puzzle}
 class myTests(unittest.TestCase):
-    @patch('builtins.input',side_effect=[[true,true,false]])
+    @patch('builtins.input',side_effect=[[True,True,False]])
     def testOne(self, input):
         capturedOutput = StringIO()          # Create StringIO object
         sys.stdout = capturedOutput                   #  and redirect stdout.
@@ -16,8 +16,8 @@ class myTests(unittest.TestCase):
         if (len(outputArray)>1):
             outputArray.pop()
         self.assertEqual(outputArray,
-           ['false'],)
-    @patch('builtins.input',side_effect=[[true,true,true,true,true]])
+           ['False'],)
+    @patch('builtins.input',side_effect=[[True,True,True,True,True]])
     def testTwo(self, input):
         capturedOutput = StringIO()          # Create StringIO object
         sys.stdout = capturedOutput                   #  and redirect stdout.
@@ -27,7 +27,7 @@ class myTests(unittest.TestCase):
         if (len(outputArray)>1):
             outputArray.pop()
         self.assertEqual(outputArray,
-           ['true'],)
+           ['True'],)
     
 tests = [myTests().testOne(),myTests().testTwo()]
 _test_result = tests[0]
