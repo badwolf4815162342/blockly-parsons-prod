@@ -22,10 +22,10 @@
         <field name="TYPE" editable="false" movable="false">NUMBER</field>
         <value name="TEXT" editable="false" movable="false">
           <shadow type="text" id="nt-z7h$%m!p~RKU1cH2S" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Type in your guess.</field>
+            <field name="TEXT" editable="false" movable="false">Type in your guess-number.</field>
           </shadow>
           <block type="text" id="VWax21WpI[+h3KaPhR7Z" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Type your guess:</field>
+            <field name="TEXT" editable="false" movable="false">Type your guess-number.</field>
           </block>
         </value>
       </block>
@@ -77,10 +77,10 @@
                 <field name="TYPE" editable="false" movable="false">NUMBER</field>
                 <value name="TEXT" editable="false" movable="false">
                   <shadow type="text" id=".m3w#-uCV/]S-745qJ^K" editable="false" movable="false">
-                    <field name="TEXT" editable="false" movable="false">Type in your guess.</field>
+                    <field name="TEXT" editable="false" movable="false">Type in your guess-number.</field>
                   </shadow>
                   <block type="text" id=")3_b0t8RXI}NQxhX]{?3" editable="false" movable="false">
-                    <field name="TEXT" editable="false" movable="false">Type your guess:</field>
+                    <field name="TEXT" editable="false" movable="false">Type your guess-number.</field>
                   </block>
                 </value>
               </block>

@@ -22,10 +22,10 @@
         <field name="TYPE">NUMBER</field>
         <value name="TEXT">
           <shadow type="text" id="nt`z7h$%m!p~RKU1cH2S">
-            <field name="TEXT">Type in your guess.</field>
+            <field name="TEXT">Type in your guess-number.</field>
           </shadow>
           <block type="text" id="VWax21WpI[+h3KaPhR7Z">
-            <field name="TEXT">Type your guess:</field>
+            <field name="TEXT">Type your guess-number.</field>
           </block>
         </value>
       </block>
@@ -77,10 +77,10 @@
                 <field name="TYPE">NUMBER</field>
                 <value name="TEXT">
                   <shadow type="text" id=".m3w#-uCV/]S-745qJ^K">
-                    <field name="TEXT">Type in your guess.</field>
+                    <field name="TEXT">Type in your guess-number.</field>
                   </shadow>
                   <block type="text" id=")3_b0t8RXI}NQxhX]{?3">
-                    <field name="TEXT">Type your guess:</field>
+                    <field name="TEXT">Type your guess-number.</field>
                   </block>
                 </value>
               </block>

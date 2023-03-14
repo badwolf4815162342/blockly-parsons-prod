@@ -5,7 +5,7 @@
     <variable id="W(S(^:]*=Q;H#QiRKVhN">sum</variable>
     <variable id="bW5QWCXURdTiiP:Nyue]">list</variable>
     <variable id="32RKGn?ZR6`3SWhgbjQP">end</variable>
-    <variable id="az[~;a)=0NxluMJk+8TU">i</variable>
+    <variable id="az[~;a)=0NxluMJk+8TU">index</variable>
     <variable id="9^h)H|cW{w(ziBFW~zmo">avg</variable>
     <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
     <variable id="k}(?c6V%o:v+NjpiLwZz">value</variable>
@@ -61,7 +61,7 @@
         </value>
         <next>
           <block type="controls_for" id="*{Ggw.8OAF)[rRf(s*rP">
-            <field name="VAR" id="az[~;a)=0NxluMJk+8TU">i</field>
+            <field name="VAR" id="az[~;a)=0NxluMJk+8TU">index</field>
             <value name="FROM">
               <shadow type="math_number" id="SKENWBlJlGUA*nAIQ5$*">
                 <field name="NUM">1</field>
@@ -98,7 +98,7 @@
                     </value>
                     <value name="AT">
                       <block type="variables_get" id="L3Ooo-JAC5)jU`);G_Ek">
-                        <field name="VAR" id="az[~;a)=0NxluMJk+8TU">i</field>
+                        <field name="VAR" id="az[~;a)=0NxluMJk+8TU">index</field>
                       </block>
                     </value>
                   </block>

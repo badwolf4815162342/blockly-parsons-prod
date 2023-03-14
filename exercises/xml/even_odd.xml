@@ -76,7 +76,7 @@
             <field name="TEXT" editable="false" movable="false">Type in a number.</field>
           </shadow>
           <block type="text" id="vd6B}/LcM;{lu:QFRJoW" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Type a number:</field>
+            <field name="TEXT" editable="false" movable="false">Type a number.</field>
           </block>
         </value>
       </block>

@@ -142,10 +142,10 @@
         <field name="TYPE">NUMBER</field>
         <value name="TEXT">
           <shadow type="text" id="jqM[~_L~wM,6tGgVE81T">
-            <field name="TEXT">Type next number</field>
+            <field name="TEXT">Type next number.</field>
           </shadow>
           <block type="text" id="B2J`3nO1AyF;8-]-NeUC">
-            <field name="TEXT">Type first number:</field>
+            <field name="TEXT">Type first number.</field>
           </block>
         </value>
       </block>
@@ -180,7 +180,7 @@
                     <field name="TEXT">abc</field>
                   </shadow>
                   <block type="text" id="?h#HzNdU2(8u6mny/8qn">
-                    <field name="TEXT">Type next number:</field>
+                    <field name="TEXT">Type next number.</field>
                   </block>
                 </value>
               </block>

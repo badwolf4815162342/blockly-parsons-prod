@@ -134,10 +134,10 @@
         <field name="TYPE" editable="false" movable="false">NUMBER</field>
         <value name="TEXT" editable="false" movable="false">
           <shadow type="text" id="jqM[~_L~wM,6tGgVE81T" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Type next number</field>
+            <field name="TEXT" editable="false" movable="false">Type next number.</field>
           </shadow>
           <block type="text" id="B2J-3nO1AyF;8-]-NeUC" editable="false" movable="false">
-            <field name="TEXT" editable="false" movable="false">Type first number:</field>
+            <field name="TEXT" editable="false" movable="false">Type first number.</field>
           </block>
         </value>
       </block>
@@ -172,7 +172,7 @@
                     <field name="TEXT" editable="false" movable="false">abc</field>
                   </shadow>
                   <block type="text" id="?h#HzNdU2(8u6mny/8qn" editable="false" movable="false">
-                    <field name="TEXT" editable="false" movable="false">Type next number:</field>
+                    <field name="TEXT" editable="false" movable="false">Type next number.</field>
                   </block>
                 </value>
               </block>

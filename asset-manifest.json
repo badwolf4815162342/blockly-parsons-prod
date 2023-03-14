@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/blockly-parsons-prod/static/css/main.9024b34d.css",
-    "main.js": "/blockly-parsons-prod/static/js/main.d0e77af1.js",
+    "main.js": "/blockly-parsons-prod/static/js/main.28c06c7b.js",
     "static/media/uni2.jpeg": "/blockly-parsons-prod/static/media/uni2.3c1db41373cd70ed5234.jpeg",
     "static/media/background.jpeg": "/blockly-parsons-prod/static/media/background.6d1c6cb86a9c16037042.jpeg",
     "index.html": "/blockly-parsons-prod/index.html",
     "main.9024b34d.css.map": "/blockly-parsons-prod/static/css/main.9024b34d.css.map",
-    "main.d0e77af1.js.map": "/blockly-parsons-prod/static/js/main.d0e77af1.js.map"
+    "main.28c06c7b.js.map": "/blockly-parsons-prod/static/js/main.28c06c7b.js.map"
   },
   "entrypoints": [
     "static/css/main.9024b34d.css",
-    "static/js/main.d0e77af1.js"
+    "static/js/main.28c06c7b.js"
   ]
 }

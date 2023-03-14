@@ -5,7 +5,7 @@
     <variable id="W(S(^:]*=Q;H#QiRKVhN">sum</variable>
     <variable id="bW5QWCXURdTiiP:Nyue]">list</variable>
     <variable id="32RKGn?ZR6-3SWhgbjQP">end</variable>
-    <variable id="az[~;a)=0NxluMJk+8TU">i</variable>
+    <variable id="az[~;a)=0NxluMJk+8TU">index</variable>
     <variable id="9^h)H|cW{w(ziBFW~zmo">avg</variable>
     <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
     <variable id="k}(?c6V%o:v+NjpiLwZz">value</variable>
@@ -61,7 +61,7 @@
         </value>
         <next editable="true" movable="true">
           <block type="controls_for" id="*{Ggw.8OAF)[rRf(s*rP" editable="true" movable="true">
-            <field name="VAR" id="az[~;a)=0NxluMJk+8TU" editable="false" movable="false">i</field>
+            <field name="VAR" id="az[~;a)=0NxluMJk+8TU" editable="false" movable="false">index</field>
             <value name="FROM" editable="false" movable="false">
               <shadow type="math_number" id="SKENWBlJlGUA*nAIQ5$*" editable="false" movable="false">
                 <field name="NUM" editable="false" movable="false">1</field>
@@ -98,7 +98,7 @@
                     </value>
                     <value name="AT" editable="false" movable="false">
                       <block type="variables_get" id="L3Ooo-JAC5)jU-);G_Ek" editable="false" movable="false">
-                        <field name="VAR" id="az[~;a)=0NxluMJk+8TU" editable="false" movable="false">i</field>
+                        <field name="VAR" id="az[~;a)=0NxluMJk+8TU" editable="false" movable="false">index</field>
                       </block>
                     </value>
                   </block>

@@ -1,11 +1,12 @@
 <xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
   <variables>
-    <variable id="[9_:dNp6o,SeGBp5J[59">numbers</variable>
-    <variable id="|6goZ1OHwbCJI5uzBb9p">min</variable>
     <variable id="(@-6s#u!k_~FmYI$Oo-$">max</variable>
     <variable id="nBj}0|ewtaN-)B35m:J+">start</variable>
-    <variable id="az[~;a)=0NxluMJk+8TU">i</variable>
+    <variable id="|6goZ1OHwbCJI5uzBb9p">min</variable>
+    <variable id="[9_:dNp6o,SeGBp5J[59">numbers</variable>
     <variable id="32RKGn?ZR6-3SWhgbjQP">end</variable>
+    <variable id="|cH300xOF|DgeP$?+ga-">x</variable>
+    <variable id="az[~;a)=0NxluMJk+8TU">index</variable>
     <variable id="k}(?c6V%o:v+NjpiLwZz">value</variable>
   </variables>
   <block type="group_title" id="CJ//]u!geDmd(yp}I@GL" x="12" y="17" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">

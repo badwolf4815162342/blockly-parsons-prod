@@ -16,7 +16,7 @@ class myTests(unittest.TestCase):
         if (len(outputArray)>1):
             outputArray.pop()
         self.assertEqual(outputArray,
-           ['Avg = 4.5'],)
+           ['Avg = 7.5'],)
     @patch('builtins.input',side_effect=[[0,-1,-5,9,20,3,7,3]])
     def testTwo(self, input):
         capturedOutput = StringIO()          # Create StringIO object

@@ -6,7 +6,7 @@ import sys
 def method():
 {parsons_puzzle}
 class myTests(unittest.TestCase):
-    @patch('builtins.input',side_effect=[[5,3,7,2,7,-5,0]])
+    @patch('builtins.input',side_effect=[[5,3,7,2,7,-5,0,3,2]])
     def testOne(self, input):
         capturedOutput = StringIO()          # Create StringIO object
         sys.stdout = capturedOutput                   #  and redirect stdout.

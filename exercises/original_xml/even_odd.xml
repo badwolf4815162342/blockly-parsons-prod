@@ -76,7 +76,7 @@
             <field name="TEXT">Type in a number.</field>
           </shadow>
           <block type="text" id="vd6B}/LcM;{lu:QFRJoW">
-            <field name="TEXT">Type a number:</field>
+            <field name="TEXT">Type a number.</field>
           </block>
         </value>
       </block>
