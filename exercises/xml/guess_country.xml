@@ -1,0 +1,297 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id=")bV+!=IhE7(VZ:?LwOQm">country</variable>
+    <variable id="hw=bdEu-as$UkcyU$o:.">counter</variable>
+    <variable id="[2GYJ@CT3vFoWxP#j1iD">correct_first_letter</variable>
+    <variable id="ryq}yoSm|-xaO3V0X7)W">guess_country</variable>
+    <variable id="?ha.-s]H[mmsN#$(2Vgf">guess_letter</variable>
+  </variables>
+  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="13" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="miWq~KHwvy}d1K8VQe,-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="S;3ArY}Mie)cDFVAT]9V" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Set favorite country</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="#AVh[w14Cn@pw6)(7uFm" x="12" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" editable="false" movable="false">country</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text" id="#:gHy2T+bU:jE#fs]r.I" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">New Zealand</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="13" y="168" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="tBz}If~s[UW{!1U:(m8M" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Is the guess correct?</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="yVvy9~=8kfcxoAc=l/N," x="12" y="213" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="IF0" editable="false" movable="false">
+      <block type="logic_compare" id="@K#(BQLE3g[(0H8YjPKC" editable="false" movable="false">
+        <field name="OP" editable="false" movable="false">EQ</field>
+        <value name="A" editable="false" movable="false">
+          <block type="variables_get" id="]KVG/Rl6,c0yBnr=bPcS" editable="false" movable="false">
+            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" editable="false" movable="false">guess_country</field>
+          </block>
+        </value>
+        <value name="B" editable="false" movable="false">
+          <block type="variables_get" id="n4N8Pc~kU-1Nt@+_fA0E" editable="false" movable="false">
+            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" editable="false" movable="false">country</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0" editable="true" movable="true">
+      <block type="text_print" id="{uFF%Lr+OXv2=@J~Xbog" editable="true" movable="true">
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="o,S;*[_zW7{jEHoOkhRV" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">abc</field>
+          </shadow>
+          <block type="text_join" id="OIR[]N/6scUzfGK^HdqU" editable="false" movable="false">
+            <mutation items="2" />
+            <value name="ADD0" editable="false" movable="false">
+              <block type="text" id="Q4wBj(o)6YDc*kQ^m?^v" editable="false" movable="false">
+                <field name="TEXT" editable="false" movable="false">Right! I love New Zealand. Number of Tries: </field>
+              </block>
+            </value>
+            <value name="ADD1" editable="false" movable="false">
+              <block type="variables_get" id="i-LM2!tu~_3-V$-mn-~~" editable="false" movable="false">
+                <field name="VAR" id="hw=bdEu-as$UkcyU$o:." editable="false" movable="false">counter</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="12" y="393" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="Pne0)if%N+@j{w5{b%BY" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="qlY=S+^03v{t1vGuF{cE" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Try counter</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="^V-@76?,NANGS#0nhPU|" x="13" y="438" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="hw=bdEu-as$UkcyU$o:." editable="false" movable="false">counter</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="math_number" id="WyW@{:{6$-veGBY)L$~." editable="false" movable="false">
+        <field name="NUM" editable="false" movable="false">1</field>
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="variables_set" id="K+62t|Zs2Gx@ScT?Q?G-" editable="true" movable="true">
+        <field name="VAR" id="hw=bdEu-as$UkcyU$o:." editable="false" movable="false">counter</field>
+        <value name="VALUE" editable="false" movable="false">
+          <block type="math_arithmetic" id="J84!pT[)AB{-o{v3-rgm" editable="false" movable="false">
+            <field name="OP" editable="false" movable="false">ADD</field>
+            <value name="A" editable="false" movable="false">
+              <shadow type="math_number" id="Z4vvF_:itTz3C3H*mdUo" editable="false" movable="false">
+                <field name="NUM" editable="false" movable="false">1</field>
+              </shadow>
+              <block type="variables_get" id="_X-LVXqKIhk;deLNtV#W" editable="false" movable="false">
+                <field name="VAR" id="hw=bdEu-as$UkcyU$o:." editable="false" movable="false">counter</field>
+              </block>
+            </value>
+            <value name="B" editable="false" movable="false">
+              <shadow type="math_number" id="BLuS2nGnzSx?/+ZNOi)V" editable="false" movable="false">
+                <field name="NUM" editable="false" movable="false">1</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="13" y="592" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="2luk$1:@FEW:S_2.yML-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">First letter higher/lower in alphabet</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="qtlI)(,QW1B2g/N6lfX^" x="13" y="637" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="[2GYJ@CT3vFoWxP#j1iD" editable="false" movable="false">correct_first_letter</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text_charAt" id="[@]KrS$YQCOj~0#W1vh/" editable="false" movable="false">
+        <mutation at="true" />
+        <field name="WHERE" editable="false" movable="false">FROM_START</field>
+        <value name="VALUE" editable="false" movable="false">
+          <block type="variables_get" id="Z06O#[)*5NIrKWdX8Psy" editable="false" movable="false">
+            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" editable="false" movable="false">country</field>
+          </block>
+        </value>
+        <value name="AT" editable="false" movable="false">
+          <block type="math_number" id="j:HVWm$mXgyM,RUG.:Nk" editable="false" movable="false">
+            <field name="NUM" editable="false" movable="false">1</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="variables_set" id="W_wAGZzL^6[6hRZG~:A(" editable="true" movable="true">
+        <field name="VAR" id="?ha.-s]H[mmsN#$(2Vgf" editable="false" movable="false">guess_letter</field>
+        <value name="VALUE" editable="false" movable="false">
+          <block type="text_charAt" id="TZmRpTd=Fw4Y#SLjV.lM" editable="false" movable="false">
+            <mutation at="true" />
+            <field name="WHERE" editable="false" movable="false">FROM_START</field>
+            <value name="VALUE" editable="false" movable="false">
+              <block type="variables_get" id="d~kD.bz9|{N5%)v@s*SM" editable="false" movable="false">
+                <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" editable="false" movable="false">guess_country</field>
+              </block>
+            </value>
+            <value name="AT" editable="false" movable="false">
+              <block type="math_number" id="9S?v;p=s@(Ddng_KxVti" editable="false" movable="false">
+                <field name="NUM" editable="false" movable="false">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next editable="true" movable="true">
+          <block type="controls_if" id="7m-X4-A8IsbD-+.X:Gzs" editable="true" movable="true">
+            <mutation else="1" />
+            <value name="IF0" editable="false" movable="false">
+              <block type="logic_compare" id="ID8UV3a-d+X9~124M1~!" editable="false" movable="false">
+                <field name="OP" editable="false" movable="false">GT</field>
+                <value name="A" editable="false" movable="false">
+                  <block type="variables_get" id="i5nsk+L@F=2g^$s2w5Jy" editable="false" movable="false">
+                    <field name="VAR" id="[2GYJ@CT3vFoWxP#j1iD" editable="false" movable="false">correct_first_letter</field>
+                  </block>
+                </value>
+                <value name="B" editable="false" movable="false">
+                  <block type="variables_get" id="++6=Z8dgUC;xx?Ps]![n" editable="false" movable="false">
+                    <field name="VAR" id="?ha.-s]H[mmsN#$(2Vgf" editable="false" movable="false">guess_letter</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0" editable="true" movable="true">
+              <block type="text_print" id="YaIF=m,67szu}TEB9,%D" editable="true" movable="true">
+                <value name="TEXT" editable="false" movable="false">
+                  <shadow type="text" id="mrlR-?4O6fZDLSPM^yxT" editable="false" movable="false">
+                    <field name="TEXT" editable="false" movable="false">abc</field>
+                  </shadow>
+                  <block type="text" id="b!R1*-0L3qebWA-=%Wkz" editable="false" movable="false">
+                    <field name="TEXT" editable="false" movable="false">The correct country starts with a letter later in alphabet.</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <statement name="ELSE" editable="true" movable="true">
+              <block type="text_print" id="@Xel2X[t-0z$Pj5*1$qy" editable="true" movable="true">
+                <value name="TEXT" editable="false" movable="false">
+                  <shadow type="text" id="0ocr3A|UT|i%1P:l5[i]" editable="false" movable="false">
+                    <field name="TEXT" editable="false" movable="false">abc</field>
+                  </shadow>
+                  <block type="text" id="_,YL[.^zu?}bCD|0bu8$" editable="false" movable="false">
+                    <field name="TEXT" editable="false" movable="false">The correct country starts with a letter earlier in alphabet.</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="12" y="917" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="=utDZ|C?z3E%neK9oR56" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="2%7K$fRH2w4Si2Iy3()E" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Walk through inputs until '-' or correct country found.</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="qOc5x*ARG?TYolCv[]k4" x="12" y="963" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" editable="false" movable="false">guess_country</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text_prompt_ext" id="z@{Uon,uWfjYeoOE4_*p" editable="false" movable="false">
+        <mutation type="TEXT" />
+        <field name="TYPE" editable="false" movable="false">TEXT</field>
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="nt-z7h$%m!p~RKU1cH2S" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Type in your guess-number.</field>
+          </shadow>
+          <block type="text" id="VWax21WpI[+h3KaPhR7Z" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Type in what you think is my favorite country.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="controls_whileUntil" id="KhLf~XC3pLHMur//]bBY" editable="true" movable="true">
+        <field name="MODE" editable="false" movable="false">WHILE</field>
+        <value name="BOOL" editable="false" movable="false">
+          <block type="logic_operation" id="l@4MoYlLGY3)=D#xZ=tb" editable="false" movable="false">
+            <field name="OP" editable="false" movable="false">AND</field>
+            <value name="A" editable="false" movable="false">
+              <block type="logic_compare" id="t49$QX^qSnI]:^p^qBfj" editable="false" movable="false">
+                <field name="OP" editable="false" movable="false">NEQ</field>
+                <value name="A" editable="false" movable="false">
+                  <block type="variables_get" id="DwqrYTSr+Me_Jrx6jL/8" editable="false" movable="false">
+                    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" editable="false" movable="false">guess_country</field>
+                  </block>
+                </value>
+                <value name="B" editable="false" movable="false">
+                  <block type="text" id="mBq;*oZgQ(jZ5tqihp*%" editable="false" movable="false">
+                    <field name="TEXT" editable="false" movable="false">-</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B" editable="false" movable="false">
+              <block type="logic_compare" id="EZS,IOBmQH;EJd0i!]d:" editable="false" movable="false">
+                <field name="OP" editable="false" movable="false">NEQ</field>
+                <value name="A" editable="false" movable="false">
+                  <block type="variables_get" id="|_fATE9j+wY8CJ(@:3,R" editable="false" movable="false">
+                    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" editable="false" movable="false">guess_country</field>
+                  </block>
+                </value>
+                <value name="B" editable="false" movable="false">
+                  <block type="variables_get" id="JGA?|d-oE.ruXuA}pa#U" editable="false" movable="false">
+                    <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm" editable="false" movable="false">country</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO" editable="true" movable="true">
+          <block type="variables_set" id="YSIpRBR?gwBp%Jkq_G3p" editable="true" movable="true">
+            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W" editable="false" movable="false">guess_country</field>
+            <value name="VALUE" editable="false" movable="false">
+              <block type="text_prompt_ext" id="OtvStRPh0|JA,z(tD5hn" editable="false" movable="false">
+                <mutation type="TEXT" />
+                <field name="TYPE" editable="false" movable="false">TEXT</field>
+                <value name="TEXT" editable="false" movable="false">
+                  <shadow type="text" id=".m3w#-uCV/]S-745qJ^K" editable="false" movable="false">
+                    <field name="TEXT" editable="false" movable="false">Type in your guess-number.</field>
+                  </shadow>
+                  <block type="text" id=")3_b0t8RXI}NQxhX]{?3" editable="false" movable="false">
+                    <field name="TEXT" editable="false" movable="false">Type in what you think is my favorite country.</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

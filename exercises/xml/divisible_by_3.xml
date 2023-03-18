@@ -1,0 +1,176 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="v[v=@xT-I#9vHv24tLK*">flag</variable>
+    <variable id="D6Uc?G_LWz,zVHNu29_,">number</variable>
+    <variable id="K=%u+3kVe+|+a7{[4{1N">numbers</variable>
+    <variable id="NC^*Lczs%gnFJSxlP:1D">i</variable>
+    <variable id="wKN*_Uj3hssne^UZqqJ=">remainder</variable>
+  </variables>
+  <block type="group_title" id="H^6vK@75V7DOowzP:C%-" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="CPhF5s%R-c=Vu]u753|O" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="hNip[.j+$m@}9Y;X-w*u" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Set and update flag</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="%!RDEmL[0X^LylN0x5p6" x="13" y="63" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="v[v=@xT-I#9vHv24tLK*" editable="false" movable="false">flag</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="logic_boolean" id="gOD$kc_04agQ{D[QbuFr" editable="false" movable="false">
+        <field name="BOOL" editable="false" movable="false">TRUE</field>
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="disabled_loop" id="I{iW,D$X3A0y-vG3KKBr" disabled="false" editable="true" movable="true">
+        <statement name="DO" editable="true" movable="true">
+          <block type="controls_if" id="{(4fOWq;Uld:vuHhdEmy" disabled="false" editable="true" movable="true">
+            <value name="IF0" editable="false" movable="false">
+              <block type="logic_negate" id="BD(Ys|Omw@FoSS9)$~U," editable="false" movable="false">
+                <value name="BOOL" editable="false" movable="false">
+                  <block type="logic_compare" id="PP^2deGa/4I_J;A:mGtS" editable="false" movable="false">
+                    <field name="OP" editable="false" movable="false">EQ</field>
+                    <value name="A" editable="false" movable="false">
+                      <block type="variables_get" id="Q|?FKGpZ=^HBq@)J4#2|" editable="false" movable="false">
+                        <field name="VAR" id="wKN*_Uj3hssne^UZqqJ=" editable="false" movable="false">remainder</field>
+                      </block>
+                    </value>
+                    <value name="B" editable="false" movable="false">
+                      <block type="math_number" id="Gmy9H6{[M~N,*^lUW;Qy" editable="false" movable="false">
+                        <field name="NUM" editable="false" movable="false">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0" editable="true" movable="true">
+              <block type="variables_set" id="h@[e84s[4s6rYfs@GyE0" editable="true" movable="true">
+                <field name="VAR" id="v[v=@xT-I#9vHv24tLK*" editable="false" movable="false">flag</field>
+                <value name="VALUE" editable="false" movable="false">
+                  <block type="logic_boolean" id="ux#rVB)],(T+7u|C{y$/" editable="false" movable="false">
+                    <field name="BOOL" editable="false" movable="false">FALSE</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="group_title" id="32rg8F)[TqOpsS|q2Rac" x="13" y="293" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="M=aG}H$hz_5}Yny$(hB4" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="lnK1mknv^Zymy{|w|g1f" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Look at each's elements remainder</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_forEach" id="-!KjHh{B}4/ez!Vu}/-p" x="13" y="338" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="D6Uc?G_LWz,zVHNu29_," editable="false" movable="false">number</field>
+    <value name="LIST" editable="false" movable="false">
+      <block type="variables_get" id=",A[ZdQwi8-Zi|A_X1UxR" editable="false" movable="false">
+        <field name="VAR" id="K=%u+3kVe+|+a7{[4{1N" editable="false" movable="false">numbers</field>
+      </block>
+    </value>
+    <statement name="DO" editable="true" movable="true">
+      <block type="variables_set" id="7Ow0ULQc07%_6}n2652^" editable="true" movable="true">
+        <field name="VAR" id="wKN*_Uj3hssne^UZqqJ=" editable="false" movable="false">remainder</field>
+        <value name="VALUE" editable="false" movable="false">
+          <block type="math_modulo" id="RFZigdw;n;0Ao.MK9AD-" editable="false" movable="false">
+            <value name="DIVIDEND" editable="false" movable="false">
+              <shadow type="math_number" id="kI$,[d@etnHH%4E7?*B:" editable="false" movable="false">
+                <field name="NUM" editable="false" movable="false">64</field>
+              </shadow>
+              <block type="variables_get" id="B+98?U@sv!QJ%fvHoLp@" editable="false" movable="false">
+                <field name="VAR" id="D6Uc?G_LWz,zVHNu29_," editable="false" movable="false">number</field>
+              </block>
+            </value>
+            <value name="DIVISOR" editable="false" movable="false">
+              <shadow type="math_number" id="5{^CpfI~;_ye]KkM-s*f" editable="false" movable="false">
+                <field name="NUM" editable="false" movable="false">10</field>
+              </shadow>
+              <block type="math_number" id="[Tl98YU@sk1LhR(N-V.$" editable="false" movable="false">
+                <field name="NUM" editable="false" movable="false">3</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="group_title" id="E6dJ(wt52EKp%TSnXhq{" x="13" y="493" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=")so8+M3Dmv-;{7Vbjt5-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="m/yR)PJN-RKS{Tkt)!2h" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in list of numbers</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="2HMaF%|osT~j[pUE%cbl" x="13" y="538" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="K=%u+3kVe+|+a7{[4{1N" editable="false" movable="false">numbers</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text_prompt_ext" id="OPx#5d?h[J!qnE;s3GdU" editable="false" movable="false">
+        <mutation type="TEXT" />
+        <field name="TYPE" editable="false" movable="false">TEXT</field>
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="9t((FT3B,N-uPYiY]JB3" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">abc</field>
+          </shadow>
+          <block type="text" id="R-L^l!-0LQfZQ6Q?ko-8" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Type in a list of numbers.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=":s}|@A~LA6e[4Z}jg2xT" x="12" y="642" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="BMX]P{2Y%jzso)rts.+5" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="8|P1plCRap_G%=Rx-I]v" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print result depending on flag</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="D6-#hpy*:g;[/[2b^~A:" x="12" y="688" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <mutation else="1" />
+    <value name="IF0" editable="false" movable="false">
+      <block type="variables_get" id="Ww6#T+,oCrW$R3JGVx$m" editable="false" movable="false">
+        <field name="VAR" id="v[v=@xT-I#9vHv24tLK*" editable="false" movable="false">flag</field>
+      </block>
+    </value>
+    <statement name="DO0" editable="true" movable="true">
+      <block type="text_print" id="(n5%?0zkwy4Du79IT[TT" editable="true" movable="true">
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="#%|@ZQ{pyr#[^-fkI7!Y" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">abc</field>
+          </shadow>
+          <block type="text" id="oo*gOWKKq{?W~47D$][+" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">All numbers are divisible by 3.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="ELSE" editable="true" movable="true">
+      <block type="text_print" id="+yhyL-7!F(?@8*h*DOH0" editable="true" movable="true">
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id="[Vc.LJfMo({c^F6-:+Oh" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">abc</field>
+          </shadow>
+          <block type="text" id="HXy7R,!#=@5TOiGdSt@M" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Some numbers are not divisible by 3.</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>

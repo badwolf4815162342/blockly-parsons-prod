@@ -1,0 +1,59 @@
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
+  <variables>
+    <variable id=")bV+!=IhE7(VZ:?LwOQm">country</variable>
+    <variable id="hw=bdEu-as$UkcyU$o:.">counter</variable>
+    <variable id="[2GYJ@CT3vFoWxP#j1iD">correct_first_letter</variable>
+    <variable id="ryq}yoSm|-xaO3V0X7)W">guess_country</variable>
+    <variable id="?ha.-s]H[mmsN#$(2Vgf">guess_letter</variable>
+  </variables>
+  <block type="group_title" id="i33k5SmDYA?9(bc6dwK:" x="13" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="miWq~KHwvy}d1K8VQe,-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="S;3ArY}Mie)cDFVAT]9V" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Set favorite country</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="R|fYyq-9}(?.,Fq}v3mv" x="13" y="168" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="tBz}If~s[UW{!1U:(m8M" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Is the guess correct?</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=";YGl1SX6w#.g)BkZQ8jq" x="12" y="393" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="Pne0)if%N+@j{w5{b%BY" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="qlY=S+^03v{t1vGuF{cE" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Try counter</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="5R{k/|=)d=X(IqAc9Oi-" x="13" y="592" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="jewHpEmc-xoKmlH{bV-*" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="2luk$1:@FEW:S_2.yML-" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">First letter higher/lower in alphabet</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="[Q4b-q,lJl2;==V[OXLd" x="12" y="917" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="=utDZ|C?z3E%neK9oR56" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="2%7K$fRH2w4Si2Iy3()E" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Walk through inputs until '-' or correct country found.</field>
+      </block>
+    </value>
+  </block>
+  </xml>

@@ -1,0 +1,297 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id=")bV+!=IhE7(VZ:?LwOQm">country</variable>
+    <variable id="hw=bdEu-as$UkcyU$o:.">counter</variable>
+    <variable id="[2GYJ@CT3vFoWxP#j1iD">correct_first_letter</variable>
+    <variable id="ryq}yoSm|-xaO3V0X7)W">guess_country</variable>
+    <variable id="?ha.`s]H[mmsN#$(2Vgf">guess_letter</variable>
+  </variables>
+  <block type="text_print" id="i33k5SmDYA?9(bc6dwK:" x="13" y="-12">
+    <value name="TEXT">
+      <shadow type="text" id="miWq~KHwvy}d1K8VQe,`">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="S;3ArY}Mie)cDFVAT]9V">
+        <field name="TEXT">Title: Set favorite country</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="#AVh[w14Cn@pw6)(7uFm" x="12" y="63">
+    <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">country</field>
+    <value name="VALUE">
+      <block type="text" id="#:gHy2T+bU:jE#fs]r.I">
+        <field name="TEXT">New Zealand</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="R|fYyq`9}(?.,Fq}v3mv" x="13" y="138">
+    <value name="TEXT">
+      <shadow type="text" id=":6NT1n+Fg]=[tr11FLlX">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="tBz}If~s[UW{!1U:(m8M">
+        <field name="TEXT">Title: Is the guess correct?</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="yVvy9~=8kfcxoAc=l/N," x="12" y="213">
+    <value name="IF0">
+      <block type="logic_compare" id="@K#(BQLE3g[(0H8YjPKC">
+        <field name="OP">EQ</field>
+        <value name="A">
+          <block type="variables_get" id="]KVG/Rl6,c0yBnr=bPcS">
+            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess_country</field>
+          </block>
+        </value>
+        <value name="B">
+          <block type="variables_get" id="n4N8Pc~kU`1Nt@+_fA0E">
+            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">country</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="text_print" id="{uFF%Lr+OXv2=@J~Xbog">
+        <value name="TEXT">
+          <shadow type="text" id="o,S;*[_zW7{jEHoOkhRV">
+            <field name="TEXT">abc</field>
+          </shadow>
+          <block type="text_join" id="OIR[]N/6scUzfGK^HdqU">
+            <mutation items="2"></mutation>
+            <value name="ADD0">
+              <block type="text" id="Q4wBj(o)6YDc*kQ^m?^v">
+                <field name="TEXT">Right! I love New Zealand. Number of Tries: </field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="variables_get" id="i`LM2!tu~_3`V$-mn`~~">
+                <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="text_print" id=";YGl1SX6w#.g)BkZQ8jq" x="12" y="363">
+    <value name="TEXT">
+      <shadow type="text" id="Pne0)if%N+@j{w5{b%BY">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="qlY=S+^03v{t1vGuF{cE">
+        <field name="TEXT">Title: Try counter</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="^V`@76?,NANGS#0nhPU|" x="13" y="438">
+    <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
+    <value name="VALUE">
+      <block type="math_number" id="WyW@{:{6$-veGBY)L$~.">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="K+62t|Zs2Gx@ScT?Q?G-">
+        <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
+        <value name="VALUE">
+          <block type="math_arithmetic" id="J84!pT[)AB{-o{v3-rgm">
+            <field name="OP">ADD</field>
+            <value name="A">
+              <shadow type="math_number" id="Z4vvF_:itTz3C3H*mdUo">
+                <field name="NUM">1</field>
+              </shadow>
+              <block type="variables_get" id="_X`LVXqKIhk;deLNtV#W">
+                <field name="VAR" id="hw=bdEu-as$UkcyU$o:.">counter</field>
+              </block>
+            </value>
+            <value name="B">
+              <shadow type="math_number" id="BLuS2nGnzSx?/+ZNOi)V">
+                <field name="NUM">1</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id="5R{k/|=)d=X(IqAc9Oi-" x="13" y="562">
+    <value name="TEXT">
+      <shadow type="text" id="jewHpEmc`xoKmlH{bV-*">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="2luk$1:@FEW:S_2.yML-">
+        <field name="TEXT">Title: First letter higher/lower in alphabet</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="qtlI)(,QW1B2g/N6lfX^" x="13" y="637">
+    <field name="VAR" id="[2GYJ@CT3vFoWxP#j1iD">correct_first_letter</field>
+    <value name="VALUE">
+      <block type="text_charAt" id="[@]KrS$YQCOj~0#W1vh/">
+        <mutation at="true"></mutation>
+        <field name="WHERE">FROM_START</field>
+        <value name="VALUE">
+          <block type="variables_get" id="Z06O#[)*5NIrKWdX8Psy">
+            <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">country</field>
+          </block>
+        </value>
+        <value name="AT">
+          <block type="math_number" id="j:HVWm$mXgyM,RUG.:Nk">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id="W_wAGZzL^6[6hRZG~:A(">
+        <field name="VAR" id="?ha.`s]H[mmsN#$(2Vgf">guess_letter</field>
+        <value name="VALUE">
+          <block type="text_charAt" id="TZmRpTd=Fw4Y#SLjV.lM">
+            <mutation at="true"></mutation>
+            <field name="WHERE">FROM_START</field>
+            <value name="VALUE">
+              <block type="variables_get" id="d~kD.bz9|{N5%)v@s*SM">
+                <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess_country</field>
+              </block>
+            </value>
+            <value name="AT">
+              <block type="math_number" id="9S?v;p=s@(Ddng_KxVti">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="7m-X4`A8IsbD`+.X:Gzs">
+            <mutation else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="ID8UV3a`d+X9~124M1~!">
+                <field name="OP">GT</field>
+                <value name="A">
+                  <block type="variables_get" id="i5nsk+L@F=2g^$s2w5Jy">
+                    <field name="VAR" id="[2GYJ@CT3vFoWxP#j1iD">correct_first_letter</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="variables_get" id="++6=Z8dgUC;xx?Ps]![n">
+                    <field name="VAR" id="?ha.`s]H[mmsN#$(2Vgf">guess_letter</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="text_print" id="YaIF=m,67szu}TEB9,%D">
+                <value name="TEXT">
+                  <shadow type="text" id="mrlR-?4O6fZDLSPM^yxT">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="text" id="b!R1*`0L3qebWA-=%Wkz">
+                    <field name="TEXT">The correct country starts with a letter later in alphabet.</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="text_print" id="@Xel2X[t`0z$Pj5*1$qy">
+                <value name="TEXT">
+                  <shadow type="text" id="0ocr3A|UT|i%1P:l5[i]">
+                    <field name="TEXT">abc</field>
+                  </shadow>
+                  <block type="text" id="_,YL[.^zu?}bCD|0bu8$">
+                    <field name="TEXT">The correct country starts with a letter earlier in alphabet.</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="text_print" id="[Q4b`q,lJl2;==V[OXLd" x="12" y="887">
+    <value name="TEXT">
+      <shadow type="text" id="=utDZ|C?z3E%neK9oR56">
+        <field name="TEXT">abc</field>
+      </shadow>
+      <block type="text" id="2%7K$fRH2w4Si2Iy3()E">
+        <field name="TEXT">Title: Walk through inputs until '-' or correct country found.</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="qOc5x*ARG?TYolCv[]k4" x="12" y="963">
+    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess_country</field>
+    <value name="VALUE">
+      <block type="text_prompt_ext" id="z@{Uon,uWfjYeoOE4_*p">
+        <mutation type="TEXT"></mutation>
+        <field name="TYPE">TEXT</field>
+        <value name="TEXT">
+          <shadow type="text" id="nt`z7h$%m!p~RKU1cH2S">
+            <field name="TEXT">Type in your guess-number.</field>
+          </shadow>
+          <block type="text" id="VWax21WpI[+h3KaPhR7Z">
+            <field name="TEXT">Type in what you think is my favorite country.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="controls_whileUntil" id="KhLf~XC3pLHMur//]bBY">
+        <field name="MODE">WHILE</field>
+        <value name="BOOL">
+          <block type="logic_operation" id="l@4MoYlLGY3)=D#xZ=tb">
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="t49$QX^qSnI]:^p^qBfj">
+                <field name="OP">NEQ</field>
+                <value name="A">
+                  <block type="variables_get" id="DwqrYTSr+Me_Jrx6jL/8">
+                    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess_country</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="mBq;*oZgQ(jZ5tqihp*%">
+                    <field name="TEXT">-</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="EZS,IOBmQH;EJd0i!]d:">
+                <field name="OP">NEQ</field>
+                <value name="A">
+                  <block type="variables_get" id="|_fATE9j+wY8CJ(@:3,R">
+                    <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess_country</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="variables_get" id="JGA?|d-oE.ruXuA}pa#U">
+                    <field name="VAR" id=")bV+!=IhE7(VZ:?LwOQm">country</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="YSIpRBR?gwBp%Jkq_G3p">
+            <field name="VAR" id="ryq}yoSm|-xaO3V0X7)W">guess_country</field>
+            <value name="VALUE">
+              <block type="text_prompt_ext" id="OtvStRPh0|JA,z(tD5hn">
+                <mutation type="TEXT"></mutation>
+                <field name="TYPE">TEXT</field>
+                <value name="TEXT">
+                  <shadow type="text" id=".m3w#-uCV/]S-745qJ^K">
+                    <field name="TEXT">Type in your guess-number.</field>
+                  </shadow>
+                  <block type="text" id=")3_b0t8RXI}NQxhX]{?3">
+                    <field name="TEXT">Type in what you think is my favorite country.</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

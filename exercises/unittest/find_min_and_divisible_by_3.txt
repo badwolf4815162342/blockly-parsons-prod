@@ -1,0 +1,21 @@
+import unittest
+from unittest.mock import patch
+from io import StringIO
+import sys
+
+def method():
+{parsons_puzzle}
+class myTests(unittest.TestCase):
+    @patch('builtins.input',side_effect=['4','9','3','-1'])
+    def testOne(self, input):
+        capturedOutput = StringIO()          # Create StringIO object
+        sys.stdout = capturedOutput                   #  and redirect stdout.
+        method()                                  # Call unchanged function.
+        sys.stdout = sys.__stdout__                   # Reset redirect.
+        outputArray = capturedOutput.getvalue().split('\n')
+        if (len(outputArray)>1):
+            outputArray.pop()
+        self.assertEqual(outputArray,
+           ['This is the current minimum.','This is the current minimum.','The minimum is also divisible by 3.'],)
+    
+_test_result = myTests().testOne()

@@ -1,0 +1,48 @@
+<xml xmlns="https://developers.google.com/blockly/xml" contextMenu="false" enableContextMenu="false" movable="true">
+  <variables>
+    <variable id="}c+r#Xr,.g6W*SE.p-ms">intersection_list</variable>
+    <variable id="p}6LKIt}*z%$Cc8@W:Re">list1</variable>
+    <variable id="t*TVxSt+c2um#h7BsSO0">item</variable>
+    <variable id="vR|;TVAb9)@uJJe2p,-A">list2</variable>
+  </variables>
+  <block type="group_title" id="M$crebas[k-W%cvq3JbZ" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="gX(4XihO(@DkE6fLhbcf" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="0Z^x]g9X:W7~$mvT/@u[" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Add list1 elements to intersection list</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="s;8nfLRPo/Arius}b.|=" x="13" y="243" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="_StiJ_Je3N]})@+Yb0qI" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="Ermp.I6/SeC82jsq~+fL" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in lists</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id="{$q@rT+Sr|,s^!TEsh?T" x="13" y="418" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=":CIc@B]Xl4Zhoz8=]RYX" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="~JZRO*1B/h6:Du-i]O|?" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Check if item exists in list2</field>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=";U.@H[l5YySQ:rf_n=o{" x="13" y="617" editable="false" deletable="false" contextMenu="false" enableContextMenu="false" movable="true">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="d-)5dSiha_X{(uMSTU[r" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="fhI#P%BpL%rq((X:Q@?o" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print intersection list</field>
+      </block>
+    </value>
+  </block>
+  </xml>

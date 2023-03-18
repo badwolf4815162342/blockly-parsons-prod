@@ -1,0 +1,156 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="}c+r#Xr,.g6W*SE.p-ms">intersection_list</variable>
+    <variable id="p}6LKIt}*z%$Cc8@W:Re">list1</variable>
+    <variable id="t*TVxSt+c2um#h7BsSO0">item</variable>
+    <variable id="vR|;TVAb9)@uJJe2p,-A">list2</variable>
+  </variables>
+  <block type="group_title" id="M$crebas[k-W%cvq3JbZ" x="12" y="18" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="gX(4XihO(@DkE6fLhbcf" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="0Z^x]g9X:W7~$mvT/@u[" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Add list1 elements to intersection list</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="tXTi5r_P)jo!P~r)yde]" x="12" y="62" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="}c+r#Xr,.g6W*SE.p-ms" editable="false" movable="false">intersection_list</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="lists_create_with" id="YCI|vrXU/sYCJ1fFoF(g" editable="false" movable="false">
+        <mutation items="0" />
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="controls_forEach" id="@uS$1}+MBM#o@6_}pXk|" editable="true" movable="true">
+        <field name="VAR" id="t*TVxSt+c2um#h7BsSO0" editable="false" movable="false">item</field>
+        <value name="LIST" editable="false" movable="false">
+          <block type="variables_get" id=")=E1I4URNKdf%/usSz${" editable="false" movable="false">
+            <field name="VAR" id="p}6LKIt}*z%$Cc8@W:Re" editable="false" movable="false">list1</field>
+          </block>
+        </value>
+        <statement name="DO" editable="true" movable="true">
+          <block type="lists_setIndex" id="JdRa7p-/hRvQ91((z-Lr" editable="true" movable="true">
+            <mutation at="false" />
+            <field name="MODE" editable="false" movable="false">INSERT</field>
+            <field name="WHERE" editable="false" movable="false">FIRST</field>
+            <value name="LIST" editable="false" movable="false">
+              <block type="variables_get" id="~hfQbAR-|-3Vbst()v2=" editable="false" movable="false">
+                <field name="VAR" id="}c+r#Xr,.g6W*SE.p-ms" editable="false" movable="false">intersection_list</field>
+              </block>
+            </value>
+            <value name="TO" editable="false" movable="false">
+              <block type="variables_get" id="ATO.?]Df{R1?CiUcl*]N" editable="false" movable="false">
+                <field name="VAR" id="t*TVxSt+c2um#h7BsSO0" editable="false" movable="false">item</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="group_title" id="s;8nfLRPo/Arius}b.|=" x="13" y="243" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="_StiJ_Je3N]})@+Yb0qI" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="Ermp.I6/SeC82jsq~+fL" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Read in lists</field>
+      </block>
+    </value>
+  </block>
+  <block type="variables_set" id="(;41%EpyJ_+SzSR*}}Os" x="12" y="288" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <field name="VAR" id="p}6LKIt}*z%$Cc8@W:Re" editable="false" movable="false">list1</field>
+    <value name="VALUE" editable="false" movable="false">
+      <block type="text_prompt_ext" id="B5IPaXAkG+=yg;32+:=~" editable="false" movable="false">
+        <mutation type="TEXT" />
+        <field name="TYPE" editable="false" movable="false">TEXT</field>
+        <value name="TEXT" editable="false" movable="false">
+          <shadow type="text" id=")ddXtPW]#M(AonhaGqQ/" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">abc</field>
+          </shadow>
+          <block type="text" id="Qj4#._u0L/t{5nTr9_1a" editable="false" movable="false">
+            <field name="TEXT" editable="false" movable="false">Type in a first list of numbers.</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next editable="true" movable="true">
+      <block type="variables_set" id="Bk6fV/Jgfq*mJslNWTJS" editable="true" movable="true">
+        <field name="VAR" id="vR|;TVAb9)@uJJe2p,-A" editable="false" movable="false">list2</field>
+        <value name="VALUE" editable="false" movable="false">
+          <block type="text_prompt_ext" id="/axr/W/F@0=+TbXXeWm(" editable="false" movable="false">
+            <mutation type="TEXT" />
+            <field name="TYPE" editable="false" movable="false">TEXT</field>
+            <value name="TEXT" editable="false" movable="false">
+              <shadow type="text" id="B:zmLo0VG:kmRC*Rcx:1" editable="false" movable="false">
+                <field name="TEXT" editable="false" movable="false">abc</field>
+              </shadow>
+              <block type="text" id="~cio-X,I3-ZoYtbmLCc9" editable="false" movable="false">
+                <field name="TEXT" editable="false" movable="false">Type in a second list of numbers.</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="group_title" id="{$q@rT+Sr|,s^!TEsh?T" x="13" y="418" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id=":CIc@B]Xl4Zhoz8=]RYX" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="~JZRO*1B/h6:Du-i]O|?" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Check if item exists in list2</field>
+      </block>
+    </value>
+  </block>
+  <block type="controls_if" id="=@Bh0|5@7DfYZTZvlRQ6" x="13" y="462" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="IF0" editable="false" movable="false">
+      <block type="logic_compare" id=";HjcUExGmg%cfE4J~ATN" editable="false" movable="false">
+        <field name="OP" editable="false" movable="false">NEQ</field>
+        <value name="A" editable="false" movable="false">
+          <block type="math_number" id="F6[-q^tUlB83Tj|,Y!Qr" editable="false" movable="false">
+            <field name="NUM" editable="false" movable="false">0</field>
+          </block>
+        </value>
+        <value name="B" editable="false" movable="false">
+          <block type="lists_indexOf" id="RQ2NT|Q$bkBrZlP,Dbw5" editable="false" movable="false">
+            <field name="END" editable="false" movable="false">FIRST</field>
+            <value name="VALUE" editable="false" movable="false">
+              <block type="variables_get" id="ib;!kMI-*PWXk?zpai4(" editable="false" movable="false">
+                <field name="VAR" id="vR|;TVAb9)@uJJe2p,-A" editable="false" movable="false">list2</field>
+              </block>
+            </value>
+            <value name="FIND" editable="false" movable="false">
+              <block type="variables_get" id="|;1xzMfp*2+A9nj|hf#{" editable="false" movable="false">
+                <field name="VAR" id="t*TVxSt+c2um#h7BsSO0" editable="false" movable="false">item</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="group_title" id=";U.@H[l5YySQ:rf_n=o{" x="13" y="617" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="d-)5dSiha_X{(uMSTU[r" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="text" id="fhI#P%BpL%rq((X:Q@?o" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">Print intersection list</field>
+      </block>
+    </value>
+  </block>
+  <block type="text_print" id="?coD;SJ?dB7Ut^A,pb8p" x="13" y="662" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+    <value name="TEXT" editable="false" movable="false">
+      <shadow type="text" id="2ano(q})Bf,t9IMDMvCL" editable="false" movable="false">
+        <field name="TEXT" editable="false" movable="false">abc</field>
+      </shadow>
+      <block type="variables_get" id="|+k7!3-RTlpg;m4FEwby" editable="false" movable="false">
+        <field name="VAR" id="}c+r#Xr,.g6W*SE.p-ms" editable="false" movable="false">intersection_list</field>
+      </block>
+    </value>
+  </block>
+</xml>
