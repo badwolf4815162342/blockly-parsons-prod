@@ -68,7 +68,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="lnK1mknv^Zymy{|w|g1f">
-        <field name="TEXT">Title: Look at each's elements remainder</field>
+        <field name="TEXT">Title: Look at each elements remainder</field>
       </block>
     </value>
   </block>
@@ -111,7 +111,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="m/yR)PJN`RKS{Tkt)!2h">
-        <field name="TEXT">Title: Read in list of numbers</field>
+        <field name="TEXT">Title: Read in list</field>
       </block>
     </value>
   </block>
@@ -138,7 +138,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="8|P1plCRap_G%=Rx-I]v">
-        <field name="TEXT">Title: Print result depending on flag</field>
+        <field name="TEXT">Title: Alternate: flag true/false</field>
       </block>
     </value>
   </block>

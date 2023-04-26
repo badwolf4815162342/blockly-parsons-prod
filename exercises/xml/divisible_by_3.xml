@@ -67,7 +67,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="lnK1mknv^Zymy{|w|g1f" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Look at each's elements remainder</field>
+        <field name="TEXT" editable="false" movable="false">Look at each elements remainder</field>
       </block>
     </value>
   </block>
@@ -110,7 +110,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="m/yR)PJN-RKS{Tkt)!2h" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Read in list of numbers</field>
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
       </block>
     </value>
   </block>
@@ -137,7 +137,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="8|P1plCRap_G%=Rx-I]v" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Print result depending on flag</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: flag true/false</field>
       </block>
     </value>
   </block>

@@ -12,7 +12,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="i//hrhZujjU)b9d1eUe-">
-        <field name="TEXT">Title: Counting</field>
+        <field name="TEXT">Title: Counter</field>
       </block>
     </value>
   </block>

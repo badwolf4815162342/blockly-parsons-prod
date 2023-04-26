@@ -12,7 +12,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="FSBX!iTkLMhoM3)g3`tP">
-        <field name="TEXT">Title: The given array</field>
+        <field name="TEXT">Title: Set variable to list of words</field>
       </block>
     </value>
   </block>
@@ -111,7 +111,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="^8vy@cP7.B.G9`uE%bLH">
-        <field name="TEXT">Title: New list with elements in reverse</field>
+        <field name="TEXT">Title: Create new list with elements in reverse</field>
       </block>
     </value>
   </block>

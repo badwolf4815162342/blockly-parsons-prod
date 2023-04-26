@@ -65,7 +65,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="(vCc#^lG7_E{`L`82l5s">
-        <field name="TEXT">Title: Filter list of numbers</field>
+        <field name="TEXT">Title: Filter list</field>
       </block>
     </value>
   </block>
@@ -117,7 +117,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="Em+nUizHwNx.1fOvRcWx">
-        <field name="TEXT">Title: Print sum</field>
+        <field name="TEXT">Title: Print result</field>
       </block>
     </value>
   </block>

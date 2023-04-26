@@ -33,7 +33,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="9O;f;jz|3kZp|m):5SQh" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Find maximum</field>
+        <field name="TEXT" editable="false" movable="false">Find extreme value</field>
       </block>
     </value>
   </block>
@@ -53,7 +53,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="}hCT_^5FLq5Ub=OJ{Q9n" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Print out longest consecutive block length</field>
+        <field name="TEXT" editable="false" movable="false">Print result</field>
       </block>
     </value>
   </block>

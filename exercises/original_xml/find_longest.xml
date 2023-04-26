@@ -104,7 +104,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="9O;f;jz|3kZp|m):5SQh">
-        <field name="TEXT">Title: Find maximum</field>
+        <field name="TEXT">Title: Find extreme value</field>
       </block>
     </value>
   </block>
@@ -213,7 +213,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="}hCT_^5FLq5Ub=OJ{Q9n">
-        <field name="TEXT">Title: Print out longest consecutive block length</field>
+        <field name="TEXT">Title: Print result</field>
       </block>
     </value>
   </block>

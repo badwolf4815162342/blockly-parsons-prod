@@ -9,7 +9,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="8NOQ_t!lst{3Q-.2S$%G" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Decide whether even/odd</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: even/odd</field>
       </block>
     </value>
   </block>
@@ -19,7 +19,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="|516-HK=?R6L7mIQokGb" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Get user input</field>
+        <field name="TEXT" editable="false" movable="false">Read in value</field>
       </block>
     </value>
   </block>

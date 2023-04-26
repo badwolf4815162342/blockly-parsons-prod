@@ -10,7 +10,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="2%7K$fRH2w4Si2Iy3()E" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Walk through list until -1 or guess found.</field>
+        <field name="TEXT" editable="false" movable="false">Read in values until sentinel is found.</field>
       </block>
     </value>
   </block>
@@ -96,7 +96,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="S;3ArY}Mie)cDFVAT]9V" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Set guess number</field>
+        <field name="TEXT" editable="false" movable="false">Set variable to guess number</field>
       </block>
     </value>
   </block>
@@ -114,7 +114,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="qlY=S+^03v{t1vGuF{cE" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Try counter</field>
+        <field name="TEXT" editable="false" movable="false">Counter</field>
       </block>
     </value>
   </block>
@@ -153,7 +153,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="tBz}If~s[UW{!1U:(m8M" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Is the guess correct?</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: are values equal/not equal</field>
       </block>
     </value>
   </block>
@@ -202,7 +202,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="2luk$1:@FEW:S_2.yML-" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Too high/low?</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: too low/high</field>
       </block>
     </value>
   </block>

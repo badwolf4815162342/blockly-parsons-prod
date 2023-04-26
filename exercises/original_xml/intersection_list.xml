@@ -11,7 +11,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="0Z^x]g9X:W7~$mvT/@u[">
-        <field name="TEXT">Title: Add list1 elements to intersection list</field>
+        <field name="TEXT">Title: Add elements to list</field>
       </block>
     </value>
   </block>
@@ -102,7 +102,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="~JZRO*1B/h6:Du-i]O|?">
-        <field name="TEXT">Title: Check if item exists in list2</field>
+        <field name="TEXT">Title: Search list for value</field>
       </block>
     </value>
   </block>
@@ -139,7 +139,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="fhI#P%BpL%rq((X:Q@?o">
-        <field name="TEXT">Title: Print intersection list</field>
+        <field name="TEXT">Title: Print result</field>
       </block>
     </value>
   </block>

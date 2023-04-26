@@ -12,7 +12,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="4HPvk+xF5s((*CvT:QV+" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Print result of counting</field>
+        <field name="TEXT" editable="false" movable="false">Print result</field>
       </block>
     </value>
   </block>
@@ -69,7 +69,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="e+=8aqX@um]9_GIWeInc" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Counting</field>
+        <field name="TEXT" editable="false" movable="false">Counter</field>
       </block>
     </value>
   </block>
@@ -120,7 +120,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="BiXe8{mSo!/uOgC{E~jy" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Filter list by target</field>
+        <field name="TEXT" editable="false" movable="false">Filter list</field>
       </block>
     </value>
   </block>

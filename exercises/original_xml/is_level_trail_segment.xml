@@ -15,7 +15,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="9O;f;jz|3kZp|m):5SQh">
-        <field name="TEXT">Title: Calculate max</field>
+        <field name="TEXT">Title: Find extreme value (max)</field>
       </block>
     </value>
   </block>
@@ -162,7 +162,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="}hCT_^5FLq5Ub=OJ{Q9n">
-        <field name="TEXT">Title: Calculate min</field>
+        <field name="TEXT">Title: Find extreme value (min)</field>
       </block>
     </value>
   </block>

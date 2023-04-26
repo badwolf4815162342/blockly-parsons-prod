@@ -9,7 +9,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="8NOQ_t!lst{3Q-.2S$%G">
-        <field name="TEXT">Title: Decide whether even/odd</field>
+        <field name="TEXT">Title: Alternate: even/odd</field>
       </block>
     </value>
   </block>
@@ -61,7 +61,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="|516`HK=?R6L7mIQokGb">
-        <field name="TEXT">Title: Get user input</field>
+        <field name="TEXT">Title: Read in value</field>
       </block>
     </value>
   </block>

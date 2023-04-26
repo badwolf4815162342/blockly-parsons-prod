@@ -11,7 +11,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="]UWg%ev3_a-zs4c@VBvT" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Read in booleans</field>
+        <field name="TEXT" editable="false" movable="false">Read in list</field>
       </block>
     </value>
   </block>
@@ -97,7 +97,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="~k5c^%BFmq^Z(Jr+d=k$" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Run through list of booleans</field>
+        <field name="TEXT" editable="false" movable="false">Run through list</field>
       </block>
     </value>
   </block>

@@ -10,7 +10,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="lWVs`Z;,4?GoQcSFqP$g">
-        <field name="TEXT">Title: Find Maximum</field>
+        <field name="TEXT">Title: Find extreme value</field>
       </block>
     </value>
   </block>
@@ -79,7 +79,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="NnOblZEvmbkTZuS;e=D2">
-        <field name="TEXT">Title: Alternate odd/even</field>
+        <field name="TEXT">Title: Alternate: even/odd</field>
       </block>
     </value>
   </block>
@@ -130,7 +130,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="^Z*vE+iAK=`pWQVe[u#1">
-        <field name="TEXT">Title: Loop over values until sentinel reached</field>
+        <field name="TEXT">Title: Read in values until sentinel is found</field>
       </block>
     </value>
   </block>

@@ -11,7 +11,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="]UWg%ev3_a`zs4c@VBvT">
-        <field name="TEXT">Title: Read in booleans</field>
+        <field name="TEXT">Title: Read in list</field>
       </block>
     </value>
   </block>
@@ -38,7 +38,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="=;kFZidVGvrroFZe=!tf">
-        <field name="TEXT">Title: Filter list of booleans for 'false' items</field>
+        <field name="TEXT">Title: Filter list</field>
       </block>
     </value>
   </block>
@@ -84,7 +84,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="~k5c^%BFmq^Z(Jr+d=k$">
-        <field name="TEXT">Title: Run through list of booleans with index</field>
+        <field name="TEXT">Title: Run through list with index</field>
       </block>
     </value>
   </block>
@@ -138,7 +138,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="oq-x}wCf@D`KqCjtB%fM">
-        <field name="TEXT">Title: Replace 'false' item with 'true'</field>
+        <field name="TEXT">Title: Set variable to 'true'</field>
       </block>
     </value>
   </block>

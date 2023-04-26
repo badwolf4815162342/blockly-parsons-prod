@@ -11,7 +11,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="fhI#P%BpL%rq((X:Q@?o" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Print union list</field>
+        <field name="TEXT" editable="false" movable="false">Print result</field>
       </block>
     </value>
   </block>
@@ -31,7 +31,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="~JZRO*1B/h6:Du-i]O|?" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Check if item exists in list</field>
+        <field name="TEXT" editable="false" movable="false">Search list for value</field>
       </block>
     </value>
   </block>
@@ -97,7 +97,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="0Z^x]g9X:W7~$mvT/@u[" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Add list elements to new list</field>
+        <field name="TEXT" editable="false" movable="false">Add elements to list</field>
       </block>
     </value>
   </block>
