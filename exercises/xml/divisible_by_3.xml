@@ -110,7 +110,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="m/yR)PJN-RKS{Tkt)!2h" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Read in list</field>
+        <field name="TEXT" editable="false" movable="false">Read in list of numbers</field>
       </block>
     </value>
   </block>
@@ -137,7 +137,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="8|P1plCRap_G%=Rx-I]v" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Alternate: flag true/false</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: Print if flag is true/false</field>
       </block>
     </value>
   </block>

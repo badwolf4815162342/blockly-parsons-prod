@@ -42,7 +42,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="BiXe8{mSo!/uOgC{E~jy" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Filter list</field>
+        <field name="TEXT" editable="false" movable="false">Filter list by target</field>
       </block>
     </value>
   </block>

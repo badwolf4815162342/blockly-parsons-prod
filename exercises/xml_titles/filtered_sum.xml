@@ -21,7 +21,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="(vCc#^lG7_E{-L-82l5s" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Filter list</field>
+        <field name="TEXT" editable="false" movable="false">Filter list of numbers</field>
       </block>
     </value>
   </block>

@@ -10,7 +10,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="^Z*vE+iAK=`pWQVe[u#1">
-        <field name="TEXT">Title: Read in values until sentinel is found</field>
+        <field name="TEXT">Title: Read in values until negative is found</field>
       </block>
     </value>
   </block>
@@ -76,7 +76,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="NnOblZEvmbkTZuS;e=D2">
-        <field name="TEXT">Title: Alternate: divisible by 3/not divisible by 3</field>
+        <field name="TEXT">Title: Alternate: Is number divisible by 3/not divisible by 3</field>
       </block>
     </value>
   </block>
@@ -119,7 +119,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="lWVs`Z;,4?GoQcSFqP$g">
-        <field name="TEXT">Title: Find extreme value</field>
+        <field name="TEXT">Title: Find Minimum</field>
       </block>
     </value>
   </block>

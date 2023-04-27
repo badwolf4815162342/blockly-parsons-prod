@@ -55,13 +55,13 @@
       </block>
     </statement>
   </block>
-  <block type="group_title" id="|-^i8a_PX#fT0Jw!tD:/" x="13" y="268" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
+  <block type="text_print" id="|-^i8a_PX#fT0Jw!tD:/" x="13" y="238" editable="false" deletable="false" contextMenu="false" enableContextMenu="false">
     <value name="TEXT" editable="false" movable="false">
       <shadow type="text" id="Xj-=E?w*kV6NjL^-_pjQ" editable="false" movable="false">
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="|516-HK=?R6L7mIQokGb" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Read in value</field>
+        <field name="TEXT" editable="false" movable="false">Title:Read in number</field>
       </block>
     </value>
   </block>

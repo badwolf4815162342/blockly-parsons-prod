@@ -30,7 +30,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="tBz}If~s[UW{!1U:(m8M" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Alternate: are values equal/not equal</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: Is the guess correct/not correct</field>
       </block>
     </value>
   </block>
@@ -120,7 +120,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="2luk$1:@FEW:S_2.yML-" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Alternate: too low/high</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: is first letter higher/lower in alphabet</field>
       </block>
     </value>
   </block>
@@ -214,7 +214,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="2%7K$fRH2w4Si2Iy3()E" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Walk through inputs until '-' or correct country found.</field>
+        <field name="TEXT" editable="false" movable="false">Walk through inputs until &#8216;-&#8217; or country is found.</field>
       </block>
     </value>
   </block>

@@ -111,7 +111,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="m/yR)PJN`RKS{Tkt)!2h">
-        <field name="TEXT">Title: Read in list</field>
+        <field name="TEXT">Title: Read in list of numbers</field>
       </block>
     </value>
   </block>
@@ -138,7 +138,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="8|P1plCRap_G%=Rx-I]v">
-        <field name="TEXT">Title: Alternate: flag true/false</field>
+        <field name="TEXT">Title: Alternate: Print if flag is true/false</field>
       </block>
     </value>
   </block>

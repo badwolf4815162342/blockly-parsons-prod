@@ -120,7 +120,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="BiXe8{mSo!/uOgC{E~jy">
-        <field name="TEXT">Title: Filter list</field>
+        <field name="TEXT">Title: Filter list by target</field>
       </block>
     </value>
   </block>

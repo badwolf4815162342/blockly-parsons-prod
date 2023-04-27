@@ -10,7 +10,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="lWVs-Z;,4?GoQcSFqP$g" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Find extreme value</field>
+        <field name="TEXT" editable="false" movable="false">Find Maximum</field>
       </block>
     </value>
   </block>
@@ -71,7 +71,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="NnOblZEvmbkTZuS;e=D2" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Alternate: even/odd</field>
+        <field name="TEXT" editable="false" movable="false">Alternate: odd/even</field>
       </block>
     </value>
   </block>
@@ -122,7 +122,7 @@
         <field name="TEXT" editable="false" movable="false">abc</field>
       </shadow>
       <block type="text" id="^Z*vE+iAK=-pWQVe[u#1" editable="false" movable="false">
-        <field name="TEXT" editable="false" movable="false">Read in values until sentinel is found</field>
+        <field name="TEXT" editable="false" movable="false">Read in values until negative is found</field>
       </block>
     </value>
   </block>
