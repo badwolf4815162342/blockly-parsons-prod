@@ -61,7 +61,7 @@
         <field name="TEXT">abc</field>
       </shadow>
       <block type="text" id="|516`HK=?R6L7mIQokGb">
-        <field name="TEXT">Title:Read in number</field>
+        <field name="TEXT">Title: Read in number</field>
       </block>
     </value>
   </block>
